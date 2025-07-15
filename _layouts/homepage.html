@@ -50,7 +50,7 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener" style="color:#3498db;"><strong style="color:#3498db;">{{ site.affiliation }}</strong></a>
         <br>
         {% endif %}
         {% if site.email %}
@@ -78,11 +78,7 @@
         </a>
         {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
+
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
