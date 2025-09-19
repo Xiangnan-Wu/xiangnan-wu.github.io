@@ -2,8 +2,8 @@ main:
 
   - title: "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models"
     authors: Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, <strong>Xiangnan Wu</strong>, Yan Huang, Liang Wang, Tao Kong, Tieniu Tan
-    conference_short: Preprint
-    conference: "Arxiv, 2025."
+    conference_short: NeurIPS
+    conference: "NeurIPS, 2025."
     website: https://bridgevla.github.io/
     pdf: https://arxiv.org/pdf/2506.07961
     code: https://github.com/BridgeVLA/BridgeVLA
