@@ -8,3 +8,11 @@ main:
     pdf: https://arxiv.org/pdf/2506.07961
     code: https://github.com/BridgeVLA/BridgeVLA
     image: ./assets/img/bridgevla.png
+  - title: "EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation"
+    authors: Yuan Xu*, Jiabing Yang*, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang, Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, <strong>Xiangnan Wu</strong>, Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+    conference_short: Preprint
+    conference: "arxiv, 2025"
+    website: https://egodemogen.github.io/
+    pdf: https://arxiv.org/abs/2509.22578
+    code: https://egodemogen.github.io/
+    image: ./assets/img/EgoDemoGen.png
