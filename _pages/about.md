@@ -35,7 +35,7 @@ redirect_from:
     }
     .experience-info a {
         text-decoration: none;
-        color: #ca6f6f;
+        color: #3584c0;
     }
     .experience-container {
         display: grid;
@@ -88,15 +88,15 @@ redirect_from:
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
-            color: #ca6f6f;
+            color: #3584c0;
         }
         div.markdown-body a,a {
             text-decoration: none !important;
-            color: #ca6f6f;
+            color: #3584c0;
             transition: all 0.3s ease; /* 平滑过渡效果 */
         }
         div.markdown-body a:hover, a:hover {
-            color: #c71585;            /* 悬浮时变深一点的颜色 */
+            color: #1976D2;            /* 悬浮时变深一点的颜色 */
             text-decoration: underline; /* 加上悬浮时的下划线 */
         }
     </style>
@@ -106,19 +106,15 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Robot Learning.</em>
+I am an undergraduate (2022-2026) at Univeristy of Science and Technology Beijing, <em> focusing on Multimodal Learning and Robot Manipulation.</em>
 
-I work at [MMLab@HKU](https://mmlab.hk/) with [Prof. Xihui Liu](https://xh-liu.github.io/).
-Previously I worked at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
+I'm also an incoming PhD student at Institute Automation, Chinese Academy of Sciences under supervision [Prof. Yan Huang](https://people.ucas.ac.cn/~huangyan2021) and [Prof. Liang Wang](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html)
 
-Currently I conduct the VLA research at [ByteDance Seed](https://seed.bytedance.com/en/).
+Currently I conduct the Multimodal Agent research at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 
 News
 ---------------
-- *[Dense Policy](https://selen-suyue.github.io/DspNet) is accepted in ICCV 2025 &#128293;*
-- *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
-- *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
-- *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
+- *[BridgeVLA](https://bridgevla.github.io/home_page.html) is accepted in NIPS 2025 &#128293;*
 
 Experience
 --------------
@@ -126,9 +122,9 @@ Experience
   <div class="experience-card">
       <img src="images/bytedance.png" alt="Seed logo" class="experience-logo">
       <div class="experience-info">
-          <strong>ByteDance Seed</strong><br>
-          Oct 2025 - Now<br>
-          MLE Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
+          <strong>Microsoft Research</strong><br>
+          Nov. 2025 - Now<br>
+          MLE Intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><em>Visual Computing Group</em></a> 
       </div>
   </div>
 
