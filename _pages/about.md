@@ -143,7 +143,7 @@ Experience
       <div class="experience-info">
           <strong>University of Science and Technology Beijing</strong><br>
           Sep 2022 - July 2026<br>
-          Rank 1/115, <b>National Scholarship $\times$ 2</b><br>
+          Rank 1/115, <b>National Scholarship x 2</b><br>
           B.E at <a href="https://gcsxy.ustb.edu.cn/"><em>AE</em></a>
       </div>
   </div>
