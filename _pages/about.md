@@ -143,7 +143,7 @@ Experience
       <div class="experience-info">
           <strong>University of Science and Technology Beijing</strong><br>
           Sep 2022 - July 2026<br>
-          Rank 1/115, <b>National Scholarship</b><br>
+          Rank 1/115, <b>National Scholarship $\times$ 2</b><br>
           B.E at <a href="https://gcsxy.ustb.edu.cn/"><em>AE</em></a>
       </div>
   </div>
@@ -151,7 +151,7 @@ Experience
 
 Publications
 --------------
-<div class="publication-card featured">
+<!-- <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="https://github.com/Selen-Suyue/DSPv2Net/raw/main/video/videoshow.mp4" type="video/mp4">
@@ -175,89 +175,36 @@ Publications
         <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="publication-card featured">
- <div style="display: flex; align-items: center;">
-    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
-      <source src="images/flower_dsp.mp4" type="video/mp4">
-    </video>
-    <div>
-        <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
-        <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
-            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
-            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
-            <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
-            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
-            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
-            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
-            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
-        </i><br>
-        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
-        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
-        <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
-    </div>
-</div>
-</div>
 
-<div class="publication-card featured">
- <div style="display: flex; align-items: center;">
-    <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
-        <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
-            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
-            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
-            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
-            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
-            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
-        </i><br>
-        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
-        <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
-        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
-        <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
-    </div>
-</div>
-</div>
 
 <div class="publication-card">
-    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/Bridgevla.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
+        <strong>BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, <strong>Xiangnan Wu</strong>,
+    Yan Huang, Liang Wang, Tao Kong, Tieniu Tan
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+    BridgeVLA enables efficient 3D robot manipulation by aligning 3D inputs and action outputs within a consistent 2D image space, leveraging pre-trained vision-language models. <br>
+    <b><i style="color:#83a1c7;">NIPS 2025 &nbsp;</i></b>
+      <a href="https://arxiv.org/pdf/2506.07961"><em>[arxiv]</em></a>
+      <a href="https://bridgevla.github.io/home_page.html"><em>[Project Website]</em></a>
     </div>
 </div>
 
 <div class="publication-card">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
+        <strong>EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation</strong><br>
       <i style="font-size: 13px;">
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-    <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
-    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    Yuan Xu, Jiabing Yang, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang, Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, <strong>Xiangnan Wu<\strong>, Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
     </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
+      The paper proposes EgoDemoGen, which generates novel egocentric demonstrations by retargeting actions and synthesizing corresponding videos using the EgoViewTransfer model.
       <br>
-      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+      <b><i style="color:#83a1c7;">Preprint &nbsp;</i></b>
+      <a href="https://egodemogen.github.io/#"><em>[Project Website]</em></a>
     </div>
 </div>
 
