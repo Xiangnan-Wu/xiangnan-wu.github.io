@@ -63,14 +63,14 @@ redirect_from:
     }
 
     .publication-card.featured {
-        border-color: #f5bba7;       /* 更浅的哈密瓜色边框 */
-        background: #fef5f1;         /* 非常浅的哈密瓜色背景 */
-        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2); /* 更柔和的初始阴影 */
+        border-color: #b3d9ff;       /* 浅蓝色边框 */
+        background: #f0f7ff;         /* 非常浅的蓝色背景 */
+        box-shadow: 0 4px 8px rgba(53, 132, 192, 0.2); /* 柔和的蓝色阴影 */
         z-index: 10;
     }
 
     .publication-card.featured:hover {
-        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
+        box-shadow: 0 8px 16px rgba(53, 132, 192, 0.4); 
     }
     
 </style>
@@ -261,89 +261,6 @@ Publications
     </div>
 </div>
 
-Projects
---------
-<div class="publication-card featured">
-<div style="display: flex; align-items: center;">
-    <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
-We've done what the Old Palace official website couldn't: offering 3D artifact views with single-view reconstruction and an interactive LLM-powered tour guider using RAG technology. <br>
-      <a href="https://metapalace.xj63.fun/"><em>[website]</em></a> 
-      <a href="https://github.com/xj63/MetaPalaceSite"><em>[front-end code]</em></a>
-      <a href="https://github.com/Selen-Suyue/MetaPalace"><em>[back-end code]</em></a>
-    </div>
-</div>
-</div>
-
-<div class="publication-card">
-    <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>U-pre: U-Net is an excellent learner for time series forecasting</strong><br>
-Time series forecasting is suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
-      <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a> 
-      <a href="files/upre.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
-
-<div class="publication-card">
-    <img src="images/mpre.png" alt="M_pre" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>M-pre: Mamba for time series forecasting</strong><br>
-We tried Mamba for time series forecasting based on feature-conditioned tokens, which outpreformed transformer-based U-pre. <br>
-      <a href="https://github.com/Selen-Suyue/M-pre"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/M-pre/raw/main/M_pre.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
-
-<div class="publication-card featured">
-<div style="display: flex; align-items: center;">
-    <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>UniGen: Unified understanding and generation based on Flicker 8k dataset</strong><br>
-A light-weight model for joint learning of language and image based on tiny captioned image dataset. UniGen is equipped
-with the abilities of image genration and language description in one model.<br>
-      <a href="https://github.com/Selen-Suyue/UniGen"><em>[code]</em></a>
-    </div>
-</div>
-</div>
-
-<div class="publication-card">
-    <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
-      This project uses the Google Gemini to create a simple chatbot application simulating two 
-      crosstalk performers performing based on user-provided topics.
-<br>
-      <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
-      <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
-    </div>
-</div>
-
-<div class="publication-card featured">
-<div style="display: flex; align-items: center;">
-    <img src="images/dobot.png" alt="dobot" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>OpenDoBot: Generalizable visual-motor policy on Dobot Robot</strong><br>
-       We develop Imitation Learning policy and multi stage detection based policy on DoBot Robot, which has been proved 
-       to preform well on combinatorial problems.<br>
-      <a href="https://www.dobot-robots.com/"><em>[DoBot Robot]</em></a> 
-      <a href="https://github.com/Selen-Suyue/OpenDoBot"><em>[IL policy code]</em></a>
-      <a href="https://github.com/Selen-Suyue/ms-bot"><em>[multi stage code]</em></a>
-    </div>
-</div>
-</div>
-
-<div class="publication-card">
-    <img src="images/FGSM3D.png" alt="FGSM3D" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>FGSM3D: Is the point cloud gradient perturbation attack feasible?</strong><br>
-      We tried to extend FGSM to the 3D field and achieved significant success within a certain gradient range, but the sampling method of 3D models tells us that things seem to be not that simple...
-<br>
-      <a href="https://github.com/Selen-Suyue/FGSM3D"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
 
 Awards
 --------
