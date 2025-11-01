@@ -120,48 +120,31 @@ Experience
 --------------
 <div class="experience-container">
   <div class="experience-card">
-      <img src="images/bytedance.png" alt="Seed logo" class="experience-logo">
+      <img src="images/microsoft.png" alt="MS logo" class="experience-logo">
       <div class="experience-info">
           <strong>Microsoft Research</strong><br>
           Nov. 2025 - Now<br>
-          MLE Intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><em>Visual Computing Group</em></a> 
+          Research Intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><em>Visual Computing Group</em></a> 
       </div>
   </div>
 
   <div class="experience-card">
-      <img src="images/HKU.png" alt="HKU logo" class="experience-logo">
+      <img src="images/casia.png" alt="CASIA logo" class="experience-logo">
       <div class="experience-info">
-          <strong>The University of Hong Kong</strong><br>
-          June 2025 - Now<br>
-          Research Intern at <a href="https://mmlab.hk/"><em>MMLab@HKU</em></a> 
+          <strong>Institute Automation, Chinese Academy of Scienses</strong><br>
+          April 2025 - Now<br>
+          Research Intern at <a href="https://nlpr-web.ia.ac.cn/en/"><em>NLPR@CASIA</em></a> 
       </div>
   </div>
 
-  <div class="experience-card">
-      <img src="images/astri.png" alt="astri logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Astribot Inc.</strong><br>
-          June 2025 - Sep 2025<br>
-          MLE Intern advised by <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
-      </div>
-  </div>
 
   <div class="experience-card">
-      <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
+      <img src="images/USTB.png" alt="USTB logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Shanghai Jiao Tong University</strong><br>
-          July 2024 - June 2025<br>
-          Research Intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Xidian University</strong><br>
+          <strong>University of Science and Technology Beijing</strong><br>
           Sep 2022 - July 2026<br>
-          Rank 4/174, <b>National Scholarship</b><br>
-          B.E at <a href="https://sai.xidian.edu.cn"><em>SAI</em></a> & RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          Rank 1/115, <b>National Scholarship</b><br>
+          B.E at <a href="https://gcsxy.ustb.edu.cn/"><em>AE</em></a>
       </div>
   </div>
 </div>
@@ -365,4 +348,6 @@ with the abilities of image genration and language description in one model.<br>
 Awards
 --------
 - National Scholarship 2025
+- Beijing "San Hao" Student 2024
+- National Scholarship 2024
 
