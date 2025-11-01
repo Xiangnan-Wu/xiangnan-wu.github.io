@@ -184,7 +184,7 @@ Publications
     <div>
         <strong>BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models</strong><br>
        <i style="font-size: 13px;">
-    Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, <strong>Xiangnan Wu</strong>,
+    Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, Xiangnan Wu,
     Yan Huang, Liang Wang, Tao Kong, Tieniu Tan
     </i><br>
     BridgeVLA enables efficient 3D robot manipulation by aligning 3D inputs and action outputs within a consistent 2D image space, leveraging pre-trained vision-language models. <br>
@@ -199,7 +199,7 @@ Publications
     <div>
         <strong>EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation</strong><br>
       <i style="font-size: 13px;">
-    Yuan Xu, Jiabing Yang, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang, Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, <strong>Xiangnan Wu<\strong>, Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+    Yuan Xu, Jiabing Yang, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang, Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, Xiangnan Wu, Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
     </i><br>
       The paper proposes EgoDemoGen, which generates novel egocentric demonstrations by retargeting actions and synthesizing corresponding videos using the EgoViewTransfer model.
       <br>
