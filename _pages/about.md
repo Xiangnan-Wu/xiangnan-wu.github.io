@@ -119,11 +119,20 @@ News
 Experience
 --------------
 <div class="experience-container">
+    <div class="experience-card">
+      <img src="images/agibot.jpg" alt="Agibot logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Agibot Research</strong><br>
+          Feb. 2026 - Now<br>
+          Research Intern at <a href="https://www.agibot.com/"><em>Agibot Research</em></a> 
+      </div>
+  </div>
+
   <div class="experience-card">
       <img src="images/microsoft.png" alt="MS logo" class="experience-logo">
       <div class="experience-info">
           <strong>Microsoft Research</strong><br>
-          Nov. 2025 - Now<br>
+          Nov. 2025 - Feb. 2026
           Research Intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><em>Visual Computing Group</em></a> 
       </div>
   </div>
@@ -178,6 +187,19 @@ Publications
 </div> -->
 
 
+<div class="publication-card">
+    <img src="images/bridgev2w.jpg" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks</strong><br>
+       <i style="font-size: 13px;">
+    Yixiang Chen, Peiyan Li, Jiabing Yang, Keji He, Xiangnan Wu, Yuan Xu, Kai Wang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+    </i><br>
+    BridgeV2W bridges pretrained video generation models to embodied world models via embodiment masks that align actions with pixel spaces, while ensuring viewpoint robustness, embodiment-agnostic architectures, and effective reuse of pretrained visual and motion priors. <br>
+    <b><i style="color:#83a1c7;">Preprint &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2602.03793"><em>[arxiv]</em></a>
+      <a href="https://bridgev2w.github.io/"><em>[Project Website]</em></a>
+    </div>
+</div>
 
 <div class="publication-card">
     <img src="images/Bridgevla.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
