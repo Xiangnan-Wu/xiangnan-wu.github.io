@@ -120,7 +120,7 @@ Experience
 --------------
 <div class="experience-container">
     <div class="experience-card">
-      <img src="images/agibot.jpg" alt="Agibot logo" class="experience-logo">
+      <img src="images/agibot3.jpg" alt="Agibot logo" class="experience-logo">
       <div class="experience-info">
           <strong>Agibot Research</strong><br>
           Feb. 2026 - Now<br>
