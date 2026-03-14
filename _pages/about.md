@@ -106,11 +106,11 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at University of Science and Technology Beijing, <em> focusing on multimodal learning and robot manipulation.</em>
+I am an undergraduate (2022-2026) at Univeristy of Science and Technology Beijing, <em> focusing on Multimodal Learning and Robot Manipulation.</em>
 
-I'm also an incoming PhD student at Institute of Automation, Chinese Academy of Sciences under supervision [Prof. Yan Huang](https://people.ucas.ac.cn/~huangyan2021) and [Prof. Liang Wang](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html)
+I'm also an incoming PhD student at Institute Automation, Chinese Academy of Sciences under supervision [Prof. Yan Huang](https://people.ucas.ac.cn/~huangyan2021) and [Prof. Liang Wang](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html)
 
-Currently I conduct VLA research at [Agibot Research](https://agibot.com/research/).
+Currently I conduct the Multimodal Agent research at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 
 News
 ---------------
