@@ -39,3 +39,6 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Glass morphism theme — imported last to override defaults
+@import "glass-theme";

@@ -6,105 +6,104 @@ redirect_from:
   - /about.html
 ---
 <style>
+    /* ── Experience Cards ── */
     .experience-card {
         display: flex;
         align-items: center;
-        background: #f9f9f9;
-        border-radius: 12px;
-        padding: 16px;
-        margin-bottom: 0px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        transition: transform 0.3s, box-shadow 0.3s;
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 16px;
+        padding: 16px 20px;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     }
     .experience-card:hover {
-       
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        background: rgba(255, 255, 255, 0.13);
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45), 0 0 18px rgba(167, 139, 250, 0.2);
+        transform: translateY(-3px);
     }
     .experience-logo {
         width: 60px;
         height: 60px;
-        margin-right: 20px;
-        border-radius: 8px;
+        min-width: 60px;
+        margin-right: 18px;
+        border-radius: 10px;
         object-fit: contain;
+        background: rgba(255, 255, 255, 0.12);
+        padding: 5px;
     }
     .experience-info {
         font-family: "Segoe UI", sans-serif;
+        color: rgba(232, 234, 246, 0.88);
     }
     .experience-info strong {
-        font-size: 1.1em;
+        font-size: 1.05em;
+        color: #e8eaf6;
     }
     .experience-info a {
         text-decoration: none;
-        color: #3584c0;
+        color: #7ec8e3;
+    }
+    .experience-info a:hover {
+        color: #b39dfa;
     }
     .experience-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
+        gap: 18px;
     }
-    .experience-card {
-        box-sizing: border-box;
-    }
+
+    /* ── Publication Cards ── */
     .publication-card {
         display: flex;
         align-items: center;
-        padding: 3px;
-        border: 1.5px solid #ddd;
-        border-radius: 8px;
-        background: #fff;
+        padding: 16px 18px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
         box-sizing: border-box;
-        margin-bottom: 20px; 
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 18px;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     }
-
     .publication-card:hover {
-       
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        background: rgba(255, 255, 255, 0.11);
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4), 0 0 16px rgba(126, 200, 227, 0.18);
+        transform: translateY(-2px);
     }
-
+    .publication-card img {
+        border-radius: 10px;
+        object-fit: cover;
+        flex-shrink: 0;
+        margin-right: 18px;
+        border: 1px solid rgba(255,255,255,0.12);
+    }
     .publication-card.featured {
-        border-color: #b3d9ff;       /* 浅蓝色边框 */
-        background: #f0f7ff;         /* 非常浅的蓝色背景 */
-        box-shadow: 0 4px 8px rgba(53, 132, 192, 0.2); /* 柔和的蓝色阴影 */
-        z-index: 10;
+        border-color: rgba(126, 200, 227, 0.38);
+        background: rgba(126, 200, 227, 0.08);
+        box-shadow: 0 4px 18px rgba(126, 200, 227, 0.18);
     }
-
     .publication-card.featured:hover {
-        box-shadow: 0 8px 16px rgba(53, 132, 192, 0.4); 
+        box-shadow: 0 10px 28px rgba(126, 200, 227, 0.28), 0 0 16px rgba(126, 200, 227, 0.2);
     }
-    
 </style>
-<html> 
-<head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-        body {
-            background-color:	 #FFFFFF;
-            font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
-            font-size: 15px;
-        }
-        .main-heading {
-            font-family: 'Permanent Marker', cursive;
-            text-align: center;
-            color: #3584c0;
-        }
-        div.markdown-body a,a {
-            text-decoration: none !important;
-            color: #3584c0;
-            transition: all 0.3s ease; /* 平滑过渡效果 */
-        }
-        div.markdown-body a:hover, a:hover {
-            color: #1976D2;            /* 悬浮时变深一点的颜色 */
-            text-decoration: underline; /* 加上悬浮时的下划线 */
-        }
-    </style>
-</head>
-<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    .main-heading {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        color: #7ec8e3;
+        text-shadow: 0 0 20px rgba(126, 200, 227, 0.45), 0 2px 8px rgba(0,0,0,0.4);
+        margin-bottom: 0.4em;
+    }
+</style>
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
-</body>
-</html>
 
 I am an undergraduate (2022-2026) at Univeristy of Science and Technology Beijing, <em> focusing on Multimodal Learning and Robot Manipulation.</em>
 
