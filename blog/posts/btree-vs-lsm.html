@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B-Tree vs LSM-Tree · Kris Wu</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/base16/atelier-forest-light.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/languages/rust.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/languages/python.min.js"></script>
+  <link rel="stylesheet" href="post.css">
+</head>
+<body>
+<div id="progress"></div>
+<header id="header">
+  <div class="header-inner">
+    <a href="../index.html" class="site-title">Kris Wu <span>// notes on systems &amp; AI</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html#posts">Posts</a></li>
+      <li><a href="../index.html#archive">Archive</a></li>
+      <li><a href="../index.html#topics">Tags</a></li>
+      <li><a href="../index.html#about">About</a></li>
+    </ul>
+  </div>
+</header>
+<div class="page-layout">
+  <article>
+    <a href="../index.html" class="back-link">← Back to all posts</a>
+    <div class="post-header">
+      <div class="post-tag-row">
+        <span class="tag tag-lavender">Database</span>
+        <span class="tag tag-default">Internals</span>
+      </div>
+      <h1>B-Tree vs LSM-Tree: The Design Philosophy Behind Database Indexes</h1>
+      <div class="post-meta-row">
+        <span>Kris Wu</span><span class="dot">·</span>
+        <span>Apr 21, 2026</span><span class="dot">·</span>
+        <span>10 min read</span>
+      </div>
+    </div>
+    <hr class="divider">
+    <div id="post-content"></div>
+    <nav class="post-nav">
+      <a href="code-review.html" class="post-nav-item">
+        <div class="post-nav-label">← Previous</div>
+        <div class="post-nav-title">The Art of Code Review</div>
+      </a>
+      <a href="production-rag.html" class="post-nav-item post-nav-next">
+        <div class="post-nav-label">Next →</div>
+        <div class="post-nav-title">Production RAG: 12 Lessons from Shipping It</div>
+      </a>
+    </nav>
+  </article>
+  <aside class="toc" id="toc">
+    <div class="toc-label">Contents</div>
+    <ul class="toc-list" id="toc-list"></ul>
+  </aside>
+</div>
+<footer><div class="footer-inner"><span>© 2026 <a href="../index.html">Kris Wu</a></span><span>kris.dev</span></div></footer>
+
+<script id="md-source" type="text/markdown">
+Every database makes a fundamental choice about how to store data on disk. MySQL, PostgreSQL, and SQLite reach for the B+ tree. RocksDB, Cassandra, and LevelDB choose the Log-Structured Merge-tree. The choice isn't arbitrary — it reflects a deep tradeoff that shapes every performance characteristic of the system.
+
+---
+
+## The Fundamental Tension: Reads vs. Writes
+
+Storage engines live in a world defined by two opposing forces. Disk (and SSD) hardware is fast for sequential I/O and slow for random I/O. The question every storage engine answers is: **who pays the penalty for random access — reads or writes?**
+
+This is captured by the **read/write amplification** tradeoff:
+
+- **Write amplification** $W_A$: bytes written to disk / bytes of user data
+- **Read amplification** $R_A$: bytes read from disk / bytes of user data
+- **Space amplification** $S_A$: bytes used on disk / bytes of user data
+
+$$
+W_A \cdot R_A \cdot S_A \geq C
+$$
+
+There is no free lunch. Improving one factor worsens the others.
+
+---
+
+## B+ Trees: Optimize for Reads
+
+A B+ tree is a balanced tree where every leaf node contains actual data (or pointers to it), and internal nodes contain only keys for routing. With branching factor $b$ and $N$ records, the tree height is:
+
+$$
+h = \lceil \log_b N \rceil
+$$
+
+For $b = 200$ and $N = 10^9$, $h \approx 4$. A point lookup touches at most 4 pages. That's remarkable read efficiency.
+
+### Structure
+
+```
+Internal node: [key₁ | key₂ | key₃]
+                /      |      |      \
+Leaf:      [k<k₁] [k₁≤k<k₂] [k₂≤k<k₃] [k≥k₃]
+           (doubly linked for range scans)
+```
+
+Leaf nodes are linked in key order, making range scans a single sequential pass after the initial lookup.
+
+### The Write Problem
+
+Every write requires finding the correct leaf — $O(\log_b N)$ random reads — then writing in-place. If a page is full, it **splits**: one page becomes two, and the parent is updated. In the worst case, splits cascade up to the root.
+
+Write amplification is roughly $W_A \approx h \times \text{page\_size} / \text{record\_size}$. For a 4KB page and 100-byte records: $W_A \approx 4 \times 40 = 160\times$. Every 100-byte write causes 16KB of disk I/O.
+
+The deeper problem: writes are **random**. Each update goes to a different page at a different disk location. On spinning disks, random writes are 100× slower than sequential.
+
+---
+
+## LSM-Trees: Optimize for Writes
+
+The Log-Structured Merge-tree, introduced by O'Neil et al. (1996), inverts the tradeoff: **make writes sequential, pay for it on reads**.
+
+### The Core Idea
+
+All writes go to an in-memory buffer (the **MemTable**), sorted by key. When the MemTable is full, it's flushed to disk as an immutable, sorted **SSTable** (Sorted String Table). Reads must check the MemTable and all SSTables.
+
+Over time, SSTables accumulate. A background **compaction** process merges them:
+
+$$
+\text{SSTable}_{\text{merged}} = \text{merge\_sort}(\text{SSTable}_1, \text{SSTable}_2, \dots)
+$$
+
+Because both inputs are sorted, merging is a sequential scan — $O(N)$ not $O(N \log N)$.
+
+### Level-based Compaction
+
+RocksDB organizes SSTables into **levels**. Each level is $L$ times larger than the one above:
+
+| Level | Max size | SSTable count |
+|---|---|---|
+| L0 | 4 SSTables | Overlap allowed |
+| L1 | 256 MB | No overlap |
+| L2 | 2.56 GB | No overlap |
+| L3 | 25.6 GB | No overlap |
+
+Write amplification per level is $L$ (each byte is rewritten once per compaction). With $P$ levels:
+
+$$
+W_A \approx L \times P
+$$
+
+For $L=10$ and $P=7$: $W_A \approx 70\times$. Much better than B+ trees for write-heavy workloads.
+
+### The Read Problem
+
+A point lookup must check:
+1. MemTable (in memory, fast)
+2. Every level, top to bottom, until the key is found
+
+In the worst case (key doesn't exist), you check every level — $O(P)$ disk reads. **Bloom filters** mitigate this: each SSTable maintains a probabilistic filter with false positive rate $\epsilon$:
+
+$$
+\text{bits per key} = -\frac{\ln \epsilon}{\ln^2 2} \approx 1.44 \log_2 \frac{1}{\epsilon}
+$$
+
+With $\epsilon = 1\%$ and 10 bits/key, a bloom filter eliminates ~99% of unnecessary disk reads.
+
+---
+
+## Head-to-Head Comparison
+
+| Property | B+ Tree | LSM-Tree |
+|---|---|---|
+| Write amplification | High ($\sim$10–100×) | Lower ($\sim$10–30×) |
+| Read amplification | Low (≤ tree height) | Higher (multiple levels) |
+| Space amplification | Low | Higher (dead keys until compaction) |
+| Range scans | Excellent | Good (per-level sequential) |
+| Point lookups | Excellent | Good (with bloom filters) |
+| Tail latency | Predictable | Spiky (compaction) |
+| Write throughput | Moderate | High |
+
+---
+
+## When to Choose Each
+
+**Reach for B+ trees** when:
+- Your workload is read-heavy (OLTP)
+- You need predictable, low-latency writes
+- Range scans dominate (e.g., time-series queries)
+- Storage space is constrained
+
+**Reach for LSM-trees** when:
+- Your workload is write-heavy (event ingestion, logging)
+- SSD wear leveling matters (LSM's sequential writes extend SSD life)
+- You can tolerate occasional compaction pauses
+- Data is append-heavy with rare updates
+
+PostgreSQL, MySQL — B+ tree. RocksDB, Cassandra, InfluxDB, TiKV — LSM. Both are right. The database made the choice that matches its intended workload.
+
+---
+
+## Conclusion
+
+The B-tree vs. LSM-tree debate is really a debate about **who bears the cost of indirection**. B-trees front-load the cost at write time to make reads cheap. LSM-trees defer cost to compaction to make writes cheap. Understanding this tradeoff is one of the most transferable ideas in systems engineering — it shows up in caches, file systems, and network protocols too.
+</script>
+<script type="application/json" id="post-meta">
+{
+  "title": "B-Tree vs LSM-Tree: The Design Philosophy Behind Database Indexes",
+  "date": "Apr 21, 2026",
+  "readTime": "10 min read",
+  "tags": [
+    {"label": "Database", "color": "lavender"},
+    {"label": "Internals"}
+  ],
+  "excerpt": "Why does MySQL use a B+ tree while RocksDB uses an LSM? The data structure choice reflects deep engineering tradeoffs — read amplification vs. write amplification, point lookups vs. range scans, in-place update vs. append-only.",
+  "pinned": false
+}
+</script>
+<script src="post.js"></script>
+</body>
+</html>
