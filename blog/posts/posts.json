@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "slug": "welcome",
+      "title": "Welcome to the Blog",
+      "date": "2026-08-10",
+      "tags": ["notes", "markdown"],
+      "summary": "A short template post showing Markdown syntax, callouts, code blocks, tables, and image support.",
+      "readingTime": "2 min read"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post | Xiangnan Wu</title>
+  <meta name="description" content="A blog post by Xiangnan Wu.">
+  <meta name="author" content="Xiangnan Wu">
+  <meta name="theme-color" content="#6E8FA3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="blog.css">
+  <link rel="icon" href="../favicon.jpg">
+</head>
+<body>
+
+<div class="page-loader" id="pageLoader">
+  <div class="loader-ring"></div>
+</div>
+
+<button class="theme-toggle" aria-label="Toggle dark mode">
+  <i class="fas fa-sun sun-icon"></i>
+  <i class="fas fa-moon moon-icon"></i>
+</button>
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="../" class="navbar-brand">
+      <span class="text-gradient">Xiangnan Wu</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="../#about" class="nav-link">About</a></li>
+      <li><a href="../#publications" class="nav-link">Publications</a></li>
+      <li><a href="../#experience" class="nav-link">Experience</a></li>
+      <li><a href="../#awards" class="nav-link">Awards</a></li>
+      <li><a href="./" class="nav-link active">Blog</a></li>
+      <li><a href="mailto:xiangnanwu.cs@gmail.com" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <div class="mobile-nav">
+    <a href="../#about" class="nav-link">About</a>
+    <a href="../#publications" class="nav-link">Publications</a>
+    <a href="../#experience" class="nav-link">Experience</a>
+    <a href="../#awards" class="nav-link">Awards</a>
+    <a href="./" class="nav-link active">Blog</a>
+    <a href="mailto:xiangnanwu.cs@gmail.com" class="nav-link">Contact</a>
+  </div>
+</nav>
+
+<main class="blog-post-shell">
+  <article class="post-article reveal">
+    <a href="./" class="back-link"><i class="fas fa-arrow-left"></i> Blog</a>
+    <header class="post-header" id="postHeader">
+      <p class="blog-kicker">Loading</p>
+      <h1>Loading post...</h1>
+    </header>
+    <div class="markdown-content" id="postContent" aria-live="polite"></div>
+  </article>
+
+  <aside class="toc-panel reveal" id="tocPanel">
+    <h2>Contents</h2>
+    <nav id="postToc" aria-label="Post table of contents"></nav>
+  </aside>
+</main>
+
+<footer class="footer blog-footer">
+  <p>© 2026 Xiangnan Wu (吴祥楠). All rights reserved.</p>
+  <div class="footer-links">
+    <a href="./">Blog</a>
+    <span>|</span>
+    <a href="#">Back to Top</a>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      tags: 'ams'
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script src="../js/site.js"></script>
+<script src="blog.js"></script>
+
+</body>
+</html>
