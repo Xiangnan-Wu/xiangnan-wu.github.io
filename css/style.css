@@ -541,6 +541,18 @@ strong {
   font-weight: 700;
 }
 
+.company-wordmark {
+  display: inline-block;
+  width: auto;
+  height: 1.18em;
+  margin: 0 0.15em 0 0.05em;
+  padding: 0 0.12em;
+  object-fit: contain;
+  vertical-align: -0.22em;
+  border-radius: 3px;
+  background: #fff;
+}
+
 .timeline-description {
   margin: 8px 0 0;
   color: var(--text-secondary);
@@ -773,6 +785,16 @@ strong {
 .venue-badge {
   color: var(--accent-strong);
   background: var(--accent-soft);
+}
+
+.venue-badge--acmmm {
+  color: #496892;
+  background: rgba(73, 104, 146, 0.12);
+}
+
+[data-theme="dark"] .venue-badge--acmmm {
+  color: #afc9ed;
+  background: rgba(143, 176, 222, 0.14);
 }
 
 .role-badge {
