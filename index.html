@@ -4,46 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xiangnan Wu | Homepage</title>
-  <meta name="description" content="Xiangnan Wu (吴祥楠) — Incoming PhD at UCAS &amp; CASIA. Research on Multimodal Learning and Embodied Intelligence (Robotics &amp; Game).">
+  <meta name="description" content="Xiangnan Wu (吴祥楠) — Ph.D. candidate at UCAS &amp; CASIA. Research on Multimodal Learning and Embodied Intelligence (Robotics &amp; Game).">
   <meta name="author" content="Xiangnan Wu">
-  <meta name="theme-color" content="#6E8FA3">
+  <meta name="theme-color" content="#e8efef">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Xiangnan Wu | Homepage">
-  <meta property="og:description" content="Incoming PhD at UCAS &amp; CASIA. Research on Multimodal Learning and Embodied Intelligence (Robotics &amp; Game).">
+  <meta property="og:description" content="Ph.D. candidate at UCAS &amp; CASIA. Research on Multimodal Learning and Embodied Intelligence (Robotics &amp; Game).">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xiangnan-wu.github.io/">
 
-  <!-- Fonts & Icons -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+  <!-- Newsreader typography, served locally -->
+  <link rel="preload" href="fonts/Newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" href="favicon.jpg">
 </head>
-<body>
+<body id="top">
 
-<!-- Page Loader -->
-<div class="page-loader" id="pageLoader">
-  <div class="loader-ring"></div>
-</div>
-
-<!-- Theme Toggle -->
-<button class="theme-toggle" aria-label="Toggle dark mode">
-  <i class="fas fa-sun sun-icon"></i>
-  <i class="fas fa-moon moon-icon"></i>
-</button>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <!-- Navbar -->
-<nav class="navbar">
+<nav class="navbar" aria-label="Main navigation">
   <div class="navbar-container">
-    <a href="#" class="navbar-brand">
-      <span class="text-gradient">Xiangnan Wu</span>
+    <a href="#biography" class="navbar-brand">
+      Xiangnan Wu
     </a>
     <ul class="navbar-nav">
       <li><a href="#about" class="nav-link">About</a></li>
@@ -53,11 +40,9 @@
       <li><a href="blog/" class="nav-link">Blog</a></li>
       <li><a href="mailto:xiangnanwu.cs@gmail.com" class="nav-link">Contact</a></li>
     </ul>
-    <button class="mobile-menu-toggle" aria-label="Toggle menu">
-      <i class="fas fa-bars"></i>
-    </button>
+    <button class="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation">Menu</button>
   </div>
-  <div class="mobile-nav">
+  <div class="mobile-nav" id="mobile-navigation" hidden>
     <a href="#about" class="nav-link">About</a>
     <a href="#publications" class="nav-link">Publications</a>
     <a href="#experience" class="nav-link">Experience</a>
@@ -67,42 +52,38 @@
   </div>
 </nav>
 
-<main>
+<main id="main-content" class="academic-sheet">
 
-  <!-- ═══════════════════════════════════════════
-       BIOGRAPHY / PROFILE
-  ══════════════════════════════════════════════ -->
-  <section id="biography" class="profile-section" data-animate="animate-fade-in">
+  <section id="biography" class="profile-section">
     <div class="profile-card">
       <div class="profile-image-wrapper">
         <img src="favicon.jpg" alt="Xiangnan Wu" class="profile-image">
       </div>
       <div class="profile-info">
-        <h1 class="profile-name">Xiangnan Wu <span style="font-size:1.1rem;font-weight:400;color:var(--text-secondary)">吴祥楠</span></h1>
+        <h1 class="profile-name">Xiangnan Wu <span class="profile-name-cn" lang="zh">吴祥楠</span></h1>
         <h2 class="profile-title">
-          Incoming PhD @ <a href="https://ucas.ac.cn/">UCAS</a> &amp; <a href="https://www.ia.cas.cn/">CASIA</a>
+          Ph.D. candidate @ <a href="https://ucas.ac.cn/">UCAS</a> &amp; <a href="https://www.ia.cas.cn/">CASIA</a>
         </h2>
 
         <p class="profile-email">
-          <i class="fas fa-envelope"></i>
           <a href="mailto:xiangnanwu.cs@gmail.com">xiangnanwu.cs@gmail.com</a>
         </p>
 
         <div class="social-links">
           <a href="https://scholar.google.com/citations?user=QahDkm0AAAAJ&amp;hl=zh-CN&amp;oi=ao" class="social-link" title="Google Scholar" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar"></i>
+            Google Scholar
           </a>
           <a href="https://github.com/Xiangnan-Wu" class="social-link" title="GitHub" target="_blank" rel="noopener">
-            <i class="fab fa-github"></i>
+            GitHub
           </a>
           <a href="https://twitter.com/Xiangnan_cs" class="social-link" title="Twitter / X" target="_blank" rel="noopener">
-            <i class="fab fa-twitter"></i>
+            Twitter / X
           </a>
           <a href="https://www.xiaohongshu.com/user/profile/62e1ea91000000001f00634d" class="social-link" title="RedNote (小红书)" target="_blank" rel="noopener">
-            <i class="fas fa-book"></i>
+            RedNote
           </a>
           <a href="mailto:xiangnanwu.cs@gmail.com" class="social-link" title="Email">
-            <i class="fas fa-envelope"></i>
+            Email
           </a>
         </div>
       </div>
@@ -110,458 +91,390 @@
   </section>
 
   <section id="about" class="content-section about-section">
-    <div class="section-card reveal">
+    <div class="section-inner">
       <h2 class="section-title">
-        <i class="fas fa-user"></i>
         About Me
       </h2>
-      <p class="profile-bio">
-        I am a Ph.D. candidate at
-        <a href="https://ucas.ac.cn/"><img src="images/ucas.png" alt="UCAS" class="inline-logo"> UCAS</a>
-        &amp;
-        <a href="https://nlpr-web.ia.ac.cn/en/"><img src="images/casia.png" alt="CASIA" class="inline-logo"> NLPR@CASIA</a>,
-        advised by
-        <a href="https://people.ucas.ac.cn/~huangyan2021">Yan Huang</a>
-        and <a href="https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html">Liang Wang</a>.
-      </p>
-      <p class="profile-bio">
-        My research interests include <strong>Embodied Intelligence (Robotics &amp; Games)</strong>
-        and <strong>Generative Models</strong>. My lifelong research goal is to build a
-        <strong>real</strong>, <strong>interactive</strong> virtual world with
-        <strong>long-term memory</strong>, like <em>The Matrix</em>.
-      </p>
-      <p class="profile-bio">
-        My current research focuses primarily on <strong>physically consistent video generation</strong>.
-      </p>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       EDUCATION & BACKGROUND
-  ══════════════════════════════════════════════ -->
-  <section id="education" class="content-section education-section" data-animate="animate-slide-in">
-    <div class="section-card reveal">
-      <h2 class="section-title">
-        <i class="fas fa-graduation-cap"></i>
-        Education &amp; Background
-      </h2>
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>PhD in Computer Science</h3>
-            <div class="timeline-org">
-              <a href="https://ucas.ac.cn/"><img src="images/casia.png" alt="UCAS" class="school-icon"> UCAS &amp; NLPR@CASIA</a>
-              <span class="timeline-date">Sep. 2026 – Present</span>
-            </div>
-            <p class="timeline-description">
-              Supervised by <a href="https://people.ucas.ac.cn/~huangyan2021">Prof. Yan Huang</a>
-              and <a href="https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html">Prof. Liang Wang</a>.
-              Research focus: Robot Manipulation &amp; Physical Intelligence.
-            </p>
-          </div>
-        </div>
+      <div class="section-content">
+        <p class="profile-bio">
+          I am a Ph.D. candidate at
+          <a href="https://ucas.ac.cn/"><img src="images/ucas.png" alt="UCAS" class="inline-logo"> UCAS</a>
+          &amp;
+          <a href="https://nlpr-web.ia.ac.cn/en/"><img src="images/casia.png" alt="CASIA" class="inline-logo"> NLPR@CASIA</a>,
+          advised by
+          <a href="https://people.ucas.ac.cn/~huangyan2021">Yan Huang</a>
+          and <a href="https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129880.html">Liang Wang</a>.
+        </p>
+        <p class="profile-bio">
+          My research centers on <strong>Embodied Intelligence (Robotics &amp; Game Agents)</strong>
+          and <strong>Multimodal Models</strong>. My long-term goal is to develop intelligent agents
+          that can assist people in both the physical world and virtual environments, including games.
+        </p>
+        <p class="profile-bio">
+          My current research focuses on <strong>VLM as Policy</strong> and <strong>World Models</strong>.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       EXPERIENCE
-  ══════════════════════════════════════════════ -->
-  <section id="experience" class="content-section experience-section">
-    <div class="section-card reveal">
-      <h2 class="section-title">
-        <i class="fas fa-briefcase"></i>
-        Experience
-      </h2>
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Research Intern</h3>
-            <div class="timeline-org">
-              <a href="https://www.horizon.auto/en"><img src="images/horizon_robotics.png" alt="" class="company-wordmark"> Horizon Robotics</a>
-              <span class="timeline-date">Sep. 2026 – Present</span>
-            </div>
-            <p class="timeline-description">
-              World Model Research, mentored by
-              <a href="https://scholar.google.com/citations?user=PIeNN2gAAAAJ&amp;hl=en" target="_blank" rel="noopener">Shaoyu Chen</a>.
-            </p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Research Intern</h3>
-            <div class="timeline-org">
-              <a href="https://www.agibot.com/"><img src="images/agibot3.jpg" alt="Agibot" class="school-icon" style="border-radius:4px;"> Agibot Research</a>
-              <span class="timeline-date">Feb. 2026 – Aug. 2026</span>
-            </div>
-            <p class="timeline-description">Vision-Language-Action model pretrain.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Research Intern · Visual Computing Group</h3>
-            <div class="timeline-org">
-              <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><img src="images/MSRA.png" alt="Microsoft Research" class="school-icon" style="border-radius:4px;"> Microsoft Research Asia</a>
-              <span class="timeline-date">Nov. 2025 – Feb. 2026</span>
-            </div>
-            <p class="timeline-description">Multimodal Agent research in the Visual Computing Group.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Research Intern</h3>
-            <div class="timeline-org">
-              <a href="https://nlpr-web.ia.ac.cn/en/"><img src="images/casia.png" alt="CASIA" class="school-icon"> NLPR · Institute of Automation, CAS</a>
-              <span class="timeline-date">Apr. 2025 – Present</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       RECENT NEWS
-  ══════════════════════════════════════════════ -->
   <section id="news" class="content-section news-section">
-    <div class="section-card reveal">
+    <div class="section-inner">
       <h2 class="section-title">
-        <i class="fas fa-newspaper"></i>
         Recent News
       </h2>
-      <ul class="news-list">
-        <li class="news-item">
-          <span class="news-date">Aug. 2026</span>
-          <span class="news-content">
-            I concluded my research internship at
-            <a href="https://www.agibot.com/research">Agibot Research</a>.
-            <span class="news-badge">🔥 New</span>
-          </span>
-        </li>
-        <li class="news-item">
-          <span class="news-date">Jul. 2026</span>
-          <span class="news-content">
-            <a href="https://egodemogen.github.io/">EgoDemoGen</a>
-            is accepted to <strong>ACM MM 2026</strong>!
-            <span class="news-badge">🔥 New</span>
-          </span>
-        </li>
-        <li class="news-item">
-          <span class="news-date">Jun. 2026</span>
-          <span class="news-content">
-            <a href="https://27yw.github.io/E-TTS-Web/">E-TTS</a>
-            is accepted to <strong>ECCV 2026</strong>!
-            <span class="news-badge">🔥 New</span>
-          </span>
-        </li>
-        <li class="news-item">
-          <span class="news-date">Nov. 2025</span>
-          <span class="news-content">
-            <a href="https://bridgevla.github.io/home_page.html">BridgeVLA</a>
-            is accepted to <strong>NeurIPS 2025</strong>!
-            <span class="news-badge">🔥 New</span>
-          </span>
-        </li>
-      </ul>
+      <div class="section-content">
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">Aug. 2026</span>
+            <span class="news-content">
+              I concluded my research internship at
+              <a href="https://www.agibot.com/research">Agibot Research</a>.
+              <span class="news-badge">New</span>
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Jul. 2026</span>
+            <span class="news-content">
+              <a href="https://egodemogen.github.io/">EgoDemoGen</a>
+              is accepted to <strong>ACM MM 2026</strong>!
+              <span class="news-badge">New</span>
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Jun. 2026</span>
+            <span class="news-content">
+              <a href="https://27yw.github.io/E-TTS-Web/">E-TTS</a>
+              is accepted to <strong>ECCV 2026</strong>!
+              <span class="news-badge">New</span>
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Nov. 2025</span>
+            <span class="news-content">
+              <a href="https://bridgevla.github.io/home_page.html">BridgeVLA</a>
+              is accepted to <strong>NeurIPS 2025</strong>!
+              <span class="news-badge">New</span>
+            </span>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       PUBLICATIONS
-  ══════════════════════════════════════════════ -->
   <section id="publications" class="content-section">
-    <div class="section-card reveal">
+    <div class="section-inner">
       <h2 class="section-title">
-        <i class="fas fa-file-alt"></i>
         Publications
       </h2>
-
-      <!-- Search + Filters -->
-      <div class="search-controls">
-        <div class="search-box">
-          <i class="fas fa-search"></i>
-          <input type="text" class="search-input" placeholder="Search publications…" aria-label="Search publications">
+      <div class="section-content">
+        <!-- Search + Filters -->
+        <div class="search-controls">
+          <div class="search-box">
+            <input type="search" class="search-input" placeholder="Search publications…" aria-label="Search publications">
+          </div>
+          <div class="filter-controls">
+            <button class="filter-btn active" type="button" aria-pressed="true" data-filter="all">All</button>
+            <button class="filter-btn" type="button" aria-pressed="false" data-filter="conference">Conference Papers</button>
+            <button class="filter-btn" type="button" aria-pressed="false" data-filter="preprint">Preprints</button>
+          </div>
         </div>
-        <div class="filter-controls">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="conference">Conference Papers</button>
-          <button class="filter-btn" data-filter="preprint">Preprints</button>
+
+        <p class="search-empty" id="publication-empty" role="status" hidden>No publications match your search.</p>
+
+        <!-- Conference Papers -->
+        <div class="publication-category" data-category="conference">
+          <h3 class="category-title">Conference Papers</h3>
+          <ul class="publication-list">
+
+            <li class="publication-item">
+              <a href="https://lpy1219.github.io/MV-VDP-Web/home_page.html" class="publication-image" target="_blank" rel="noopener" aria-label="SpatialVAM project page">
+                <img src="images/mvp.png" alt="SpatialVAM overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  SpatialVAM: Spatial-Aware Multi-View Video Diffusion as a Data-Efficient Robot Policy
+                </div>
+                <div class="publication-authors">
+                  Peiyan Li, Yixiang Chen, Yuan Xu, Jiabing Yang, <strong>Xiangnan Wu</strong>, Jun Guo, Nan Sun, Long Qian, Xinghang Li, Xin Xiao, Jing Liu, Nianfeng Liu, Tao Kong, Yan Huang, Liang Wang, Tieniu Tan
+                </div>
+                <div class="publication-venue">
+                  <span class="venue-badge">NeurIPS 2026</span>
+                  <span class="year-badge">2026</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2604.03181" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://lpy1219.github.io/MV-VDP-Web/home_page.html" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="publication-item">
+              <a href="https://27yw.github.io/E-TTS-Web/" class="publication-image" target="_blank" rel="noopener" aria-label="E-TTS project page">
+                <img src="images/ETTS.png" alt="E-TTS overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation
+                </div>
+                <div class="publication-authors">
+                  Wen Ye, Peiyan Li, Tingyu Yuan, Yuan Xu, <strong>Xiangnan Wu</strong>,
+                  Chaoyang Zhao, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+                </div>
+                <div class="publication-venue">
+                  <span class="venue-badge">ECCV 2026</span>
+                  <span class="year-badge">2026</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2606.27268" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://27yw.github.io/E-TTS-Web/" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="publication-item">
+              <a href="https://egodemogen.github.io/#" class="publication-image" target="_blank" rel="noopener" aria-label="EgoDemoGen project page">
+                <img src="images/egodemogen.png" alt="EgoDemoGen overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation
+                </div>
+                <div class="publication-authors">
+                  Yuan Xu, Jiabing Yang, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang,
+                  Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, <strong>Xiangnan Wu</strong>,
+                  Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+                </div>
+                <div class="publication-venue">
+                  <span class="venue-badge venue-badge--acmmm">ACM MM 2026</span>
+                  <span class="year-badge">2026</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/pdf/2509.22578" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://egodemogen.github.io/#" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="publication-item">
+              <a href="https://bridgevla.github.io/home_page.html" class="publication-image" target="_blank" rel="noopener" aria-label="BridgeVLA project page">
+                <img src="images/Bridgevla.png" alt="BridgeVLA overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
+                </div>
+                <div class="publication-authors">
+                  Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, <strong>Xiangnan Wu</strong>,
+                  Yan Huang, Liang Wang, Tao Kong, Tieniu Tan
+                </div>
+                <div class="publication-venue">
+                  <span class="venue-badge">NeurIPS 2025</span>
+                  <span class="year-badge">2025</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/pdf/2506.07961" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://bridgevla.github.io/home_page.html" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Preprints -->
+        <div class="publication-category" data-category="preprint">
+          <h3 class="category-title">Preprints</h3>
+          <ul class="publication-list">
+
+            <li class="publication-item">
+              <a href="https://bridgev2w.github.io/" class="publication-image" target="_blank" rel="noopener" aria-label="BridgeV2W project page">
+                <img src="images/bridgev2w.jpg" alt="BridgeV2W overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks
+                </div>
+                <div class="publication-authors">
+                  Yixiang Chen, Peiyan Li, Jiabing Yang, Keji He, <strong>Xiangnan Wu</strong>,
+                  Yuan Xu, Kai Wang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+                </div>
+                <div class="publication-venue">
+                  <span class="role-badge">Preprint</span>
+                  <span class="year-badge">2025</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2602.03793" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://bridgev2w.github.io/" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li class="publication-item">
+              <a href="https://uaor.jiabingyang.cn/home_page.html#" class="publication-image" target="_blank" rel="noopener" aria-label="UAOR project page">
+                <img src="images/UAOR.png" alt="UAOR overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
+                </div>
+                <div class="publication-authors">
+                  Jiabing Yang, Yixiang Chen, Yuan Xu, Peiyan Li, <strong>Xiangnan Wu</strong>, Zichen Wen, Bowen Fang, Tao Yu, Zhengbo Zhang, Yingda Li, Kai Wang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
+                </div>
+                <div class="publication-venue">
+                  <span class="role-badge">Preprint</span>
+                  <span class="year-badge">2026</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2602.18020v1" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                  <a href="https://uaor.jiabingyang.cn/home_page.html#" class="pub-link" target="_blank" rel="noopener"> Project
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="publication-item">
+              <a href="https://arxiv.org/abs/2605.09965" class="publication-image" target="_blank" rel="noopener" aria-label="Towards Generalist Game Players arXiv page">
+                <img src="images/Game.png" alt="Towards Generalist Game Players overview" loading="lazy" decoding="async">
+              </a>
+              <div class="publication-body">
+                <div class="publication-title">
+                  Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse
+                </div>
+                <div class="publication-authors">
+                  Kuan Zhang, Dongchen Liu, Qiyue Zhao, Tianyu Xin, Yue Su, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, <strong>Xiangnan Wu</strong>, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li
+                </div>
+                <div class="publication-venue">
+                  <span class="role-badge">Preprint</span>
+                  <span class="year-badge">2026</span>
+                </div>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2605.09965" class="pub-link" target="_blank" rel="noopener"> arXiv
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
         </div>
       </div>
-
-      <!-- Conference Papers -->
-      <div class="publication-category" data-category="conference">
-        <h3 class="category-title">Conference Papers</h3>
-        <ul class="publication-list">
-
-          <li class="publication-item">
-            <a href="https://27yw.github.io/E-TTS-Web/" class="publication-image" target="_blank" rel="noopener" aria-label="E-TTS project page">
-              <img src="images/ETTS.png" alt="E-TTS overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation
-              </div>
-              <div class="publication-authors">
-                Wen Ye, Peiyan Li, Tingyu Yuan, Yuan Xu, <strong>Xiangnan Wu</strong>,
-                Chaoyang Zhao, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
-              </div>
-              <div class="publication-venue">
-                <span class="venue-badge">ECCV 2026</span>
-                <span class="year-badge">2026</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2606.27268" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://27yw.github.io/E-TTS-Web/" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://egodemogen.github.io/#" class="publication-image" target="_blank" rel="noopener" aria-label="EgoDemoGen project page">
-              <img src="images/egodemogen.png" alt="EgoDemoGen overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation
-              </div>
-              <div class="publication-authors">
-                Yuan Xu, Jiabing Yang, Xiaofeng Wang, Yixiang Chen, Zheng Zhu, Bowen Fang,
-                Guan Huang, Xinze Chen, Yun Ye, Qiang Zhang, Peiyan Li, <strong>Xiangnan Wu</strong>,
-                Kai Wang, Bing Zhan, Shuo Lu, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
-              </div>
-              <div class="publication-venue">
-                <span class="venue-badge venue-badge--acmmm">ACM MM 2026</span>
-                <span class="year-badge">2026</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/pdf/2509.22578" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://egodemogen.github.io/#" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://bridgevla.github.io/home_page.html" class="publication-image" target="_blank" rel="noopener" aria-label="BridgeVLA project page">
-              <img src="images/Bridgevla.png" alt="BridgeVLA overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
-              </div>
-              <div class="publication-authors">
-                Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, <strong>Xiangnan Wu</strong>,
-                Yan Huang, Liang Wang, Tao Kong, Tieniu Tan
-              </div>
-              <div class="publication-venue">
-                <span class="venue-badge">NeurIPS 2025</span>
-                <span class="year-badge">2025</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/pdf/2506.07961" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://bridgevla.github.io/home_page.html" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-
-      <!-- Preprints -->
-      <div class="publication-category" data-category="preprint">
-        <h3 class="category-title">Preprints</h3>
-        <ul class="publication-list">
-
-          <li class="publication-item">
-            <a href="https://bridgev2w.github.io/" class="publication-image" target="_blank" rel="noopener" aria-label="BridgeV2W project page">
-              <img src="images/bridgev2w.jpg" alt="BridgeV2W overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks
-              </div>
-              <div class="publication-authors">
-                Yixiang Chen, Peiyan Li, Jiabing Yang, Keji He, <strong>Xiangnan Wu</strong>,
-                Yuan Xu, Kai Wang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
-              </div>
-              <div class="publication-venue">
-                <span class="role-badge">Preprint</span>
-                <span class="year-badge">2025</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2602.03793" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://bridgev2w.github.io/" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://lpy1219.github.io/MV-VDP-Web/home_page.html" class="publication-image" target="_blank" rel="noopener" aria-label="Multi-View Video Diffusion Policy project page">
-              <img src="images/mvp.png" alt="Multi-View Video Diffusion Policy overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model
-              </div>
-              <div class="publication-authors">
-                Peiyan Li, Yixiang Chen, Yuan Xu, Jiabing Yang, <strong>Xiangnan Wu</strong>, Jun Guo, Nan Sun, Long Qian, Xinghang Li, Xin Xiao, Jing Liu, Nianfeng Liu, Tao Kong, Yan Huang, Liang Wang, Tieniu Tan
-              </div>
-              <div class="publication-venue">
-                <span class="role-badge">Preprint</span>
-                <span class="year-badge">2026</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2604.03181" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://lpy1219.github.io/MV-VDP-Web/home_page.html" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://uaor.jiabingyang.cn/home_page.html#" class="publication-image" target="_blank" rel="noopener" aria-label="UAOR project page">
-              <img src="images/UAOR.png" alt="UAOR overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
-              </div>
-              <div class="publication-authors">
-                Jiabing Yang, Yixiang Chen, Yuan Xu, Peiyan Li, <strong>Xiangnan Wu</strong>, Zichen Wen, Bowen Fang, Tao Yu, Zhengbo Zhang, Yingda Li, Kai Wang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang
-              </div>
-              <div class="publication-venue">
-                <span class="role-badge">Preprint</span>
-                <span class="year-badge">2026</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2602.18020v1" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-                <a href="https://uaor.jiabingyang.cn/home_page.html#" class="pub-link" target="_blank" rel="noopener">
-                  <i class="fas fa-globe"></i> Project
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://arxiv.org/abs/2605.09965" class="publication-image" target="_blank" rel="noopener" aria-label="Towards Generalist Game Players arXiv page">
-              <img src="images/Game.png" alt="Towards Generalist Game Players overview">
-            </a>
-            <div class="publication-body">
-              <div class="publication-title">
-                Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse
-              </div>
-              <div class="publication-authors">
-                Kuan Zhang, Dongchen Liu, Qiyue Zhao, Tianyu Xin, Yue Su, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, <strong>Xiangnan Wu</strong>, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li
-              </div>
-              <div class="publication-venue">
-                <span class="role-badge">Preprint</span>
-                <span class="year-badge">2026</span>
-              </div>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2605.09965" class="pub-link" target="_blank" rel="noopener">
-                  <i class="ai ai-arxiv"></i> arXiv
-                </a>
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       AWARDS
-  ══════════════════════════════════════════════ -->
-  <section id="awards" class="content-section">
-    <div class="section-card reveal">
+  <section id="experience" class="content-section experience-section">
+    <div class="section-inner">
       <h2 class="section-title">
-        <i class="fas fa-trophy"></i>
+        Experience
+      </h2>
+      <div class="section-content">
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Research Intern</h3>
+              <div class="timeline-org">
+                <a href="https://www.horizon.auto/en"><img src="images/horizon_robotics.png" alt="" class="company-wordmark"> Horizon Robotics</a>
+                <span class="timeline-date">Sep. 2026 – Present</span>
+              </div>
+              <p class="timeline-description">
+                Physical VLM Research, mentored by
+                <a href="https://scholar.google.com/citations?user=PIeNN2gAAAAJ&amp;hl=en" target="_blank" rel="noopener">Shaoyu Chen</a>.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Research Intern</h3>
+              <div class="timeline-org">
+                <a href="https://www.agibot.com/"><img src="images/agibot3.jpg" alt="Agibot" class="school-icon" style="border-radius:4px;"> Agibot Research</a>
+                <span class="timeline-date">Feb. 2026 – Aug. 2026</span>
+              </div>
+              <p class="timeline-description">Vision-Language-Action model pretrain.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Research Intern · Visual Computing Group</h3>
+              <div class="timeline-org">
+                <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><img src="images/MSRA.png" alt="Microsoft Research" class="school-icon" style="border-radius:4px;"> Microsoft Research Asia</a>
+                <span class="timeline-date">Nov. 2025 – Feb. 2026</span>
+              </div>
+              <p class="timeline-description">Multimodal Agent research in the Visual Computing Group.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="content-section">
+    <div class="section-inner">
+      <h2 class="section-title">
         Awards &amp; Honors
       </h2>
-      <div class="awards-grid">
-        <div class="award-category">
-          <h3>Scholarships &amp; Honors</h3>
-          <ul class="award-list">
-            <li class="award-item">
-              <div class="award-icon"><i class="fas fa-medal"></i></div>
-              <div class="award-content">
-                <div class="award-title">National Scholarship</div>
-                <span class="award-org">Ministry of Education, China</span>
-                <div class="award-year">2025</div>
-              </div>
-            </li>
-            <li class="award-item">
-              <div class="award-icon"><i class="fas fa-medal"></i></div>
-              <div class="award-content">
-                <div class="award-title">National Scholarship</div>
-                <span class="award-org">Ministry of Education, China</span>
-                <div class="award-year">2024</div>
-              </div>
-            </li>
-            <li class="award-item">
-              <div class="award-icon"><i class="fas fa-star"></i></div>
-              <div class="award-content">
-                <div class="award-title">Beijing "San Hao" Student</div>
-                <span class="award-org">Beijing Municipal Education Commission</span>
-                <div class="award-year">2024</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="award-category">
-          <h3>Competitions</h3>
-          <ul class="award-list">
-            <li class="award-item">
-              <div class="award-icon"><i class="fa-solid fa-microchip"></i></div>
-              <div class="award-content">
-                <div class="award-title">Second Prize</div>
-                <span class="award-org">National Undergraduate Electronic Design Contest</span>
-                <div class="award-year">2024</div>
-              </div>
-            </li>
-            <li class="award-item">
-              <div class="award-icon"><i class="fa-solid fa-sitemap"></i></div>
-              <div class="award-content">
-                <div class="award-title">Second Prize</div>
-                <span class="award-org">National Undergraduate Mathematical Contest in Modeling</span>
-                <div class="award-year">2024</div>
-              </div>
-            </li>
-          </ul>
+      <div class="section-content">
+        <div class="awards-grid">
+          <div class="award-category">
+            <h3>Scholarships &amp; Honors</h3>
+            <ul class="award-list">
+              <li class="award-item">
+                <div class="award-content">
+                  <div class="award-title">National Scholarship</div>
+                  <span class="award-org">Ministry of Education, China</span>
+                  <div class="award-year">2025</div>
+                </div>
+              </li>
+              <li class="award-item">
+                <div class="award-content">
+                  <div class="award-title">National Scholarship</div>
+                  <span class="award-org">Ministry of Education, China</span>
+                  <div class="award-year">2024</div>
+                </div>
+              </li>
+              <li class="award-item">
+                <div class="award-content">
+                  <div class="award-title">Beijing "San Hao" Student</div>
+                  <span class="award-org">Beijing Municipal Education Commission</span>
+                  <div class="award-year">2024</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="award-category">
+            <h3>Competitions</h3>
+            <ul class="award-list">
+              <li class="award-item">
+                <div class="award-content">
+                  <div class="award-title">Second Prize</div>
+                  <span class="award-org">National Undergraduate Electronic Design Contest</span>
+                  <div class="award-year">2024</div>
+                </div>
+              </li>
+              <li class="award-item">
+                <div class="award-content">
+                  <div class="award-title">Second Prize</div>
+                  <span class="award-org">National Undergraduate Mathematical Contest in Modeling</span>
+                  <div class="award-year">2024</div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -575,7 +488,7 @@
   <div class="footer-links">
     <a href="mailto:xiangnanwu.cs@gmail.com">Contact</a>
     <span>|</span>
-    <a href="#">Back to Top</a>
+    <a href="#top">Back to Top</a>
   </div>
 </footer>
 

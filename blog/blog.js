@@ -50,7 +50,7 @@
 
   function renderTagButton(tag, label = tag) {
     const active = state.activeTag === tag ? ' active' : '';
-    return `<button class="tag-chip${active}" type="button" data-tag="${utils.escapeHtml(tag)}">${utils.escapeHtml(label)}</button>`;
+    return `<button class="tag-chip${active}" type="button" aria-pressed="${state.activeTag === tag}" data-tag="${utils.escapeHtml(tag)}">${utils.escapeHtml(label)}</button>`;
   }
 
   function renderFilters(posts) {
@@ -78,15 +78,15 @@
   function renderPostCard(post) {
     const tags = (post.tags || []).map(tag => `<span class="post-tag">${utils.escapeHtml(tag)}</span>`).join('');
     return `
-      <a class="post-card" href="${utils.resolvePostUrl(post.slug)}">
-        <h2 class="post-card-title">${utils.escapeHtml(post.title)}</h2>
+      <article class="post-card">
+        <h2 class="post-card-title"><a href="${utils.resolvePostUrl(post.slug)}">${utils.escapeHtml(post.title)}</a></h2>
         <div class="post-card-meta">
           <span>${utils.formatDate(post.date)}</span>
           <span>${utils.escapeHtml(post.readingTime || '')}</span>
         </div>
         <p class="post-card-summary">${utils.escapeHtml(post.summary || '')}</p>
         <div class="post-card-tags">${tags}</div>
-      </a>
+      </article>
     `;
   }
 
