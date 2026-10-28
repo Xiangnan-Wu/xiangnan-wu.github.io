@@ -1,0 +1,2362 @@
+UID 223 · visionweave · thinking
+本地 Qwen3.5-9B 机器翻译；保留原模型内容，不作事实修正。
+
+第 1 段
+
+用户想知道视频中女孩拯救的灵体总数。
+
+1.  **确定主要角色：** 手持法杖并戴着面具的女孩是 Kena。
+2.  **确定灵体：** 灵体是小型的、深色的、类似团块的生物，有些是绿色的，有些只是黑色/深蓝色。在上下文中，它们被称为“灵体”或“面具”（尽管它们看起来像小怪物）。等等，仔细观察游戏画面和过场动画，有特定的灵体与她互动。
+3.  **扫描救援时刻：**
+    *   **灵体 1：** 在大约 00:45 时，可以看到一顶戴着叶子帽子的灵体正在被追逐。然后稍后，在大约 01:26，Kena 帮助这个灵体（戴叶子的那个）逃脱或加入她。她在 01:40 将其抱起。这算作一个。
+    *   **灵体 2：** 在大约 03:55，展示了一个长着绿色头发/角的灵体。Kena 似乎与它互动了。等等，让我们再仔细看看。啊，实际上有*三个*主要的小角色，它们是灵体/面具。让我们数一下。
+        *   一个长着绿色头发并戴着黄色项链（Taro？）。不，那是一个戴着面具的男孩。等等，不。问题问的是“灵体”。让我们重新评估什么构成了这个游戏中的“灵体”。
+        *   在《Kena：Bridge of Spirits》中，“面具”实际上是能够变成其他东西的灵体。那些小生物也是“面具”。
+        *   让我们寻找特定的救援场景。
+        *   **救援 1：** 在 01:26，一个灵体（看起来像戴着叶子王冠的深蓝色团块）发光并飞起。Kena 抓住了它。这是第一个明确的灵体互动/救援。
+
+The user wants to know the total number of spirits the girl rescues in the video.
+
+1.  **Identify the main character:** The girl with the staff and mask is Kena.
+2.  **Identify the spirits:** The spirits are small, dark, blob-like creatures, some green, some just black/dark blue. They are referred to as "spirits" or "masks" in the context (though they look like little monsters). Wait, looking closely at the gameplay footage and cutscenes, there are specific spirits she interacts with.
+3.  **Scan for rescue moments:**
+    *   **Spirit 1:** At around 00:45, a spirit with a leaf hat is seen being chased. Then later, around 01:26, Kena helps this spirit (the one with the leaf) escape or join her. She picks him up at 01:40. This counts as one.
+    *   **Spirit 2:** Around 03:55, a spirit with green hair/horns is shown. Kena seems to interact with it. Wait, let's look closer. Ah, there are actually *three* main little characters who are spirits/masks. Let's count them.
+        *   One has green hair and a yellow necklace (Taro?). No, that's a mask wearing a boy. Wait, no. The question asks about "spirits". Let's re-evaluate what constitutes a "spirit" in this game.
+        *   In *Kena: Bridge of Spirits*, the "masks" are actually spirits that can take the form of other things. The little creatures are "masks" too.
+        *   Let's look for specific rescue scenarios.
+        *   **Rescue 1:** At 01:26, a spirit (looks like a dark blue blob with a leaf crown) glows and flies. Kena grabs it. This is the first distinct spirit interaction/rescue.
+
+第 2 段
+
+*   **Rescue 2:** 在 04:17，两个小孩（它们是 Taro 记忆的伪装/具象化）出现。等等，这些不是传统意义上与 Boss 战斗而被拯救的灵魂。它们是作为小孩具象化的 Taro 的记忆。但让我们寻找其他灵魂。
+        *   实际上，让我们看看游戏机制。玩家控制一把弓来杀死敌人。但问题问的是“拯救”。
+        *   也许问题指的是那些作为灵魂的特定“面具”。
+        *   让我们看看从大约 03:53 开始的片段。我们看到一些小的黑暗生物。Kena 射出一支箭来治愈它们？不，她射出一支箭，这支箭变成了治愈光环。等等，在 04:00，她射出了一支治愈箭。
+        *   让我们计算不同的灵魂遭遇次数。
+        *   **遭遇 1:** 戴着叶冠的灵魂（在 01:26 和 01:40 清晰可见）。Kena 把它捡了起来。那是 1 个。
+        *   **遭遇 2:** 那两个小孩（绿头发，黄珠子）。它们实际上是 Taro 记忆的具象化，但在视觉上它们是灵魂。它们是“被拯救”的吗？还是陪伴在她身边？它们似乎是在四处游荡然后加入她。在 00:30，女孩看到了它们。在 00:58，她追上了它们。所以她“拯救”或找到了它们。那是 2 个实体（两个小孩）。加上叶精灵就是 3 个？
+        *   让我们重新阅读选项：5, 2, 4, 3。
+        *   如果两个小孩算作 2 个灵魂，叶精灵算作 1 个，那就是 3 个。
+        *   让我们看看是否还有另一个。
+        *   在 03:55，我们看到更多这些小黑暗生物。
+
+*   **Rescue 2:** At 04:17, two small children (who are masks/manifestations of Taro's memories) appear. Wait, these aren't rescued spirits in the traditional sense of fighting a boss. They are Taro's memories manifesting as children. But let's look for other spirits.
+        *   Actually, let's look at the gameplay mechanics. The player controls a bow to kill enemies. But the question asks about "rescuing".
+        *   Maybe the question refers to the specific "Masks" that are spirits.
+        *   Let's look at the segment starting around 03:53. We see small dark creatures. Kena shoots an arrow that heals them? No, she shoots an arrow that transforms into a healing aura. Wait, at 04:00, she shoots a heal.
+        *   Let's count the distinct spirit encounters.
+        *   **Encounter 1:** The spirit with the leaf crown (seen clearly at 01:26 and 01:40). Kena picks him up. That's 1.
+        *   **Encounter 2:** The two little kids (green hair, yellow beads). These are actually manifestations of Taro's memories, but visually they are spirits. Are they "rescued"? Or do they accompany her? They seem to be wandering off and then joining her. At 00:30, the girl sees them. At 00:58, she chases after them. So she "rescues" or finds them. That's 2 entities (two kids). Plus the leaf spirit makes 3?
+        *   Let's re-read the options: 5, 2, 4, 3.
+        *   If the two kids count as 2 spirits, and the leaf spirit counts as 1, that's 3.
+        *   Let's check if there's another one.
+        *   At 03:55, we see more of these little dark creatures.
+
+第 3 段
+
+看起来像是叶灵和其他人。
+        *   让我们从 04:15 开始看序列。有两个孩子和……等等，仔细看 04:22，有三个带有叶子/角的小黑团出现在他们的头上。
+        *   让我们仔细数一数。
+            *   一个绿头发的孩子（左边）。
+            *   一个乱发绿发并戴着黄色珠子的孩子（中间）。
+            *   一个青蓝色头发的孩子（右边）。
+            *   等等，在 00:35，我们看到戴黄色珠子的孩子和青蓝色头发的孩子。
+            *   在 04:15，我们看到戴黄色珠子的孩子和青蓝色头发的孩子。
+            *   在 04:22，我们看到戴黄色珠子的孩子和青蓝色头发的孩子，加上……实际上，仔细看 04:22，有三个小精灵/黑团。两个是孩子的形态，一个是叶灵？不，右下角的黑团上有一片叶子。
+            *   让我们看看 00:30。女孩看到两个身影正在走远。
+            *   在 00:58，她追赶他们。他们是那两个孩子。
+            *   在 01:26，叶灵正在发光。Kena 把它捡了起来。
+            *   所以，我们有：
+                1.  戴着叶冠的精灵。
+                2.  孩子/精灵（绿发，珠子）。
+                3.  孩子/精灵（青蓝色头发）。
+            *   这样就是 3 个。
+
+    *   有第四个吗？
+    *   在视频后面，她是否又救了一个？
+    *   在 19:30 左右，我们看到那两个孩子又在奔跑。
+    *   在 20:15 左右，那两个孩子在篝火旁。第三个精灵出现了！一个有着蓝灰色头发和头巾的精灵。
+
+It looks like the leaf spirit and others.
+        *   Let's look at the sequence from 04:15 onwards. There are two kids and... wait, looking closely at 04:22, there are three small dark blobs with leaves/horns on their heads.
+        *   Let's count carefully.
+            *   One kid with green hair (left).
+            *   One kid with messy green hair and yellow beads (center).
+            *   One kid with teal/blue hair (right).
+            *   Wait, at 00:35, we see the kid with yellow beads and the kid with teal hair.
+            *   At 04:15, we see the kid with yellow beads and the kid with teal hair.
+            *   At 04:22, we see the kid with yellow beads and the kid with teal hair, plus... actually, looking really closely at 04:22, there are three little spirits/blobs. Two are the kids' forms, and one is the leaf spirit? No, the blob at the bottom right has a leaf.
+            *   Let's look at 00:30. The girl sees two figures walking away.
+            *   At 00:58, she chases them. They are the two kids.
+            *   At 01:26, the leaf spirit is glowing. Kena picks it up.
+            *   So, we have:
+                1.  Spirit with Leaf Crown.
+                2.  Child/Spirit (Green hair, beads).
+                3.  Child/Spirit (Teal hair).
+            *   That makes 3.
+
+    *   Is there a fourth?
+    *   Later in the video, does she rescue another?
+    *   Around 19:30, we see the two kids running again.
+    *   Around 20:15, the two kids are by a campfire. A third spirit appears! A spirit with blue/grey hair and a turban.
+
+第 4 段
+
+*   让我们观看该片段（19:30 - 20:40）。
+        *   在 19:30，两个原始孩子正在奔跑。
+        *   在 19:36，第三个灵体（蓝发，头巾）从树/建筑物后面跑了出来。
+        *   在 20:15，他们全都坐在火堆旁。
+        *   在 20:23，蓝发灵体拿着一个盒子。
+        *   在 20:33，绿发孩子拿走了某样东西（一块糖果/珊瑚？）。
+        *   在 20:54，蓝发灵体看起来悲伤/困惑。
+        *   这意味着村里有**三个**灵体（孩子）。
+    *   还有其他的吗？
+    *   视频中那些小暗斑（比如帮助她战斗的那些）也是灵体。但问题可能指的是她作为独立角色直接互动的同伴灵体/面具。
+    *   让我们重新考虑“救援”这个词的措辞。
+    *   在开始时，她发现了叶灵（01:26）。
+    *   她发现了两个孩子（00:58 - 追逐他们）。
+    *   她后来发现了第三个灵体（蓝发）？还是他早就在那里了？
+    *   在 07:00，老人在那里。孩子们就在附近。
+    *   在 19:30，两个孩子跑了出来，蓝发的那个随后跟上。所以是的，她聚集/遇到了他们三个。
+    *   那些小暗斑是通用的助手/面具。问题问的是“有多少个灵体”。
+    *   让我们假设问题指的是主要的同伴灵体（那些形状像人/孩子的）。
+    *   计数：
+        1.  叶冠灵体。
+        2.  戴黄珠的孩子。
+        3.  戴青发（teal hair）的孩子。
+        4.  蓝发灵体（头巾）。
+
+*   Let's watch that sequence (19:30 - 20:40).
+        *   At 19:30, the two original kids are running.
+        *   At 19:36, a third spirit (blue hair, turban) runs out from behind a tree/building.
+        *   At 20:15, they are all sitting by a fire.
+        *   At 20:23, the blue-haired spirit holds a box.
+        *   At 20:33, the green-haired kid takes something (a piece of candy/coral?).
+        *   At 20:54, the blue-haired spirit looks sad/confused.
+        *   This implies there are **three** spirits (kids) in the village.
+    *   Are there any others?
+    *   The small dark blobs throughout the video (like the ones helping her fight) are also spirits. But the question likely refers to the main companion spirits/masks that she interacts with directly as distinct characters.
+    *   Let's reconsider the wording "rescue".
+    *   In the beginning, she finds the leaf spirit (01:26).
+    *   She finds the two kids (00:58 - chasing them).
+    *   She finds the third spirit (blue hair) later? Or is he already there?
+    *   At 07:00, the old man is there. The kids are nearby.
+    *   At 19:30, the two kids run out, and the blue-haired one follows. So yes, she gathers/encounters all three of them.
+    *   The small dark blobs are generic helpers/masks. The prompt asks "how many spirits".
+    *   Let's assume the question refers to the main companion spirits (the ones shaped like people/kids).
+    *   Count:
+        1.  Leaf-crown spirit.
+        2.  Kid with yellow beads.
+        3.  Kid with teal hair.
+        4.  Blue-haired spirit (turban).
+
+第 5 段
+
+等等，这是独立的实体吗？
+    *   让我们重新审视那位蓝发精灵。
+    *   在 20:15，火边有三个人影。
+        *   左边：绿发，念珠。
+        *   中间：蓝/灰发，头巾。
+        *   右边：青色头发。
+    *   所以那是 4 个类人形态的精灵？
+    *   让我们再看开场场景。
+    *   00:30：她看到了两个人影。一个是戴念珠的小孩。另一个是青发的小孩。
+    *   00:58：她追赶他们。
+    *   01:26：她捡起了叶子精灵。
+    *   到目前为止共有 3 个精灵。
+    *   第 4 个从哪里来？
+    *   也许蓝发精灵不是另一个独立的“小孩”，而是另一种显现？
+    *   或者我漏掉了一次救援。
+    *   让我们看看战斗场景。她与大 Boss 战斗。那些不是作为同伴意义上的“精灵”。
+    *   让我们看看结局。
+    *   大约在 58:20，我们看到了这群人。
+        *   有叶子精灵（居中）。
+        *   有三个深色团块。
+        *   等等，在 58:23，仔细观察这群人。
+        *   左边：深色团块。
+        *   中间：深色团块。
+        *   右边：叶子精灵。
+        *   最右边：另一个深色团块？不，看起来像是倒影或阴影。
+    *   让我们回到“孩子们”。
+    *   在 04:17，我们看到两个小孩。
+    *   在 19:36，出现了一位蓝发精灵。
+    *   在 20:15，三个小孩在一起。
+        *   小孩 1：黄色念珠。
+        *   小孩 2：头巾/蓝发。
+        *   小孩 3：青色头发。
+    *   所以有 **3** 个孩童精灵。加上叶子精灵？
+
+Wait, is this a separate entity?
+    *   Let's re-examine the blue-haired spirit.
+    *   At 20:15, there are three figures by the fire.
+        *   Left: Green hair, beads.
+        *   Middle: Blue/grey hair, turban.
+        *   Right: Teal hair.
+    *   So that's 4 human-shaped spirits?
+    *   Let's look at the opening scene again.
+    *   00:30: She sees two figures. One is the kid with beads. The other is the kid with teal hair.
+    *   00:58: She chases them.
+    *   01:26: She picks up the leaf spirit.
+    *   So that's 3 spirits so far.
+    *   Where does the 4th come from?
+    *   Maybe the blue-haired spirit isn't a separate "kid" but another manifestation?
+    *   Or maybe I missed a rescue.
+    *   Let's look at the fight scenes. She fights big bosses. Those aren't "spirits" in the sense of companions.
+    *   Let's look at the ending.
+    *   Around 58:20, we see the group.
+        *   There is the leaf spirit (center).
+        *   There are three dark blobs.
+        *   Wait, at 58:23, looking closely at the group.
+        *   Left: Dark blob.
+        *   Center: Dark blob.
+        *   Right: Leaf spirit.
+        *   Far right: Another dark blob? No, looks like a reflection or shadow.
+    *   Let's go back to the "kids".
+    *   At 04:17, we see two kids.
+    *   At 19:36, a blue-haired spirit appears.
+    *   At 20:15, the three kids are together.
+        *   Kid 1: Yellow beads.
+        *   Kid 2: Turban/Blue hair.
+        *   Kid 3: Teal hair.
+    *   So there are **3** child-spirits. Plus the Leaf Spirit?
+
+第 6 段
+
+*   让我们检查一下叶精灵是否是孩子们中的一个。
+    *   在 01:40，她拿着叶精灵。它有脸。
+    *   在 04:17，孩子们有人脸。叶精灵具有动物般的特征（角/叶子）。
+    *   所以，叶精灵 + 3 个孩子 = 4 个精灵？
+    *   让我们再次检查选项：5, 2, 4, 3。
+    *   如果是 4，那么答案是 C。
+    *   让我们验证“救援”方面。
+    *   在开始时她主动追逐/追赶孩子们（00:58）。
+    *   她捡起了叶精灵（01:40）。
+    *   她是否“救援”了蓝发孩子？他后来似乎走散了（大约在 21:00 他走散并进入禁地森林）。然后她找到了他。
+    *   在 21:15，她发现山在爆炸/被照亮。
+    *   在 21:54，蓝发孩子倒下了/睡着了？不，他就躺在那里。
+    *   实际上，让我们看看从 20:50 开始的序列。
+    *   蓝发孩子独自站着。他看起来很痛苦。
+    *   他找到了一张地图/盒子。
+    *   他走散进入禁地森林（21:00）。
+    *   然后 Kena 去追他？
+    *   在 22:00，她发现蓝发孩子昏迷/受伤。
+    *   她唤醒了他/背着他。
+    *   所以她确实“救援”了他。
+    *   所以我们有：
+        1.  叶精灵（早期发现）。
+        2.  戴黄色珠子的孩子（早期发现/被追赶）。
+        3.  戴青色头发的孩子（早期发现/被追赶）。
+        4.  蓝发孩子（后来在森林中发现）。
+    *   那就是 **4** 个精灵。
+
+    *   等等，“叶精灵”实际上是与孩子们分开的独立实体吗？
+    *   在 01:40，她拿着叶精灵。
+
+*   Let's check if the leaf spirit is one of the kids.
+    *   At 01:40, she holds the leaf spirit. It has a face.
+    *   At 04:17, the kids have human faces. The leaf spirit has animal-like features (horns/leaves).
+    *   So, Leaf Spirit + 3 Kids = 4 spirits?
+    *   Let's check the options again: 5, 2, 4, 3.
+    *   If it's 4, then the answer is C.
+    *   Let's verify the "rescue" aspect.
+    *   She actively pursues/chases the kids at the start (00:58).
+    *   She picks up the leaf spirit (01:40).
+    *   Does she "rescue" the blue-haired kid? He seems to wander off later (around 21:00 he gets separated and wanders into the Forbidden Forest). Then she finds him.
+    *   At 21:15, she finds the mountain exploding/illuminated.
+    *   At 21:54, the blue-haired kid falls down/asleep? No, he's lying there.
+    *   Actually, let's look at the sequence starting 20:50.
+    *   The blue-haired kid is standing alone. He looks distressed.
+    *   He finds a map/box.
+    *   He wanders off into the forbidden forest (21:00).
+    *   Then Kena goes after him?
+    *   At 22:00, she finds the blue-haired kid unconscious/injured.
+    *   She revives him/carries him.
+    *   So she definitely "rescues" him.
+    *   So we have:
+        1.  Leaf Spirit (found early).
+        2.  Kid with yellow beads (found early/chased).
+        3.  Kid with teal hair (found early/chased).
+        4.  Blue-haired kid (found later in the forest).
+    *   That makes **4** spirits.
+
+    *   Wait, is the "Leaf Spirit" actually a separate entity from the kids?
+    *   At 01:40, she holds the leaf spirit.
+
+第 7 段
+
+*   在 04:15，两个孩子坐在一起。在 04:19，叶灵在他们附近可见（左上角几乎）。不，那是倒影或一个独立的团块。
+    *   在 04:22，有三个团块。两个看起来像孩子（面部可见），一个是叶灵。
+    *   等等，在 04:22，看右边，有两个团块。一个是蓝绿色头发的小孩。另一个是叶灵。戴珠子的小孩在左边。
+    *   所以，叶灵 + 孩子 1 + 孩子 2 = 3 个灵体。
+    *   那么第 4 个是从哪里来的？
+    *   让我们再看一遍 58:20 的那组。
+    *   有三个深色团块排成一排。叶灵也在其中吗？
+    *   实际上，在 58:23，看这个集群。
+    *   叶灵（中心前方）。
+    *   在其左侧，一个深色团块。
+    *   在其右侧，另一个深色团块。
+    *   在他们身后……等等。
+    *   让我们看看 07:00 的场景。老人在那里。孩子们跑过去了。
+    *   在 19:30，两个孩子跑了出来。蓝头发的一个跟着。
+    *   所以蓝头发的一个是独立的。
+    *   他是不是那些看起来像灵体的“孩子”之一？是的，他看起来像个小孩子。
+    *   所以我们有：
+        1.  叶灵（团块形态）。
+        2.  孩子灵体（黄色珠子）。
+        3.  孩子灵体（蓝绿色头发）。
+        4.  孩子灵体（蓝发/头巾）。
+    *   总计 = 4。
+
+    *   让我们再检查一下是否有任何*其他*灵体。
+    *   她后来与之战斗的小深色生物？不，那些通常是通用敌人或她召唤/控制的面具。
+
+*   At 04:15, the two kids are sitting together. The leaf spirit is visible near them at 04:19 (top left corner almost). No, that's a reflection or a separate blob.
+    *   At 04:22, there are three blobs. Two look like the kids (faces visible), one is the leaf spirit.
+    *   Wait, at 04:22, looking at the right side, there are two blobs. One is the teal-haired kid. The other is the leaf spirit. And the kid with beads is on the left.
+    *   So, Leaf Spirit + Kid 1 + Kid 2 = 3 spirits.
+    *   Then where did the 4th come from?
+    *   Let's look at the group at 58:20 again.
+    *   There are three dark blobs standing in a row. And the leaf spirit is among them?
+    *   Actually, at 58:23, looking at the cluster.
+    *   There is the leaf spirit (center front).
+    *   To its left, a dark blob.
+    *   To its right, another dark blob.
+    *   Behind them... wait.
+    *   Let's look at the scene at 07:00. The old man is there. The kids are running past.
+    *   At 19:30, the two kids run out. The blue-haired one follows.
+    *   So the blue-haired one is distinct.
+    *   Is he one of the "children" that look like spirits? Yes, he looks like a small child.
+    *   So we have:
+        1.  Leaf Spirit (blob form).
+        2.  Child Spirit (yellow beads).
+        3.  Child Spirit (teal hair).
+        4.  Child Spirit (blue hair/turban).
+    *   Total = 4.
+
+    *   Let's double check if there are any *other* spirits.
+    *   The small dark creatures she fights with later? No, those are usually generic enemies or masks she summons/controls.
+
+第 8 段
+
+*   等等，问题说的是“救援”。
+    *   她从树/陷阱中救出了叶精灵？
+    *   她追逐孩子们。
+    *   她在森林中找到了那个蓝发孩子迷路了。
+    *   有第五个吗？
+    *   让我们看看结尾。
+    *   在 58:20，群体聚集在一起。
+    *   我们看到了叶精灵。
+    *   我们看到了蓝发孩子（他似乎已经团聚了）。
+    *   我们看到了另外两个孩子。
+    *   有第五个吗？
+    *   让我们再看看 04:17。有两个孩子。
+    *   让我们再看看 20:15。有三个孩子。
+        *   左边：黄色珠子。
+        *   中间：蓝发/头巾。
+        *   右边：青色头发。
+    *   所以那是 3 个儿童精灵。
+    *   加上叶精灵。那是 4 个。
+    *   儿童精灵和叶精灵是同一个吗？
+    *   在 01:40，叶精灵被拿着。它看起来像一个戴着叶帽的深色团块。
+    *   在 04:17，孩子们有人脸。叶精灵有不同的脸（动物般的）。
+    *   所以叶精灵 + 3 个孩子 = 4 个精灵。
+
+    *   关于“救援”是否有任何歧义？
+    *   叶精灵被发现时正在游荡/无助。
+    *   孩子们正在村庄中游荡（也许迷路了，或者只是在探索）。
+    *   蓝发孩子游荡到了危险区域（禁林）并受了伤。
+    *   所以她“救援”或聚集了他们所有人。
+
+    *   让我们检查一下叶精灵是否实际上是孩子们以不同形式存在的一个？
+    *   不，视觉设计是独特的。叶精灵是一个“面具”精灵。孩子们是“记忆”精灵？不，在游戏背景故事中，孩子们是塔罗的面具。
+
+*   Wait, the question says "rescue".
+    *   She rescues the leaf spirit from a tree/trap?
+    *   She chases the kids.
+    *   She finds the blue-haired kid lost in the forest.
+    *   Is there a 5th?
+    *   Let's look at the very end.
+    *   At 58:20, the group is gathered.
+    *   We see the leaf spirit.
+    *   We see the blue-haired kid (he seems to have been reunited).
+    *   We see the other two kids.
+    *   Is there a 5th?
+    *   Let's look at 04:17 again. There are two kids.
+    *   Let's look at 20:15 again. There are three kids.
+        *   Left: Yellow beads.
+        *   Middle: Blue hair/turban.
+        *   Right: Teal hair.
+    *   So that's 3 child-spirits.
+    *   Plus the Leaf Spirit. That's 4.
+    *   Are the child spirits the same as the Leaf Spirit?
+    *   At 01:40, the leaf spirit is held. It looks like a dark blob with a leaf hat.
+    *   At 04:17, the kids have human faces. The leaf spirit has a different face (animalistic).
+    *   So Leaf Spirit + 3 Children = 4 spirits.
+
+    *   Is there any ambiguity about "rescue"?
+    *   The leaf spirit was found wandering/helpless.
+    *   The kids were wandering the village (perhaps lost or just exploring).
+    *   The blue-haired kid wandered into the danger zone (Forbidden Forest) and got hurt.
+    *   So she "rescues" or gathers all of them.
+
+    *   Let's check if the Leaf Spirit is actually one of the children in a different form?
+    *   No, the visual design is distinct. The leaf spirit is a "mask" spirit. The kids are "memory" spirits? No, in the game lore, the children are masks of Taro.
+
+第 9 段
+
+叶灵是一种“面具灵”（一种守护者/灵体）。
+    *   等等，游戏开场文字说：“独特的木制面具被雕刻……被安置在神圣的神社中……并非所有灵体都能独自踏上这条道路……被召唤来帮助这些被困且狂暴的显现物的大师被称为‘灵之向导’。”
+    *   凯娜就是那位向导。
+    *   她拯救的“灵体”很可能就是那些“被困”的。
+    *   叶灵肯定就是其中之一。
+    *   孩子们（塔罗的面具）在游荡。他们是“被困/狂暴的显现物”吗？塔罗已死，他的面具可能处于不稳定状态。
+    *   那个蓝发的小孩（内尼亚？）是另一个面具/精灵。
+    *   所以，计算她带来保护/引导下的不同非敌对、非村民实体：
+        1.  叶灵（那个戴着叶冠的小家伙）。
+        2.  塔罗的面具（那个戴着黄色珠子、绿发的那个）。
+        3.  塔罗的面具（那个头发呈青色的较小者）。
+        4.  内尼亚（那个戴着头巾的蓝发者）。等等，内尼亚是灵体吗？是的，她是一个灵体/面具。
+    *   所以那是 4 个灵体。
+
+    *   让我们检查选项 A：5。有第 5 个吗？
+    *   也许是塔罗的第二个面具？
+    *   在 04:17，我们看到两个小孩。
+    *   在 20:15，我们看到三个小孩。
+    *   塔罗的面具只有 2 个吗？通常，一个面具代表一段记忆/记忆碎片。塔罗有两个面具（男孩和女孩）。等等，在电影/剧集《森林之灵》中，他有多个面具。
+    *   但在《凯娜》中，“孩子们”是独立的个体。
+    *   让我们假设计数是基于她拯救/聚集的不同角色。
+
+The leaf spirit is a "Mask Spirit" (a type of guardian/spirit).
+    *   Wait, the game intro text says "Unique wooden masks are carved... Placed in sacred shrines... Not all spirits can travel this path alone... Masters called upon to help these trapped and violent manifestations are known as Spirit Guides."
+    *   Kena is the guide.
+    *   The "spirits" she rescues are likely the "trapped" ones.
+    *   The leaf spirit is definitely one.
+    *   The children (Taro's masks) are wandering. Are they "trapped/violent manifestations"? Taro is dead, his masks might be unstable.
+    *   The blue-haired kid (Nenya?) is another mask/sprite.
+    *   So, counting the distinct non-enemy, non-village resident entities she brings under her protection/guidance:
+        1.  Leaf Spirit (The little guy with the leaf crown).
+        2.  Mask of Taro (One with yellow beads/green hair).
+        3.  Mask of Taro (The smaller one with teal hair).
+        4.  Nenya (The blue haired one with the turban). Wait, is Nenya a spirit? Yes, she is a spirit/mask.
+    *   So that's 4 spirits.
+
+    *   Let's check option A: 5. Is there a 5th?
+    *   Maybe a 2nd mask of Taro?
+    *   At 04:17, we see two kids.
+    *   At 20:15, we see three kids.
+    *   Are there only 2 masks of Taro? Usually, a mask represents a memory/memory fragment. Taro had two masks (the boy and the girl). Wait, in the movie/show "Spirit of the Forest", he has multiple masks.
+    *   But in *Kena*, the "children" are distinct.
+    *   Let's assume the count is based on the distinct characters she saves/gathers.
+
+第 10 段
+
+*   角色：
+        1.  叶灵。
+        2.  绿发小孩（黄色珠子）。
+        3.  青发小孩。
+        4.  蓝发小孩（Nenya）。
+    *   总计 4 个。
+
+    *   让我们重新观看她发现蓝发小孩的那部分。
+    *   在 21:00，Nenya（蓝发）独自走着。
+    *   她在 22:16 找到了他，他当时处于昏迷状态。
+    *   所以她肯定救了他。
+    *   另外两个小孩是她之前在村庄里找到的。
+    *   叶灵是她之前找到的。
+    *   所以 4 似乎是最合乎逻辑的答案。
+
+    *   答案会不会是 3？
+    *   如果叶灵被视为“助手”的一部分，而不是叙事意义上的“灵”？不，提示文本明确提到了“spirts”和"Spirit Guides"。
+    *   如果两个小孩只是"Taro 的面具”并被算作 1 个单位？不太可能。
+    *   如果 Nenya 算作一个，叶灵算作一个，两个小孩算作两个……那就是 4。
+    *   如果“两个小孩”实际上只是一个灵分裂成的两种形态呢？
+    *   在 04:17，它们看起来像是两个独立的实体。一个更高/更大胆。一个更小。
+    *   在 20:15，它们都出现了。
+    *   所以它们是独立的。
+    *   所以我们有 3 个小孩 + 1 个叶灵 = 4。
+
+    *   有第 5 个灵吗？
+    *   也许是一个在战斗中帮助她的小灵？
+    *   在整个战斗场景中（例如，对抗大型野兽时），都有小的黑暗生物与她一起攻击。这些是“小灵”（通常被称为面具）。她指挥它们。她“救”了它们吗？
+    *   在 48:18，我们看到一群红眼灵正在攻击。
+
+*   Characters:
+        1.  Leaf Spirit.
+        2.  Green-haired kid (Yellow beads).
+        3.  Teal-haired kid.
+        4.  Blue-haired kid (Nenya).
+    *   This totals 4.
+
+    *   Let's re-watch the part where she finds the blue-haired kid.
+    *   At 21:00, Nenya (blue hair) is walking alone.
+    *   She finds him at 22:16, he's unconscious.
+    *   So she definitely rescues him.
+    *   The other two kids she found earlier in the village.
+    *   The Leaf Spirit she found earlier.
+    *   So 4 seems the most logical answer.
+
+    *   Could the answer be 3?
+    *   If the Leaf Spirit is considered part of the "helpers" and not a "spirit" in the narrative sense? No, the prompt text explicitly mentions "spirts" and "Spirit Guides".
+    *   If the two kids are just "Taro's masks" and counted as 1 unit? Unlikely.
+    *   If Nenya is counted as one, and the Leaf Spirit as one, and the two kids as two... that's 4.
+    *   What if the "two kids" are actually just one spirit split into two forms?
+    *   At 04:17, they look like two distinct entities. One is taller/bolder. One is smaller.
+    *   At 20:15, they are both present.
+    *   So they are distinct.
+    *   So we have 3 kids + 1 leaf spirit = 4.
+
+    *   Is there a 5th spirit?
+    *   Maybe a small spirit that helps her in combat?
+    *   Throughout the battle scenes (e.g., against the large beast), there are small dark creatures attacking alongside her. These are the "little spirits" (often called Masks). She commands them. Did she "rescue" them?
+    *   At 48:18, we see a group of red-eyed spirits attacking.
+
+第 11 段
+
+*   在 50:32，我们看到黑暗的灵魂漂浮在空中。
+    *   这些可能是可以玩的标准“面具”。它们是被“拯救”的吗？大概不会像那样单独命名或突出显示为拯救。
+    *   然而，问题问的是“有多少灵魂”。
+    *   最突出的“拯救”涉及主要同伴。
+    *   让我们再看看选项。5、2、4、3。
+    *   如果答案是 4，那么我数的 4 个（叶子 + 3 个孩子）就完美契合了。
+    *   如果答案是 3，也许叶子灵魂不算？或者两个小孩算作 1 个？
+    *   如果答案是 5，也许我漏掉了一个第五个灵魂。
+    *   让我们寻找第五个。
+    *   塔里有一个灵魂吗？
+    *   在 36:00，她爬上塔。
+    *   在 36:24，她发现 Nenya（蓝发）睡着了/冻僵了。
+    *   等等，Nenya 和村里的蓝发小孩是同一个吗？
+    *   是的，在 20:15，蓝发小孩正和其他两个坐在一起。他戴着头巾。
+    *   在 36:24，塔里的人留着长辫子（与蓝发小孩短发不同）。这是成年女性灵魂（Nenya/Nanay？）。
+    *   实际上，在 36:24，那个人正跪着。她留着辫子。这是 Nanay。
+    *   所以 Nanay 也是一个灵魂。
+    *   让我们重新计数。
+    *   1. 叶子灵魂。
+    *   2. 绿发小孩（Taro 面具 1）。
+    *   3. 青发小孩（Taro 面具 2）。
+    *   4. 蓝发小孩（Nenya 面具？不，Nenya 是一个角色。等等。Nenya 也是一个灵魂吗？是的，Nenya 是一个保护村庄的灵魂。她以灵魂的形式显现）。
+
+*   At 50:32, we see dark spirits floating in the sky.
+    *   These are likely the standard "Masks" available to play with. Are they "rescued"? Probably not individually named or highlighted as rescues in the same way.
+    *   However, the question asks "How many spirits".
+    *   The most prominent "rescues" involve the main companions.
+    *   Let's look at the options again. 5, 2, 4, 3.
+    *   If the answer is 4, then my count of 4 (Leaf + 3 kids) fits perfectly.
+    *   If the answer is 3, maybe the Leaf Spirit doesn't count? Or the two kids count as 1?
+    *   If the answer is 5, maybe there's a 5th spirit I missed.
+    *   Let's look for a 5th.
+    *   Is there a spirit inside the tower?
+    *   At 36:00, she climbs the tower.
+    *   At 36:24, she finds Nenya (blue hair) asleep/frozen.
+    *   Wait, is Nenya distinct from the blue-haired kid in the village?
+    *   Yes, at 20:15, the blue-haired kid is sitting with the other two. He has a turban.
+    *   At 36:24, the figure in the tower has long braided hair (different from the short hair of the blue-haired kid). This is the adult female spirit (Nenya/Nanay?).
+    *   Actually, at 36:24, the figure is kneeling. She has braided hair. This is Nanay.
+    *   So Nanay is a spirit too.
+    *   Let's recount.
+    *   1. Leaf Spirit.
+    *   2. Green-haired kid (Taro mask 1).
+    *   3. Teal-haired kid (Taro mask 2).
+    *   4. Blue-haired kid (Nenya mask? No, Nenya is a character. Wait. Nenya is a spirit too? Yes, Nenya is a spirit who protects the village. She manifests as a spirit).
+
+第 12 段
+
+*   让我们检查一下角色。
+        *   Kena（主角）。
+        *   Taro（父亲，已故）。他的面具就是孩子们。
+        *   Nenya（祖母/祖父形象）。
+    *   所以，我们有：
+        *   叶灵（一个面具之灵）。
+        *   Taro 的面具（孩子 1）。
+        *   Taro 的面具（孩子 2）。
+        *   Nenya（塔里的灵？）。
+    *   让我们验证一下 Nenya 的状态。
+    *   在 36:24，塔里的身影正在苏醒/挣扎。Kena 伸手去触碰她。
+    *   在 37:03，那个身影是 Nanay（女性，辫发）。
+    *   所以她从塔里救出了 Nanay。
+    *   那么就是：
+        1.  叶灵。
+        2.  孩子 1（黄色珠子）。
+        3.  孩子 2（青色头发）。
+        4.  Nenya（在塔里）。
+    *   那是 4 个。
+    *   有第 5 个吗？
+    *   那个男性之灵（Taro）呢？他已经死了。但他以面具的形式出现。
+    *   那个蓝发孩子（Nenya 面具）呢？等等，那个蓝发孩子实际上是不是 Nenya 的灵体形态？
+    *   在 20:15，那个蓝发孩子和其他两个在一起。他戴着头巾。
+    *   在 36:24，塔里的身影是 Nanay（辫发）。
+    *   他们是同一个角色吗？
+    *   在故事中，Nenya 和 Nanay 是兄弟姐妹/祖父母。
+    *   等等，让我们看看演员表。
+    *   那个蓝发孩子（20:15）看起来像是某个人的年轻版本。
+    *   实际上，那个蓝发孩子很可能是"Nenya"（祖母的灵）以面具/孩子的形式显现。
+    *   而塔里的身影（36:24）是 Nanay（祖父/灵）。
+    *   等等，不对。塔里的身影留着长长的辫子。那是 Nanay。
+
+*   Let's check the characters.
+        *   Kena (Protagonist).
+        *   Taro (Father, dead). His masks are the kids.
+        *   Nenya (Grandmother/Grandfather figure).
+    *   So, we have:
+        *   Leaf Spirit (A mask spirit).
+        *   Mask of Taro (Kid 1).
+        *   Mask of Taro (Kid 2).
+        *   Nenya (The spirit in the tower?).
+    *   Let's verify Nenya's status.
+    *   At 36:24, the figure in the tower is waking up/struggling. Kena reaches for her.
+    *   At 37:03, the figure is Nanay (female, braided hair).
+    *   So she rescues Nanay from the tower.
+    *   So that would be:
+        1.  Leaf Spirit.
+        2.  Kid 1 (Yellow beads).
+        3.  Kid 2 (Teal hair).
+        4.  Nenya (in the tower).
+    *   That's 4.
+    *   Is there a 5th?
+    *   What about the male spirit (Taro)? He is dead. But he appears as a mask.
+    *   What about the blue-haired kid (Nenya mask)? Wait, is the blue-haired kid actually Nenya in spirit form?
+    *   At 20:15, the blue-haired kid is with the other two. He has a turban.
+    *   At 36:24, the figure in the tower is Nanay (braids).
+    *   Are they the same character?
+    *   In the story, Nenya and Nanay are siblings/grandparents.
+    *   Wait, let's look at the cast.
+    *   The blue-haired kid (20:15) looks like a young version of someone.
+    *   Actually, the blue-haired kid is likely "Nenya" (the spirit of the grandmother) manifested as a mask/child.
+    *   And the figure in the tower (36:24) is Nanay (the grandfather/spirit).
+    *   Wait, no. The figure in the tower has long braids. That's Nanay.
+
+第 13 段
+
+*   20:15 的蓝发小孩留着短发。
+    *   让我们看看 21:54。躺着的人物留着短发。
+    *   让我们看看 36:24。塔里的人物留着辫子。
+    *   所以有两个成年灵魂？
+    *   还是蓝发小孩只是一个灵魂孩子？
+    *   实际上，让我们坚持视觉证据，即被“拯救”或“救下”的独立实体。
+    *   被拯救/聚集的实体：
+        1.  叶灵（早期发现）。
+        2.  两个小孩（早期发现）。
+        3.  蓝发小孩（在森林中发现）。
+        4.  娜娜伊（在塔中发现）。
+    *   那是 4 个不同的非 Kena 角色。
+    *   等等，蓝发小孩和塔里的是同一个人吗？不，一个留着短发，一个留着辫子。
+    *   所以可能是 5 个？
+    *   让我们再次检查选项。5, 2, 4, 3。
+    *   如果我计算 叶灵 + 小孩 1 + 小孩 2 + 蓝发小孩 + 娜娜伊 = 5。
+    *   让我们验证“救援”部分。
+    *   叶灵：被发现四处游荡。（被拯救/聚集）。
+    *   两个小孩：被发现四处游荡。（被聚集）。
+    *   蓝发小孩：被发现受伤在森林中。（被拯救）。
+    *   娜娜伊：被发现冻僵/受伤在塔中。（被拯救/治愈）。
+    *   那将是 4 个实体（叶灵 + 2 个小孩 + 1 个蓝发小孩 + 娜娜伊？？不，等等）。
+    *   让我们完善列表。
+    *   A 组：孩子们。
+        *   绿发/黄珠。
+        *   青色头发。
+        *   蓝发/头巾。（这是单独的一个孩子还是某种显现？）
+    *   让我们看看 04:17。只看到两个小孩。
+    *   让我们看看 20:15。看到三个小孩。
+        *   左边：绿发/黄珠。
+
+*   The blue-haired kid at 20:15 has short hair.
+    *   Let's look at 21:54. The figure lying down has short hair.
+    *   Let's look at 36:24. The figure in the tower has braids.
+    *   So there are TWO adult spirits?
+    *   Or is the blue-haired kid just a spirit child?
+    *   Actually, let's stick to the visual evidence of distinct entities being "rescued" or "saved".
+    *   Entities saved/gathered:
+        1.  Leaf Spirit (Found early).
+        2.  Two kids (Found early).
+        3.  Blue-haired kid (Found in forest).
+        4.  Nanay (Found in tower).
+    *   That's 4 distinct non-Kena characters.
+    *   Wait, is the blue-haired kid the same as the one in the tower? No, one has short hair, one has braids.
+    *   So maybe 5?
+    *   Let's check the options again. 5, 2, 4, 3.
+    *   If I count Leaf + Kid1 + Kid2 + Blue Hair Kid + Nanay = 5.
+    *   Let's verify the "rescue" part.
+    *   Leaf Spirit: Found wandering. (Rescued/Gathered).
+    *   Two Kids: Found wandering. (Gathered).
+    *   Blue Hair Kid: Found hurt in forest. (Rescued).
+    *   Nanay: Found frozen/wounded in tower. (Rescued/Healed).
+    *   That would be 4 entities (Leaf + 2 kids + 1 blue hair kid + Nanay?? No, wait).
+    *   Let's refine the list.
+    *   Group A: The children.
+        *   Green hair/yellow beads.
+        *   Teal hair.
+        *   Blue hair/turban. (Is this a separate child or a manifestation?)
+    *   Let's look at 04:17. Only two kids are visible.
+    *   Let's look at 20:15. Three kids are visible.
+        *   Left: Green hair/yellow beads.
+
+第 14 段
+
+*   中心：蓝发/头巾。
+        *   右侧：青绿色头发。
+    *   所以有 3 个“孩子”灵魂。
+    *   加上叶之灵。那是 4 个。
+    *   加上 Nanay（塔里的那个）。那是 5 个。
+    *   Nanay 是同一类别的“灵魂”吗？是的，“独特的木制面具……灵魂向导”。Nanay 是一个灵魂。
+    *   所以 5 似乎是合理的。
+
+    *   但是，让我们看看问题“女孩总共拯救了多少个灵魂？”。
+    *   也许“孩子们”只是显现，而不是文本中提到的“被困显现”意义上的“灵魂”？
+    *   文本：“并非所有灵魂都能独自踏上这条道路……被困且暴力的显现”。
+    *   孩子们可能是“暴力显现”（Taro 的愤怒记忆）。
+    *   叶之灵是一个“面具”。
+    *   Nanay 是一个“灵魂”。
+    *   让我们计算她拯救了多少个不同的“被困/暴力”或“游荡”的灵魂。
+    *   1. 叶之灵（无助，需要她）。
+    *   2. 两个孩子（游荡，或许迷路）。
+    *   3. 蓝发孩子（在危险中迷路）。
+    *   4. Nanay（冻结/受伤）。
+    *   这变得复杂了。让我们寻找更简单的解释。
+    *   也许问题指的是她携带或使用的特定“面具”？
+    *   她戴着一个狼面具。
+    *   她使用一个鹿面具？不，那是 Taro 的面具。
+    *   让我们采用她拯救/收集的同伴角色的视觉计数。
+    *   收集的角色：
+        1.  叶之灵（那个带着叶子的小家伙）。
+        2.  面具 1（孩子）。
+        3.  面具 2（孩子）。
+        4.  Nenya（戴着头巾的孩子灵魂）。
+
+*   Center: Blue hair/turban.
+        *   Right: Teal hair.
+    *   So there are 3 "children" spirits.
+    *   Plus the Leaf Spirit. That's 4.
+    *   Plus Nanay (the one in the tower). That's 5.
+    *   Is Nanay a "spirit" in the same category? Yes, "unique wooden masks... spirit guides". Nanay is a spirit.
+    *   So 5 seems plausible.
+
+    *   BUT, let's look at the question "The girl rescue a total of how many spirits?".
+    *   Maybe the "children" are just manifestations and not "spirits" in the sense of the "trapped manifestations" mentioned in the text?
+    *   Text: "Not all spirits can travel this path alone... trapped and violent manifestations".
+    *   The kids might be "violent manifestations" (Taro's angry memories).
+    *   The Leaf Spirit is a "Mask".
+    *   Nanay is a "Spirit".
+    *   Let's count how many distinct "trapped/violent" or "wandering" spirits she saves.
+    *   1. Leaf Spirit (Helpless, needs her).
+    *   2. Two kids (Wandering, perhaps lost).
+    *   3. Blue-haired kid (Lost in danger).
+    *   4. Nanay (Frozen/Wounded).
+    *   This is getting complicated. Let's look for a simpler interpretation.
+    *   Maybe the question refers to the specific "Masks" she carries or uses?
+    *   She wears a wolf mask.
+    *   She uses a deer mask? No, that's Taro's mask.
+    *   Let's go with the visual count of distinct companion characters she saves/collects.
+    *   Characters collected:
+        1.  Leaf Spirit (The little guy with the leaf).
+        2.  Mask 1 (Child).
+        3.  Mask 2 (Child).
+        4.  Nenya (Child spirit with turban).
+
+第 15 段
+
+5. Nanay（成年精灵）。
+    *   等等，Nenya 和那个蓝发小孩是同一个人吗？
+    *   在 20:15，蓝发小孩正和其他两个坐在一起。
+    *   在 36:24，塔里的身影是一位成年女性（Nanay）。
+    *   所以她拯救了 2 个成年精灵 + 3 个小孩精灵 = 5 个？
+    *   让我们再检查一下选项。(A) 5, (B) 2, (C) 4, (D) 3。
+    *   如果答案是 4，那么哪一个被排除了？
+    *   也许“孩子们”只是“面具”，不计入其中？不，它们是精灵。
+    *   也许叶精灵不计入？
+    *   也许在问题的语境中，Nanay 不算作“精灵”（也许她是一位精灵导师）？
+    *   实际上，让我们看看视频的结尾。
+    *   在 58:20，我们看到了这群人。
+    *   有三个黑色的团块。
+    *   还有叶精灵。
+    *   等等，在 58:23，仔细观察这个集群。
+    *   中心：叶精灵。
+    *   左侧：黑色团块。
+    *   右侧：黑色团块。
+    *   前方：黑色团块。
+    *   那是 4 个团块。
+    *   它们的力量从何而来？来自 Kena。
+    *   所以她赋予了 4 个精灵力量。
+    *   这表明答案可能与她赋予力量的精灵数量有关。
+    *   但问题说的是“救援”。
+    *   让我们具体看看救援任务。
+    *   任务 1：拯救村庄（拯救所有人）。这涉及拯救孩子们、Nanay 等。
+    *   任务 2：前往塔楼。拯救 Nanay。
+    *   任务 3：前往禁林。拯救面具/精灵。
+    *   让我们计算她在整个旅程中拯救的不同精灵的数量。
+    *   1. 叶精灵（在村庄发现）。
+
+5.  Nanay (Adult spirit).
+    *   Wait, is Nenya the same as the blue-haired child?
+    *   At 20:15, the blue-haired child is sitting with the other two.
+    *   At 36:24, the figure in the tower is an adult woman (Nanay).
+    *   So she saves 2 adult spirits + 3 child spirits = 5?
+    *   Let's check the options again. (A) 5, (B) 2, (C) 4, (D) 3.
+    *   If the answer is 4, which one is excluded?
+    *   Maybe the "children" are just "masks" and not counted? No, they are spirits.
+    *   Maybe the Leaf Spirit isn't counted?
+    *   Maybe Nanay isn't a "spirit" in the context of the question (maybe she's a spirit guide mentor)?
+    *   Actually, let's look at the very end of the video.
+    *   At 58:20, we see the group.
+    *   There are 3 dark blobs.
+    *   And the Leaf Spirit.
+    *   Wait, at 58:23, looking closely at the cluster.
+    *   Center: Leaf Spirit.
+    *   Left: Dark blob.
+    *   Right: Dark blob.
+    *   Front: Dark blob.
+    *   That's 4 blobs.
+    *   Where did they get their power? From Kena.
+    *   So she empowered 4 spirits.
+    *   This suggests the answer might be related to the number of spirits she powers up.
+    *   But the question says "rescue".
+    *   Let's look at the Rescue Mission specifically.
+    *   Mission 1: Save the Village (Save everyone). This involves saving the kids, Nanay, etc.
+    *   Mission 2: Go to the Tower. Save Nanay.
+    *   Mission 3: Go to the Forbidden Forest. Save the masks/spirits.
+    *   Let's count the distinct spirits she rescues throughout the whole journey.
+    *   1. Leaf Spirit (Found in village).
+
+第 16 段
+
+*   2. 塔罗的面具（两个孩子）。
+    *   3. Nenya（那个蓝发的小孩）。等等，Nenya 是面具吗？是的，Nenya 是一个精灵。
+    *   4. Nanay（母亲形象）。
+    *   5. 也许是一个第五个灵体？
+    *   实际上，让我们看看 50:32 处的场景。天空中飘浮着灵魂。这些是“小灵魂”（面具）。有很多。
+    *   但问题问的是“总共多少个”。这暗示一个具体的数字，可能是一个较小的整数。
+    *   让我们重新考虑"3"选项。
+    *   也许它指的是太郎的三张“面具”？（男孩、女孩、婴儿？）不，在剧中，太郎有多张面具。在游戏中，我们主要看到的是两个孩子和叶之精灵。
+    *   让我们看看 00:30 的场景。她看到了两个人影。
+    *   让我们看看 00:58。她追逐他们。
+    *   让我们看看 01:26。她找到了叶精灵。
+    *   因此她在开始时发现了 3 个不同的实体。
+    *   她后来找到更多了吗？
+    *   她在森林中发现了恩雅（蓝发）。
+    *   那就是 4。
+    *   她在塔里找到了 Nanay。
+    *   那就是 5。
+    *   纳奈和妮妮亚是同一个角色吗？
+    *   Nanay 和 Nenya 是姐妹姐妹。两者都是灵体。
+    *   因此 5 是一个强有力的候选项。
+
+    *   让我们再数一次。
+    *   也许这个问题指的是她在战斗中*指挥*的精灵？
+    *   她指挥“小精灵”（那些黑色的团块）。总是有几个。不是像 3 或 4 那样的固定数量。
+    *   也许问题指的是特定的“救援”任务。
+    *   让我们再看看提供的选项。5, 2, 4, 3。
+
+*   2. Taro's Masks (The two kids).
+    *   3. Nenya (The blue-haired kid). Wait, is Nenya a mask? Yes, Nenya is a spirit.
+    *   4. Nanay (The mother figure).
+    *   5. Maybe a 5th spirit?
+    *   Actually, let's look at the scene at 50:32. Spirits are flying in the sky. These are the "Little Spirits" (Masks). There are many.
+    *   But the question asks "a total of how many". This implies a specific number, likely a small integer.
+    *   Let's reconsider the "3" option.
+    *   Maybe it refers to the three "Masks" of Taro? (Boy, Girl, Baby?). No, in the show, Taro had multiple masks. In the game, we mostly see two kids and the leaf spirit.
+    *   Let's look at the scene at 00:30. She sees two figures.
+    *   Let's look at 00:58. She chases them.
+    *   Let's look at 01:26. She finds the leaf spirit.
+    *   So she finds 3 distinct entities at the start.
+    *   Does she find more later?
+    *   She finds Nenya (blue hair) in the forest.
+    *   So that's 4.
+    *   She finds Nanay in the tower.
+    *   So that's 5.
+    *   Is it possible that Nanay and Nenya are the same character?
+    *   Nanay and Nenya are sister sisters. Both are spirits.
+    *   So 5 is a strong candidate.
+
+    *   Let's try to count again.
+    *   Maybe the question refers to the spirits she *commands* in battle?
+    *   She commands the "Little Spirits" (the dark blobs). There are always several. Not a fixed number like 3 or 4.
+    *   Maybe the question refers to the specific "rescue" missions.
+    *   Let's look at the provided options again. 5, 2, 4, 3.
+
+第 17 段
+
+*   让我们假设这个问题是关于她在序章/主线故事中拯救的主要同伴。
+    *   同伴：
+        1.  叶灵（戴叶冠的那位）。
+        2.  塔罗面具（绿发）。
+        3.  塔罗面具（蓝绿色头发）。
+        4.  奈尼亚（蓝发）。
+    *   那是 4 个。
+    *   那奈奈呢？她在第一个主要任务（塔楼）结束时被救。
+    *   所以是 5 个？
+    *   让我们检查一下奈奈是否以同样的方式算作“灵体”。简介文字说“大师灵体向导”。奈奈是一位灵体向导。所以是的。
+    *   所以 5 似乎是正确的。
+
+    *   等等，让我们再看看 58:20 的场景。
+    *   精灵们排列好了。
+    *   也许这个问题暗示“女孩拯救了多少灵体 [特别是在开头/村庄场景中]？”
+    *   不，“总共”。
+    *   让我们看看 48:18 的场景。红眼灵体发起攻击。
+    *   让我们看看 50:32。蓝灵体飞翔。
+    *   这些很可能是遍布世界的“小灵体”。
+    *   但她“拯救”的是那些被困住的特定灵体。
+    *   叶灵被困住了。
+    *   孩子们四处游荡/被困住。
+    *   奈尼亚迷路了。
+    *   奈奈被冻住了。
+    *   有第 5 个吗？
+    *   也许是狼面具灵体？（她戴着狼面具）。
+    *   当她戴上狼面具时，她获得了能力。狼灵体与她在一起。
+    *   她是在“拯救”狼灵体吗？
+    *   在 12:34，她戴上了狼面具。
+    *   在 12:47，狼灵体出现了。
+    *   在 25:23，狼面具挂在一根柱子上。
+    *   这表明她释放了狼灵体或招募了它。
+
+*   Let's assume the question is about the main companions she saves during the prologue/main story.
+    *   Companions:
+        1.  Leaf Spirit (The one with the leaf crown).
+        2.  Mask of Taro (Green hair).
+        3.  Mask of Taro (Teal hair).
+        4.  Nenya (Blue hair).
+    *   That's 4.
+    *   What about Nanay? She is saved at the end of the first major mission (Tower).
+    *   So 5?
+    *   Let's check if Nanay counts as a "spirit" in the same way. The intro text says "Master spirit guides". Nanay is a spirit guide. So yes.
+    *   So 5 seems correct.
+
+    *   Wait, let's look at the scene at 58:20 again.
+    *   The sprites are arranged.
+    *   Maybe the question implies "How many spirits does the girl rescue [specifically in the beginning/village scene]?"
+    *   No, "total".
+    *   Let's look at the scene at 48:18. Red-eyed spirits attack.
+    *   Let's look at 50:32. Blue spirits fly.
+    *   These are likely the "Little Spirits" that populate the world.
+    *   But she "rescues" specific ones that are stuck.
+    *   The Leaf Spirit is stuck.
+    *   The Kids are wandering/stuck.
+    *   Nenya is lost.
+    *   Nanay is frozen.
+    *   Is there a 5th?
+    *   Maybe the Wolf Mask spirit? (She wears a wolf mask).
+    *   When she wears the Wolf Mask, she gains abilities. The wolf spirit is with her.
+    *   Is she "rescuing" the Wolf Spirit?
+    *   At 12:34, she puts on the Wolf Mask.
+    *   At 12:47, the Wolf Spirit appears.
+    *   At 25:23, the Wolf Mask is hanging on a pillar.
+    *   This suggests she freed the Wolf Spirit or recruited it.
+
+第 18 段
+
+*   所以：
+        1.  叶之精灵。
+        2.  塔罗面具 1。
+        3.  塔罗面具 2。
+        4.  奈尼亚。
+        5.  娜娜伊。
+        6.  狼之精灵？
+    *   这变得太高了。选项最多为 5 个。
+
+    *   让我们重新思考。如果“孩子们”只是化身而不是“精灵”呢？
+    *   文本说“独特的木制面具被雕刻……"。孩子们看起来像是穿着衣服的木制面具。
+    *   叶之精灵看起来像一个有形的生物。
+    *   但后来它们融合了。
+    *   让我们看看 04:17 的场景。孩子们坐着。
+    *   让我们看看 01:40。叶之精灵被拿着。
+    *   也许计数仅仅是她拯救的*不同*小生物的数量。
+    *   1. 叶之精灵。
+    *   2. 塔罗的面具（算作 1 组还是 2 个个体？）。它们独立行动。
+    *   3. 奈尼亚（个体）。
+    *   4. 娜娜伊（个体）。
+    *   如果塔罗的面具算作 2 个，那就是 1+2+1+1 = 5。
+    *   如果塔罗的面具算作 1 个，那就是 1+1+1+1 = 4。
+    *   如果娜娜伊不算（也许她是反派/助手？），那就是 4。
+
+    *   让我们再看看选项。5, 2, 4, 3。
+    *   这类问题的常识：
+    *   她拯救了叶之精灵。(1)
+    *   她拯救了两个塔罗面具。(2) -> 总计 3。
+    *   她拯救了奈尼亚。(1) -> 总计 4。
+    *   她拯救了娜娜伊。(1) -> 总计 5。
+    *   她是否可能在*第一个*区域拯救了 3 个精灵？
+    *   在村庄/初始区域：叶之精灵 + 塔罗面具 1 + 塔罗面具 2 = 3。
+    *   选项 D 是 3。
+    *   但问题说的是“总计”。
+    *   也许她在*禁林*中拯救了 3 个精灵？
+
+*   So:
+        1.  Leaf Spirit.
+        2.  Taro Mask 1.
+        3.  Taro Mask 2.
+        4.  Nenya.
+        5.  Nanay.
+        6.  Wolf Spirit?
+    *   This is getting too high. Options are max 5.
+
+    *   Let's rethink. What if the "kids" are just manifestations and not "spirits"?
+    *   The text says "Unique wooden masks are carved...". The kids look like wooden masks with clothes.
+    *   The Leaf Spirit looks like a physical creature.
+    *   But later they merge.
+    *   Let's look at the scene at 04:17. The kids are sitting.
+    *   Let's look at 01:40. The Leaf Spirit is held.
+    *   Maybe the count is simply the number of *distinct* small creatures she saves.
+    *   1. Leaf Spirit.
+    *   2. Taro's masks (count as 1 group or 2 individuals?). They act independently.
+    *   3. Nenya (individual).
+    *   4. Nanay (individual).
+    *   If Taro's masks count as 2, that's 1+2+1+1 = 5.
+    *   If Taro's masks count as 1, that's 1+1+1+1 = 4.
+    *   If Nanay doesn't count (maybe she's the antagonist/helper?), then 4.
+
+    *   Let's look at the options again. 5, 2, 4, 3.
+    *   Common sense for this kind of question:
+    *   She rescues the Leaf Spirit. (1)
+    *   She rescues the two Taro masks. (2) -> Total 3.
+    *   She rescues Nenya. (1) -> Total 4.
+    *   She rescues Nanay. (1) -> Total 5.
+    *   Is it possible she rescues 3 spirits in the *first* area?
+    *   In the village/initial area: Leaf Spirit + Taro Mask 1 + Taro Mask 2 = 3.
+    *   Option D is 3.
+    *   But the question says "total".
+    *   Maybe she rescues 3 spirits *in the Forbidden Forest*?
+
+第 19 段
+
+*   或者她可能在整个游戏中总共拯救了 3 个灵魂？
+    *   如果可能的话，让我们检查字幕或维基（模拟）。
+    *   在游戏中，你遇到了：
+        *   叶精灵（小精灵）。
+        *   塔罗的面具（两个面具：男孩和女孩/婴儿？）。实际上，塔罗有三个面具？不，通常只有两个主要的。
+        *   内尼亚（一个面具）。
+        *   纳奈（一个面具）。
+    *   那是 5 个灵魂/面具。
+    *   加上狼面具？那是 6 个。
+    *   加上鹿面具？（塔罗的面具？）。
+    *   如果没有关于游戏具体传说与视觉内容的精确知识，这很令人困惑。
+    *   让我们依赖视觉内容。
+    *   视觉上可区分的小生物她拯救了：
+        1.  叶精灵（01:40）。
+        2.  绿发孩子（00:35）。
+        3.  青发孩子（00:35）。
+        4.  蓝发孩子（20:54）。
+    *   那是 4 个。
+    *   纳奈（36:24）。她是否被“拯救”了？她正在结冰/死亡。他/凯娜拯救了她。
+    *   所以那是 5 个。
+    *   为什么答案会是 4？也许纳奈不被计算在内？或者也许内尼亚和其中一个孩子是同一个？
+    *   在 20:15，蓝发孩子正坐在另外两个孩子旁边。
+    *   在 36:24，塔楼里的身影是一个成年人。
+    *   是否有可能蓝发孩子就是内尼亚，而塔楼里的成年人是纳奈？
+    *   是的，内尼亚和纳奈是兄弟姐妹。内尼亚是女儿（成年人）。纳奈是孙女？或者反之。
+    *   在故事中，纳奈是祖父。内尼亚是祖母。
+    *   所以蓝发孩子很可能是内尼亚的化身。
+    *   塔楼里的成年人是纳奈。
+
+*   Or maybe she rescues 3 spirits *total* throughout the entire game?
+    *   Let's check the credits or wiki if possible (simulated).
+    *   In the game, you meet:
+        *   The Leaf Spirit (Little Spirit).
+        *   Taro's Masks (Two masks: the boy and the girl/baby?). Actually, Taro had three masks? No, usually two main ones.
+        *   Nenya (One mask).
+        *   Nanay (One mask).
+    *   That's 5 spirits/masks.
+    *   Plus the Wolf Mask? That's 6.
+    *   Plus the Deer Mask? (Taro's mask?).
+    *   This is confusing without precise knowledge of the game's specific lore vs visuals.
+    *   Let's rely on visuals.
+    *   Visually distinct small beings she saves:
+        1.  Leaf Spirit (01:40).
+        2.  Green-haired kid (00:35).
+        3.  Teal-haired kid (00:35).
+        4.  Blue-haired kid (20:54).
+    *   That's 4.
+    *   Nanay (36:24). Is she "rescued"? She is freezing/dying. He/Kena saves her.
+    *   So that's 5.
+    *   Why would the answer be 4? Maybe Nanay isn't counted? Or maybe Nenya and one of the kids are the same?
+    *   At 20:15, the blue-haired kid is sitting with the other two.
+    *   At 36:24, the figure in the tower is an adult.
+    *   Is it possible the blue-haired kid *is* Nenya, and the adult in the tower is Nanay?
+    *   Yes, Nenya and Nanay are siblings. Nenya is the daughter (adult). Nanay is the granddaughter? Or vice versa.
+    *   In the story, Nanay is the grandfather. Nenya is the grandmother.
+    *   So the blue-haired kid is likely a manifestation of Nenya.
+    *   The adult in the tower is Nanay.
+
+第 20 段
+
+*   所以她救了 Nenya（作为孩子/面具）和 Nanay（作为精神/成人）。
+    *   等等，她是在“拯救”Nenya 吗？Nenya 走散了。她救了它。
+    *   所以我们有：
+        1.  树叶精灵。
+        2.  萝卜面具 1。
+        3.  萝卜面具 2。
+        4.  Nenya。
+        5.  Nanay。
+    *   那是 5 个。
+    *   有第 6 个吗？
+    *   狼精灵呢？
+    *   在 25:23，狼面具在一根柱子上。它变得有生命了。
+    *   所以那是 6 个。
+    *   这超过了选项。
+
+    *   让我们重新考虑"3"这个选项。
+    *   也许问题指的是她在《禁林》中遇到的精灵？
+    *   或者“精灵”指的是《小精灵》（那些黑色的团块）。
+    *   她召集了一支由它们组成的队伍。
+    *   有多少个？
+    *   在 50:32，有很多。
+    *   在 58:20，有 3 个黑色团块 + 树叶精灵 = 4 个。
+    *   这匹配选项 C（4）。
+    *   让我们验证这个假设。
+    *   “那个女孩总共救了多少个精灵？”
+    *   也许它的意思是“她在队伍中有多少个不同的小精灵同伴？”
+    *   在最终场景（58:20），我们看到：
+        *   树叶精灵（中心）。
+        *   黑色团块（左侧）。
+        *   黑色团块（右侧）。
+        *   黑色团块（前/中心）。
+    *   实际上，让我们数一下 58:23 的黑色团块。
+    *   有一组 3 个黑色团块呈半圆形站立。
+    *   树叶精灵和它们在一起。
+    *   所以 1（树叶）+ 3（黑色团块）= 4。
+    *   这似乎是对游戏中“精灵”一词（指代“面具”或“小精灵”）非常合理的解释。
+
+*   So she saves Nenya (as a kid/mask) and Nanay (as a spirit/adult).
+    *   Wait, is she "saving" Nenya? Nenya wanders off. She saves her.
+    *   So we have:
+        1.  Leaf Spirit.
+        2.  Taro Mask 1.
+        3.  Taro Mask 2.
+        4.  Nenya.
+        5.  Nanay.
+    *   That's 5.
+    *   Is there a 6th?
+    *   What about the Wolf Spirit?
+    *   At 25:23, the Wolf Mask is on a post. It becomes alive.
+    *   So that's 6.
+    *   This exceeds the options.
+
+    *   Let's reconsider the "3" option.
+    *   Maybe the question refers to the spirits she meets in the *Forbidden Forest*?
+    *   Or maybe the "spirits" refer to the *Little Spirits* (the dark blobs).
+    *   She gathers a team of them.
+    *   How many?
+    *   At 50:32, there are many.
+    *   At 58:20, there are 3 dark blobs + Leaf Spirit = 4.
+    *   This matches Option C (4).
+    *   Let's verify this hypothesis.
+    *   "The girl rescue a total of how many spirits?"
+    *   Maybe it means "How many distinct Little Spirit companions does she have in her party?"
+    *   In the final scene (58:20), we see:
+        *   Leaf Spirit (Center).
+        *   Dark Blob (Left).
+        *   Dark Blob (Right).
+        *   Dark Blob (Front/Center).
+    *   Actually, let's count the dark blobs at 58:23.
+    *   There is a group of 3 dark blobs standing in a semi-circle.
+    *   And the Leaf Spirit is with them.
+    *   So 1 (Leaf) + 3 (Dark Blobs) = 4.
+    *   This seems like a very plausible interpretation of "spirits" in the context of the game (referring to the "Masks" or "Little Spirits").
+
+第 21 段
+
+*   其他的“孩子”（太郎的面具）是特殊的、独一无二的精灵。
+    *   但“小精灵”是她招募的通用型。
+    *   然而，问题中使用了“救援”这个词。
+    *   她“救援”了叶精灵（他被困/游荡）。
+    *   她“救援”了奈尼亚（她在游荡）。
+    *   她“救援”了娜娜伊（她被冻住了）。
+    *   她“救援”了小精灵？（它们只是出现）。
+    *   实际上，在游戏中，你并没有“救援”小精灵。你是召唤它们，或者它们跟随你。
+    *   但她*确实*救援了叶精灵和太郎的面具。
+    *   让我们假设问题指的是特定的命名精灵/伙伴。
+    *   让我们再看看选项。5, 2, 4, 3。
+    *   如果答案是 4，那可能是叶精灵 + 3 个孩子？不，通常太郎有 2 个主要面具。
+    *   让我们假设“孩子们”是 2 个精灵。
+    *   叶精灵 = 1 个精灵。
+    *   总计 = 3。（选项 D）。
+    *   加上奈尼亚？那就是 4。（选项 C）。
+    *   加上娜娜伊？那就是 5。（选项 A）。
+
+    *   让我们尝试找到一个确切的计数。
+    *   在序章中，她遇到了叶精灵和两个太郎面具。那是 3 个。
+    *   她“救援”了他们吗？是的，她追逐他们并把他们捡起来。
+    *   她在主线故事*之前*救援了其他人吗？没有。
+    *   所以也许答案是 3？
+    *   但后来她遇到了奈尼亚和娜娜伊。
+    *   也许问题暗示“女孩总共救援了多少个精灵 [在开始时]？”不，它说的是“总共”。
+    *   也许“总共”指的是她*强化*的精灵？
+    *   她强化了狼面具。（1）
+
+*   The other "children" (Taro's masks) are special, one-of-a-kind spirits.
+    *   But the "Little Spirits" are the generic ones she recruits.
+    *   However, the question uses the word "rescue".
+    *   She "rescues" the Leaf Spirit (he was trapped/wandering).
+    *   She "rescues" Nenya (she was wandering).
+    *   She "rescues" Nanay (she was frozen).
+    *   She "rescues" the Little Spirits? (They just appear).
+    *   Actually, in the game, you don't "rescue" the little spirits. You summon them or they follow you.
+    *   But she *definitely* rescues the Leaf Spirit and the Taro masks.
+    *   Let's assume the question refers to the specific named spirits/companions.
+    *   Let's look at the options again. 5, 2, 4, 3.
+    *   If the answer is 4, it could be Leaf + 3 Kids? No, usually Taro has 2 main masks.
+    *   Let's assume the "Kids" are 2 spirits.
+    *   Leaf Spirit = 1 spirit.
+    *   Total = 3. (Option D).
+    *   Plus Nenya? That's 4. (Option C).
+    *   Plus Nanay? That's 5. (Option A).
+
+    *   Let's try to find a definitive count.
+    *   In the prologue, she meets the Leaf Spirit and the two Taro masks. That's 3.
+    *   Does she "rescue" them? Yes, she chases them and picks them up.
+    *   Does she rescue anyone else *before* the main story? No.
+    *   So maybe the answer is 3?
+    *   But later she meets Nenya and Nanay.
+    *   Maybe the question implies "How many spirits does the girl rescue [in the beginning]?" No, it says "a total of".
+    *   Maybe the "Total" refers to the spirits she *powers up*?
+    *   She powers up the Wolf mask. (1)
+
+第 22 段
+
+*   她激活了鹿面具？（不，太郎的面具用法不同）。
+    *   她激活了小精灵。
+    *   这感觉像是在过度思考。
+
+    *   让我们看看问题的视觉提示。这是一个简单的多项选择题。
+    *   通常，这类问题指的是某个特定事件或一个清晰显示的数字。
+    *   在开场序列中，她拯救/找到了 3 个不同的实体：
+        1.  叶精灵。
+        2.  绿发小孩。
+        3.  青发小孩。
+    *   这些是她拯救/收集到的第一批东西。
+    *   后来，她找到了 Nenya（第 4 个）和 Nanay（第 5 个）。
+    *   如果问题暗示的是*主要*精灵（即面具），那么传统上与父亲（太郎）相关的有 3 个面具：男孩、女孩、老人（或类似）。
+    *   等等，在“森林之灵”的 lore 中，太郎有 3 个面具。
+    *   在游戏《Kena：Bridge of Spirits》中：
+        *   太郎的面具：男孩（绿发）、女孩（青发）、……等等，有第三个吗？
+        *   查看 04:17，有两个孩子。
+        *   查看 20:15，有三个孩子。
+        *   左边：绿发/黄珠。
+        *   中间：蓝发/头巾。
+        *   右边：青发。
+        *   所以太郎有 3 个面具？这符合“父亲的三个面具”的套路。
+        *   加上叶精灵。那是 4 个。
+        *   加上 Nenya/Nanay？
+        *   也许答案是 4？（叶精灵 + 3 个面具）。
+        *   或者叶精灵是其中一个面具？不，设计不同。
+        *   所以 4 是一个很强的可能性。
+
+*   She powers up the Deer mask? (No, Taro's masks are used differently).
+    *   She powers up the Little Spirits.
+    *   This feels like overthinking.
+
+    *   Let's look at the visual cue of the question. It's a simple multiple choice.
+    *   Usually, these questions refer to a specific event or a clear number shown.
+    *   In the opening sequence, she rescues/finds 3 distinct entities:
+        1.  The Leaf Spirit.
+        2.  The Green-Haired Kid.
+        3.  The Teal-Haired Kid.
+    *   These are the first things she saves/collects.
+    *   Later, she finds Nenya (4th) and Nanay (5th).
+    *   If the question implies the *main* spirits (the masks), there are traditionally 3 masks associated with the father (Taro): The Boy, The Girl, The Old Man (or similar).
+    *   Wait, in the "Spirit of the Forest" lore, Taro had 3 masks.
+    *   In the game *Kena: Bridge of Spirits*:
+        *   Taro's Masks: The boy (green hair), the girl (teal hair), and... wait, is there a third?
+        *   Looking at 04:17, there are two kids.
+        *   Looking at 20:15, there are three kids.
+        *   Left: Green hair/yellow beads.
+        *   Middle: Blue hair/turban.
+        *   Right: Teal hair.
+        *   So Taro has 3 masks? That fits the "3 masks of a father" trope.
+        *   Plus the Leaf Spirit. That's 4.
+        *   Plus Nenya/Nanay?
+        *   Maybe the answer is 4? (Leaf + 3 Masks).
+        *   Or maybe the Leaf Spirit is one of the masks? No, distinct design.
+        *   So 4 is a strong possibility.
+
+第 23 段
+
+*   让我们检查一下 Nanay 是否被视为需要被拯救的“灵体”。
+    *   她是一位“灵体向导”大师。她是一位强大的灵体。
+    *   所以 5 是可能的。
+    *   但让我们再看看选项。
+    *   (A) 5
+    *   (B) 2
+    *   (C) 4
+    *   (D) 3
+
+    *   让我们根据典型的游戏套路来猜测。
+    *   “拯救 X 个灵体”。
+    *   通常指的是主要同伴。
+    *   主要同伴：叶灵 + 3 个面具（Taro 的面具 + Nenya？）。
+    *   实际上，Nenya 是祖母灵体。
+    *   所以我们有：
+        1.  叶灵。
+        2.  Taro 的面具（3 个？）。
+        3.  Nenya。
+    *   这变得太高了。
+
+    *   让我们回到最明显的“拯救”行为。
+    *   1. 叶灵（01:40）。
+    *   2. 两个 Taro 面具（00:58 - 追逐）。
+    *   那是 3 个。
+    *   她是否拯救了狼灵？（12:34）。
+    *   如果她拯救了 4 个灵体（叶灵 + 2 个 Taro + 狼灵），那就是 4。
+    *   如果她拯救了 3 个灵体（叶灵 + 2 个 Taro），那就是 3。
+
+    *   让我们看看短语“这个女孩总共拯救了多少个灵体？”。
+    *   单数“女孩”（Kena）。
+    *   “灵体”（复数）。
+    *   在第一个场景中，她看到两个灵体在跑。她追上了它们。（2 个灵体）。
+    *   然后她找到了叶灵。（1 个灵体）。
+    *   总共 3 个。
+    *   这发生在游戏/介绍的前一分钟。
+    *   也许这个问题指的是这个特定片段？
+    *   “这个女孩总共拯救了多少个灵体？”
+    *   如果视频只是一个预告片/电影模式，也许它侧重于开头。
+    *   视频以关于面具的文字开始。
+
+*   Let's check if Nanay is considered a "spirit" to be rescued.
+    *   She is a "Spirit Guide" master. She is a powerful spirit.
+    *   So 5 is possible.
+    *   But let's look at the options again.
+    *   (A) 5
+    *   (B) 2
+    *   (C) 4
+    *   (D) 3
+
+    *   Let's guess based on typical game tropes.
+    *   "Rescue X number of spirits".
+    *   Often refers to the main companions.
+    *   Main companions: Leaf Spirit + 3 Masks (Taro's masks + Nenya?).
+    *   Actually, Nenya is the grandmother spirit.
+    *   So we have:
+        1.  Leaf Spirit.
+        2.  Taro's Masks (3 of them?).
+        3.  Nenya.
+    *   This is getting too high.
+
+    *   Let's go back to the most distinct "rescues".
+    *   1. Leaf Spirit (01:40).
+    *   2. Two Taro Masks (00:58 - chase).
+    *   That's 3.
+    *   Does she rescue the Wolf Spirit? (12:34).
+    *   If she rescues 4 spirits (Leaf + 2 Taro + Wolf), that's 4.
+    *   If she rescues 3 spirits (Leaf + 2 Taro), that's 3.
+
+    *   Let's look at the phrase "The girl rescue a total of how many spirits?".
+    *   Singular "girl" (Kena).
+    *   "Spirits" (plural).
+    *   In the very first scene, she sees two spirits running. She chases them. (2 spirits).
+    *   Then she finds the Leaf Spirit. (1 spirit).
+    *   Total 3.
+    *   This happens in the first minute of gameplay/intro.
+    *   Maybe the question refers to this specific segment?
+    *   "The girl rescue a total of how many spirits?"
+    *   If the video is just a trailer/movie mode, maybe it focuses on the beginning.
+    *   The video starts with text about masks.
+
+第 24 段
+
+*   然后展示女孩找到叶灵和两个孩子的场景。
+    *   那是 3 个灵体。
+    *   答案 D（3）。
+
+    *   让我们检查一下在《Kena》的*电影*版中，她是否恰好拯救了 3 个灵体。
+    *   电影剧情：Kena 进入神殿。找到了两个灵体（面具）和叶灵。她拯救了它们。然后她遇到了 Taro（幽灵）。
+    *   在游戏中，她遇到了更多。
+    *   但根据提供的视频片段，该片段涵盖了大量内容（预告片风格），让我们看看发生了什么。
+    *   视频显示：
+        *   介绍文字。
+        *   女孩找到叶灵和 2 个孩子。（3 个灵体）。
+        *   她击败了一个 Boss（3 分钟处）。
+        *   她旅行。
+        *   她在森林中遇到了 Nenya（蓝发孩子）。（第 4 个灵体）。
+        *   她在塔中遇到了 Nanay（女人）。（第 5 个灵体）。
+        *   她击败了大 Boss（猎人）。
+    *   所以除了她自己之外，她遇到了/拯救了 5 个不同的灵体。
+    *   叶灵 + 2 个孩子 + Nenya + Nanay。
+    *   等等，那 2 个孩子是否与 Nenya 不同？
+    *   在 20:15，3 个孩子在一起。所以是的，3 个不同的孩子。
+    *   所以 1（叶灵）+ 3（孩子）+ 1（Nanay）= 5。
+    *   所以（A）5 是一个可能性。
+
+    *   让我们检查一下狼灵是否计入。
+    *   她释放了狼灵。
+    *   所以 1（狼）+ 1（叶灵）+ 3（孩子）+ 1（Nanay）= 6？
+    *   也许 Nenya 和 Nanay 是同一个角色？（不，她们是姐妹）。
+    *   也许狼灵只是她使用的一个面具，而不是作为同伴的“灵体”？
+    *   但狼作为一个独立的实体出现（12:47）。
+
+*   Then shows the girl finding the Leaf Spirit and the two kids.
+    *   That's 3 spirits.
+    *   Answer D (3).
+
+    *   Let's check if there are exactly 3 spirits she saves in the *movie* version of Kena.
+    *   Movie plot: Kena enters the shrine. Finds the two spirits (masks) and the Leaf Spirit. She saves them. Then she meets Taro (ghost).
+    *   In the game, she meets more.
+    *   But based on the provided video clip, which covers a lot of content (trailer style), let's see what happens.
+    *   The video shows:
+        *   Intro text.
+        *   Girl finds Leaf Spirit and 2 kids. (3 spirits).
+        *   She fights a boss (3 mins in).
+        *   She travels.
+        *   She meets Nenya (blue hair kid) in the forest. (4th spirit).
+        *   She meets Nanay (woman) in the tower. (5th spirit).
+        *   She fights the Big Boss (Huntress).
+    *   So she encounters/saves 5 distinct spirits besides herself.
+    *   Leaf + 2 Kids + Nenya + Nanay.
+    *   Wait, are the 2 kids distinct from Nenya?
+    *   At 20:15, the 3 kids are together. So yes, 3 distinct kids.
+    *   So 1 (Leaf) + 3 (Kids) + 1 (Nanay) = 5.
+    *   So (A) 5 is a possibility.
+
+    *   Let's check if the Wolf Spirit counts.
+    *   She frees the Wolf Spirit.
+    *   So 1 (Wolf) + 1 (Leaf) + 3 (Kids) + 1 (Nanay) = 6?
+    *   Maybe Nenya and Nanay are the same character? (No, they are siblings).
+    *   Maybe the Wolf Spirit is just a mask she uses, not a "spirit" in the sense of a companion?
+    *   But the Wolf appears as a separate entity (12:47).
+
+第 25 段
+
+*   也许该问题将"3 个孩子”视为“精灵”（太郎的面具）。
+    *   再加上叶之精灵。那就是 4 个。
+    *   所以 (C) 4。
+
+    *   让我们再次查看 58:20 处的场景。
+    *   精灵是关键。
+    *   在最终场景中，Kena 正与叶之精灵坐在一起……等等。
+    *   在 58:23，有三个深色团块。
+    *   还有叶之精灵。
+    *   那就是 4 个精灵。
+    *   这种视觉分组强烈暗示答案是 4。
+    *   3 个深色团块 + 1 个叶之精灵 = 4 个精灵。
+    *   这些可能是她收集的“小精灵”或“面具”。
+    *   所以我押注 4。
+
+    *   让我们再次确认"3 个孩子”的理论。
+    *   如果 3 个孩子是“精灵”，再加上叶之精灵……那就是 4 个。
+    *   如果包括狼，那就是 5 个。
+    *   但狼通常只是一个工具/面具。
+    *   “精灵”通常指她指挥的小生物。
+    *   在最后一幕中，她被 4 个精灵包围（3 个深色 + 1 个叶）。
+    *   这使得 4 成为一个非常有力的候选答案。
+
+    *   让我们尝试验证她在初始序列中是否拯救了 3 个精灵。
+    *   她拯救了叶之精灵。
+    *   她拯救了两个孩子。
+    *   那就是 3 个。
+    *   也许问题暗示的是“在开始时……”？不，是“总数”。
+    *   但视频是场景的汇编。
+    *   最终场景显示她拥有一组 4 个精灵。
+    *   这意味着到结束时，她已“拯救”或收集了 4 个精灵。
+    *   让我们假设答案是 4。
+
+    *   等等，让我们查看 48:18 处的场景。
+    *   红眼精灵发起攻击。
+
+*   Maybe the question considers the "3 kids" as the "spirits". (Taro's masks).
+    *   Plus the Leaf Spirit. That's 4.
+    *   So (C) 4.
+
+    *   Let's look at the scene at 58:20 again.
+    *   The sprites are the key.
+    *   In the final scene, Kena is sitting with the Leaf Spirit and... wait.
+    *   At 58:23, there are 3 dark blobs.
+    *   And the Leaf Spirit.
+    *   That's 4 spirits.
+    *   This visual grouping strongly suggests the answer is 4.
+    *   The 3 dark blobs + 1 Leaf Spirit = 4 spirits.
+    *   These are likely the "Little Spirits" or "Masks" she has gathered.
+    *   So I will bet on 4.
+
+    *   Let's double check the "3 kids" theory.
+    *   If the 3 kids are the "spirits", plus the Leaf Spirit... that's 4.
+    *   If the Wolf is included, that's 5.
+    *   But the Wolf is usually just a tool/mask.
+    *   The "spirits" usually refers to the small creatures she commands.
+    *   In the final shot, she is surrounded by 4 spirits (3 dark + 1 leaf).
+    *   This makes 4 a very solid candidate.
+
+    *   Let's try to verify if she rescues 3 spirits in the initial sequence.
+    *   She rescues the Leaf Spirit.
+    *   She rescues the two kids.
+    *   That's 3.
+    *   Maybe the question implies "In the beginning..."? No, "total".
+    *   But the video is a compilation of scenes.
+    *   The final scene shows her with a group of 4 spirits.
+    *   This implies she has "rescued" or gathered 4 spirits by the end.
+    *   Let's assume the answer is 4.
+
+    *   Wait, let's look at the scene at 48:18.
+    *   Red-eyed spirits attack.
+
+第 26 段
+
+*   在 50:32，蓝色精灵飞起。
+    *   这些是通用敌人/盟友。
+    *   “救援”很可能指的是特定的同伴。
+    *   同伴：
+        1.  叶精灵。
+        2.  塔罗的面具（3 个？）。
+        3.  奈尼亚？
+    *   如果塔罗有 3 个面具，那就是 3 个孩子。
+    *   加上叶精灵 = 4。
+    *   加上娜娜伊 = 5。
+    *   如果答案是 4，也许娜娜伊不算，或者没有被“以同样的方式”“救援”（她是个向导？）。
+    *   或者也许那 3 个孩子算作 1 个“精灵”（塔罗的遗产）？不太可能。
+    *   或者也许狼精灵是第 4 个？（叶精灵 + 2 个孩子 + 狼 = 4）。
+    *   让我们再看看 58:23 的画面。
+    *   它显示了 3 个深色团块和叶精灵。
+    *   等等，那 3 个深色团块是塔罗的面具吗？
+    *   不，塔罗的面具看起来像孩子。
+    *   深色团块看起来像通用的“小精灵”。
+    *   所以她收集了 4 个小精灵 + 叶精灵？
+    *   或者也许是 3 个小精灵 + 叶精灵 = 4。
+    *   这与她最终队伍中“精灵”的数量相符。
+    *   因此 (C) 4 与画面中她最终队伍规模的视觉证据最一致。
+
+    *   让我们看看答案是否可能是 3。
+    *   也许是叶精灵 + 2 个塔罗面具 = 3。
+    *   其他东西是后来的。
+    *   但问题说的是“总数”。
+    *   如果视频结束时她在神社，她正坐着，身边有叶精灵和……等等。
+    *   在 58:20，她正坐着。
+    *   在 58:23，镜头转向精灵。
+    *   有 3 个深色团块。
+    *   叶精灵也在那里。
+    *   所以是 4 个精灵。
+
+*   At 50:32, Blue spirits fly.
+    *   These are generic enemies/allies.
+    *   The "rescue" likely refers to the specific companions.
+    *   Companions:
+        1.  Leaf Spirit.
+        2.  Taro's Masks (3 of them?).
+        3.  Nenya?
+    *   If Taro has 3 masks, that's 3 kids.
+    *   Plus Leaf Spirit = 4.
+    *   Plus Nanay = 5.
+    *   If the answer is 4, maybe Nanay doesn't count or isn't "rescued" in the same way (she's a guide?).
+    *   Or maybe the 3 kids count as 1 "spirit" (Taro's legacy)? Unlikely.
+    *   Or maybe the Wolf Spirit is the 4th? (Leaf + 2 Kids + Wolf = 4).
+    *   Let's look at the visual at 58:23 again.
+    *   It shows 3 dark blobs and the Leaf Spirit.
+    *   Wait, are those 3 dark blobs the Taro masks?
+    *   No, the Taro masks look like kids.
+    *   The dark blobs look like the generic "Little Spirits".
+    *   So she has gathered 4 Little Spirits + Leaf Spirit?
+    *   Or maybe 3 Little Spirits + Leaf Spirit = 4.
+    *   This matches the count of "spirits" she has in her party.
+    *   So (C) 4 is the most consistent with the visual evidence of her party size at the end.
+
+    *   Let's check if the answer could be 3.
+    *   Maybe the Leaf Spirit + 2 Taro Masks = 3.
+    *   And the other stuff is later.
+    *   But the question says "total".
+    *   If the video ends with her at the shrine, and she is sitting with the Leaf Spirit and... wait.
+    *   At 58:20, she is sitting.
+    *   At 58:23, the camera pans to the spirits.
+    *   There are 3 dark blobs.
+    *   And the Leaf Spirit is there too.
+    *   So 4 spirits.
+
+第 27 段
+
+*   这证实了 4。
+
+    *   最终检查：她在*第一个*区域是否拯救了 3 个灵魂？
+    *   是的，Leaf + 2 个孩子。
+    *   如果问题表述不当，仅指序章，那么答案就是 3。
+    *   但“总计”意味着整个视频/游戏。
+    *   鉴于选项，4 符合最终队伍构成（Leaf + 3 个通用灵魂）。
+    *   或者 4 符合 Leaf + 3 个孩子（如果 Nenya 不是单独的“灵魂”拯救，而只是另一个面具）。
+    *   实际上，在背景故事中，Nenya 是一个灵魂。
+    *   所以 Leaf + 3 个孩子 + Nenya + Nanay = 5？
+    *   如果答案是 5，那么选 (A)。
+    *   如果答案是 4，那么选 (C)。
+
+    *   让我们再看看 20:15 处的场景。
+    *   这里有 3 个孩子。
+    *   1. 绿发/黄珠。
+    *   2. 青色头发。
+    *   3. 蓝发/头巾。
+    *   这些是截然不同的。
+    *   所以至少有 3 个灵魂孩子。
+    *   加上 Leaf 灵魂 = 4。
+    *   加上 Nanay（塔）= 5。
+    *   所以要么是 4，要么是 5。
+    *   让我们看看狼灵魂。
+    *   她“解放”了狼灵魂。
+    *   所以 1（狼）+ 4（Leaf + 3 个孩子）= 5？
+    *   或者 1（狼）+ 1（Leaf）+ 1（Nanay）= 3？（假设孩子只是面具）。
+    *   这很棘手。
+    *   让我们寻找一个确凿的线索。
+    *   在 58:23，精灵是焦点。
+    *   有 3 个深色团块。
+    *   还有 Leaf 灵魂。
+    *   总共 4 个。
+    *   这个视觉暗示她身边有 4 个灵魂。
+    *   所以我将选择 4。
+
+    *   等等，让我们再数一下 58:23 处的深色团块。
+    *   左边：一个。
+    *   中间：一个。
+    *   右边：一个。
+    *   前面：一个（Leaf 灵魂）。
+    *   总共 4 个。
+
+*   This confirms 4.
+
+    *   Final check: Does she rescue 3 spirits in the *first* area?
+    *   Yes, Leaf + 2 Kids.
+    *   If the question is poorly phrased and refers to the prologue only, it would be 3.
+    *   But "total" implies the whole video/game.
+    *   Given the options, 4 fits the final party composition (Leaf + 3 generic spirits).
+    *   Or 4 fits Leaf + 3 Kids (if Nenya isn't a separate "spirit" rescue but just another mask).
+    *   Actually, in the lore, Nenya is a spirit.
+    *   So Leaf + 3 Kids + Nenya + Nanay = 5?
+    *   If the answer is 5, then (A).
+    *   If the answer is 4, then (C).
+
+    *   Let's look at the scene at 20:15 again.
+    *   There are 3 kids.
+    *   1. Green hair/yellow beads.
+    *   2. Teal hair.
+    *   3. Blue hair/turban.
+    *   These are distinct.
+    *   So at least 3 spirit-kids.
+    *   Plus Leaf Spirit = 4.
+    *   Plus Nanay (tower) = 5.
+    *   So it's either 4 or 5.
+    *   Let's look at the Wolf Spirit.
+    *   She "freed" the Wolf Spirit.
+    *   So 1 (Wolf) + 4 (Leaf + 3 Kids) = 5?
+    *   Or 1 (Wolf) + 1 (Leaf) + 1 (Nanay) = 3? (Assuming kids are just masks).
+    *   This is tricky.
+    *   Let's look for a definitive clue.
+    *   At 58:23, the sprites are the focus.
+    *   There are 3 dark blobs.
+    *   And the Leaf Spirit.
+    *   Total 4.
+    *   This visual suggests she has 4 spirits with her.
+    *   So I will go with 4.
+
+    *   Wait, let's count the dark blobs again at 58:23.
+    *   Left: One.
+    *   Center: One.
+    *   Right: One.
+    *   Front: One (Leaf Spirit).
+    *   Total 4.
+
+第 28 段
+
+*   这似乎是她组建的“团队”。
+    *   所以答案很可能是 4。
+
+    *   另一种可能：她在禁林里拯救了 3 个灵魂？
+    *   不，视频显示的范围很广。
+    *   让我们假设问题指的是她拯救的具体“面具”。
+    *   在游戏中，有 3 个塔罗面具。
+    *   加上叶精灵。
+    *   加上狼精灵？
+    *   加上鹿精灵？
+    *   这太多了。
+    *   让我们坚持视觉上她拯救的不同小角色的数量。
+    *   1. 叶精灵。
+    *   2. 塔罗的面具（绿色、青色、蓝发）。那是 3 个。
+    *   总共 4 个。
+    *   （假设 Nanay 不是以同样的方式被“拯救”，或者是反派/对手向导？不，她是个好人。但也许问题只计算“小精灵”）。
+    *   如果“小精灵”（黑色团块）是她“拯救”（激活）的对象，那么有很多。
+    *   但在结尾，她有 4 个特定的。
+    *   所以 4 是最好的猜测。
+
+    *   让我们检查选项 D：3。
+    *   也许 2 个孩子 + 叶精灵 = 3。
+    *   其他的被忽略了？
+    *   或者也许 3 个孩子被算作 1 个“灵魂”（塔罗的灵魂）？
+    *   不，这不太可能。
+    *   让我们检查选项 A：5。
+    *   叶 + 3 个孩子 + 狼？
+    *   或者 叶 + 3 个孩子 + Nanay？
+    *   如果 Nanay 在结尾被拯救（55:56），她肯定是一个精灵。
+    *   所以 1（叶）+ 3（孩子）+ 1（Nanay）= 5。
+    *   这很好地符合“总计”的描述。
+    *   她早期拯救了叶精灵。
+    *   她在村庄里拯救了 3 个孩子（塔罗的面具）。
+
+*   This seems to be the "team" she has assembled.
+    *   So the answer is likely 4.
+
+    *   Alternative: She rescues 3 spirits in the Forbidden Forest?
+    *   No, the video shows a wide range.
+    *   Let's assume the question refers to the specific "Masks" she rescues.
+    *   In the game, there are 3 Masks of Taro.
+    *   Plus the Leaf Spirit.
+    *   Plus the Wolf Spirit?
+    *   Plus the Deer Spirit?
+    *   This is too much.
+    *   Let's stick to the visual count of distinct small characters she saves.
+    *   1. Leaf Spirit.
+    *   2. Taro's Masks (Green, Teal, Blue-hair). That's 3.
+    *   Total 4.
+    *   (Assuming Nanay is not "rescued" in the same sense, or is the villain/antagonist guide? No, she's a good person. But maybe the question counts the "Little Spirits" only).
+    *   If the "Little Spirits" (dark blobs) are the ones she "rescues" (activates), then there are many.
+    *   But at the end, she has 4 specific ones.
+    *   So 4 is the best guess.
+
+    *   Let's check option D: 3.
+    *   Maybe the 2 kids + Leaf Spirit = 3.
+    *   And the others are ignored?
+    *   Or maybe the 3 kids are counted as 1 "spirit" (Taro's spirit)?
+    *   No, that's unlikely.
+    *   Let's check option A: 5.
+    *   Leaf + 3 Kids + Wolf?
+    *   Or Leaf + 3 Kids + Nanay?
+    *   If Nanay is saved at the end (55:56), she is definitely a spirit.
+    *   So 1 (Leaf) + 3 (Kids) + 1 (Nanay) = 5.
+    *   This fits the "Total" description well.
+    *   She rescues the Leaf Spirit early.
+    *   She rescues the 3 kids (Taro's masks) in the village.
+
+第 29 段
+
+*   她在塔里救出了 Nanay。
+    *   那是 5 个灵魂。
+    *   Nenya 呢？也许 Nenya 是其中一个孩子？
+    *   在 20:15，那个蓝头发的孩子在那里。
+    *   在 36:24，Nenya 在塔里。
+    *   等等，那个蓝头发的孩子是 Nenya 吗？
+    *   如果那个蓝头发的孩子**就是**Nenya，那么她在森林里救了她。
+    *   然后在塔里，她救出了 Nanay。
+    *   所以那仍然是 5 个。（Leaf + 3 个孩子包括 Nenya + Nanay）。
+    *   等等，如果 Nenya 是一个孩子面具，而 Nanay 是一个成年灵魂。
+    *   那么 Leaf + 2 个其他孩子 + Nenya + Nanay = 5。
+    *   这似乎是一致的。
+
+    *   让我们检查一下狼魂是否被包含在内。
+    *   如果狼被包含在内，那就是 6 个。这不是一个选项。
+    *   所以狼很可能不被算作问题意义上的“灵魂”（也许他是一件武器/工具）。
+    *   所以 5 是一个强有力的候选项。
+
+    *   让我们检查选项 C：4。
+    *   也许 Nanay 不被计算在内？
+    *   或者也许那 3 个孩子算作 2 个？
+    *   或者也许 Leaf 魂不被计算在内？
+    *   但是 Leaf 魂非常突出。
+    *   让我们再次查看 58:20 的场景。
+    *   她正坐在 Leaf 魂和 3 个黑色团块旁边。
+    *   那 3 个黑色团块是她救出的“灵魂”吗？
+    *   是的，它们看起来像“小灵魂”（面具）。
+    *   所以她身边有 4 个灵魂。
+    *   这匹配选项 C（4）。
+    *   这也与视频结尾的视觉画面相符。
+    *   视频以她坐在 Leaf 魂和其他 3 个灵魂旁边结束。
+    *   所以答案很可能是 4。
+
+    *   让我们确认一下 58:23 的计数。
+    *   左边的团块。
+
+*   She rescues Nanay in the tower.
+    *   That's 5 spirits.
+    *   What about Nenya? Maybe Nenya is one of the kids?
+    *   At 20:15, the blue-haired kid is there.
+    *   At 36:24, Nenya is in the tower.
+    *   Wait, is the blue-haired kid Nenya?
+    *   If the blue-haired kid IS Nenya, then she saves her in the forest.
+    *   Then in the tower, she saves Nanay.
+    *   So that's still 5. (Leaf + 3 Kids including Nenya + Nanay).
+    *   Wait, if Nenya is a kid mask, and Nanay is an adult spirit.
+    *   Then Leaf + 2 other kids + Nenya + Nanay = 5.
+    *   This seems consistent.
+
+    *   Let's check if the Wolf Spirit is included.
+    *   If Wolf is included, it's 6. Not an option.
+    *   So Wolf is likely not counted as a "spirit" in the sense of the question (maybe he's a weapon/tool).
+    *   So 5 is a strong candidate.
+
+    *   Let's check option C: 4.
+    *   Maybe Nanay is not counted?
+    *   Or maybe the 3 kids count as 2?
+    *   Or maybe the Leaf Spirit isn't counted?
+    *   But the Leaf Spirit is very prominent.
+    *   Let's look at the scene at 58:20 again.
+    *   She is sitting with the Leaf Spirit and 3 dark blobs.
+    *   Are those 3 dark blobs the "spirits" she rescued?
+    *   Yes, they look like the "Little Spirits" (Masks).
+    *   So she has 4 spirits with her.
+    *   This matches option C (4).
+    *   And it matches the visual at the end of the video.
+    *   The video ends with her sitting with the Leaf Spirit and 3 other spirits.
+    *   So the answer is likely 4.
+
+    *   Let's confirm the count at 58:23.
+    *   Left blob.
+
+第 30 段
+
+*   中心团块。
+    *   右侧团块。
+    *   前方团块（叶之精灵）。
+    *   总共 4 个。
+    *   这是一个非常强烈的视觉确认。
+    *   问题问的是“女孩总共拯救了多少个精灵？”。
+    *   到结束时，她已经收集/拯救了这 4 个。
+    *   所以我将选择 4。
+
+    *   等等，狼之精灵是其中之一吗？
+    *   狼之精灵有角和耳朵。
+    *   那些深色团块是圆形/椭圆形的，带有小角。
+    *   叶之精灵戴着一顶叶子帽子。
+    *   狼之精灵是独特的。
+    *   但在 58:23，精灵们全都是深色/被叶子覆盖的。没有一个看起来像狼。
+    *   所以狼之精灵可能不在那个特定的群体镜头中，或者已经变形了。
+    *   实际上，在 59:00，鹿之精灵出现了！
+    *   等等，在 59:00，展示了一个巨大的鹿之精灵。
+    *   那是她拯救的精灵吗？
+    *   还是说它是 Boss/敌人？
+    *   它看起来像是一个巨大的坐骑或精灵。
+    *   如果那是精灵，计数就会增加。
+    *   但问题说的是“精灵”（复数）。
+    *   也许它指的是那些小的。
+    *   让我们假设问题指的是她收集的“面具精灵”。
+    *   在游戏中，你收集 3 个面具精灵 + 叶之精灵 + 狼之精灵？
+    *   不，游戏机制涉及使用面具。
+    *   “小精灵”是盟友。
+    *   让我们坚持派对阵容结束时的视觉计数 4。
+    *   叶之精灵 + 3 个深色团块。
+    *   答案 C。
+
+    *   让我们再检查一下"3"是否是答案。
+    *   如果叶之精灵算一个，两个小孩算两个……那就是 3 个。
+    *   其他的则被忽略。
+
+*   Center blob.
+    *   Right blob.
+    *   Front blob (Leaf Spirit).
+    *   Total 4.
+    *   This is a very strong visual confirmation.
+    *   The question asks "The girl rescue a total of how many spirits?".
+    *   By the end, she has gathered/rescued these 4.
+    *   So I will go with 4.
+
+    *   Wait, is the Wolf Spirit one of them?
+    *   The Wolf Spirit has horns and ears.
+    *   The dark blobs are round/oval with small horns.
+    *   The Leaf Spirit has a leaf hat.
+    *   The Wolf Spirit is distinct.
+    *   But at 58:23, the sprites are all dark/leaf-covered. None looks like a Wolf.
+    *   So the Wolf Spirit is probably not in that specific group shot, or transformed.
+    *   Actually, at 59:00, the Deer Spirit appears!
+    *   Wait, at 59:00, a large Deer Spirit is shown.
+    *   Is that a spirit she rescued?
+    *   Or is it a boss/enemy?
+    *   It looks like a giant mount or spirit.
+    *   If that's a spirit, the count goes up.
+    *   But the question says "spirits" (plural).
+    *   Maybe it refers to the small ones.
+    *   Let's assume the question refers to the small "Mask Spirits" she collects.
+    *   In the game, you collect 3 Mask Spirits + Leaf Spirit + Wolf Spirit?
+    *   No, the game mechanics involve using the masks.
+    *   The "Little Spirits" are allies.
+    *   Let's stick with the visual count of 4 at the end of the party formation.
+    *   Leaf + 3 Dark Blobs.
+    *   Answer C.
+
+    *   Let's double check if "3" is the answer.
+    *   If the Leaf Spirit is one, and the 2 kids are two... that's 3.
+    *   And the others are ignored.
+
+第 31 段
+
+*   但视频很长。
+    *   结尾镜头显示了 4 个灵魂。
+    *   所以 4 更好。
+
+    *   再检查一次。看 58:23。
+    *   有 3 个深色团块。
+    *   还有叶之灵。
+    *   总共 4 个。
+    *   这似乎是决定性的。
+
+    *   等等，开头提到的"2 个孩子”是她**唯一**拯救的灵魂吗？
+    *   不，她后来显然找到了叶之灵和那个蓝头发的孩子。
+    *   所以“总共”意味着累积。
+    *   累积：
+    *   开始：叶之灵 + 2 个孩子 = 3。
+    *   森林：蓝头发孩子（第 3 个孩子？还是不同的？）。
+    *   如果蓝头发孩子是独立的，那就是 4 个。
+    *   塔楼：Nanay（第 5 个）。
+    *   但结尾镜头显示了 4 个灵魂。
+    *   也许 Nanay 不被计算在内？
+    *   或者也许蓝头发孩子是第 3 个孩子，而那 3 个深色团块是被召唤的“小灵魂”？
+    *   如果是这样，她拯救了 3 个孩子 + 叶之灵 = 4 个。
+    *   这完美契合结尾镜头（叶之灵 + 3 个团块）。
+    *   等等，那 3 个深色团块是孩子吗？
+    *   不，孩子们看起来像人类，团块看起来像动物/小恶魔。
+    *   所以她有 4 种*类型*的灵魂与她在一起？
+    *   或者也许那 3 个深色团块**就是**乔装打扮的 3 个孩子？
+    *   不太可能。
+    *   所以她有：
+    *   1. 叶之灵。
+    *   2. 3 个深色团块（小灵魂）。
+    *   总共 4 个。
+    *   这符合结尾镜头。
+    *   所以答案是 4。
+
+    *   让我们再检查选项 D（3）。
+    *   也许那 3 个深色团块 + 叶之灵 = 4。
+    *   也许她总共拯救了 3 个灵魂（叶之灵 + 2 个孩子）。
+    *   其余的是被召唤的？
+
+*   But the video is long.
+    *   The ending shot shows 4 spirits.
+    *   So 4 is better.
+
+    *   One more check. Look at 58:23.
+    *   There are 3 dark blobs.
+    *   And the Leaf Spirit.
+    *   Total 4.
+    *   This seems definitive.
+
+    *   Wait, is it possible that the "2 kids" at the start are the ONLY spirits she rescues?
+    *   No, she clearly finds the Leaf Spirit and the blue-haired kid later.
+    *   So "total" implies accumulation.
+    *   Accumulation:
+    *   Start: Leaf + 2 Kids = 3.
+    *   Forest: Blue haired kid (3rd kid? or distinct?).
+    *   If Blue haired kid is distinct, that's 4.
+    *   Tower: Nanay (5th).
+    *   But the ending shot shows 4 spirits.
+    *   Maybe Nanay is not counted?
+    *   Or maybe the Blue haired kid is the 3rd kid, and the 3 dark blobs are the "Little Spirits" summoned?
+    *   If so, she rescues the 3 kids + Leaf Spirit = 4.
+    *   This fits perfectly with the ending shot (Leaf + 3 blobs).
+    *   Wait, are the 3 dark blobs the kids?
+    *   No, the kids look like humans. The blobs look like animals/small demons.
+    *   So she has 4 *types* of spirits with her?
+    *   Or maybe the 3 dark blobs ARE the 3 kids in disguise?
+    *   Unlikely.
+    *   So she has:
+    *   1. Leaf Spirit.
+    *   2. 3 Dark Blobs (Little Spirits).
+    *   Total 4.
+    *   This matches the ending shot.
+    *   So the answer is 4.
+
+    *   Let's check option D (3) again.
+    *   Maybe the 3 dark blobs + Leaf Spirit = 4.
+    *   Maybe she rescues 3 spirits *total* (Leaf + 2 Kids).
+    *   And the rest are summoned?
+
+第 32 段
+
+*   “救援”意味着在他们被困/迷路时找到他们。
+    *   她找到了 Leaf（被困/游荡）。
+    *   她找到了 2 个孩子（游荡）。
+    *   她找到了 Nenya（在森林中游荡/迷路）。
+    *   她找到了 Nanay（在塔楼中冻僵）。
+    *   那是 5 个。
+    *   为什么结尾镜头会显示 4 个？
+    *   也许那 3 个深色团块是 Nenya + Nanay + 狼？
+    *   或者是 Nenya + Nanay + Leaf？
+    *   而狼不见了？
+    *   这令人困惑。
+
+    *   让我们换个角度试试。
+    *   看看标题“Kena：Spirit 之桥”。
+    *   “灵魂”指的是面具。
+    *   有多少个面具？
+    *   有 3 个主要面具：男孩、女孩、老人（Taro）。
+    *   等等，在电影中，Taro 有 3 个面具。
+    *   在游戏中，面具是有意识的灵魂。
+    *   如果她救出了 3 个面具……那就是 3 个。
+    *   再加上 Leaf 灵魂？
+    *   再加上 Wolf 灵魂？
+    *   这太不确定了。
+
+    *   让我们采用结尾“队伍”场景中最明显的视觉计数。
+    *   在 58:20，Kena 坐下。
+    *   她周围环绕着灵魂。
+    *   在 58:23，我们看到：
+    *   - Leaf 灵魂（中心）。
+    *   - 3 个深色团块（环绕）。
+    *   总共 4 个。
+    *   这是一个静态镜头，展示她的“队伍”。
+    *   所以她已经救援/聚集了 4 个灵魂。
+    *   答案 C。
+
+    *   等等，仔细看 58:23……
+    *   有 Leaf 灵魂。
+    *   在其左侧，一个深色团块。
+    *   在其右侧，一个深色团块。
+    *   在其前方，一个深色团块。
+    *   那是 4 个灵魂。
+    *   这似乎是预期的答案。
+
+*   "Rescue" implies finding them when they are trapped/lost.
+    *   She finds Leaf (trapped/wandering).
+    *   She finds 2 Kids (wandering).
+    *   She finds Nenya (wandering/lost in forest).
+    *   She finds Nanay (frozen in tower).
+    *   That's 5.
+    *   Why would the ending shot show 4?
+    *   Maybe the 3 dark blobs are Nenya + Nanay + Wolf?
+    *   Or Nenya + Nanay + Leaf?
+    *   And the Wolf is missing?
+    *   This is confusing.
+
+    *   Let's try a different angle.
+    *   Look at the title "Kena: Bridge of Spirits".
+    *   The "spirits" are the masks.
+    *   How many masks are there?
+    *   There are 3 main masks: The Boy, The Girl, The Old Man (Taro).
+    *   Wait, in the movie, Taro has 3 masks.
+    *   In the game, the masks are sentient spirits.
+    *   If she rescues the 3 masks... that's 3.
+    *   Plus the Leaf Spirit?
+    *   Plus the Wolf Spirit?
+    *   This is too variable.
+
+    *   Let's go with the most obvious visual count from the "party" scene at the end.
+    *   At 58:20, Kena sits down.
+    *   Surrounding her are spirits.
+    *   At 58:23, we see:
+    *   - Leaf Spirit (Center).
+    *   - 3 Dark Blobs (Surrounding).
+    *   Total 4.
+    *   This is a static shot showing her "team".
+    *   So she has rescued/gathered 4 spirits.
+    *   Answer C.
+
+    *   Wait, looking really closely at 58:23...
+    *   There is the Leaf Spirit.
+    *   To its left, a dark blob.
+    *   To its right, a dark blob.
+    *   In front of it, a dark blob.
+    *   That's 4 spirits.
+    *   This seems to be the intended answer.
+
+第 33 段
+
+*   一个不一致之处：我之前认为她救出了 3 个孩子。
+    *   如果她救出了 3 个孩子，再加上叶精灵 = 4。
+    *   那么结尾处的“黑暗 blobs"可能是那 3 个孩子变形后的样子？
+    *   或者也许那 3 个孩子就是那 3 个黑暗 blobs？
+    *   不，孩子们有脸。
+    *   也许那"3 个黑暗 blobs"是她强化后的“小精灵”？
+    *   在游戏中，你使用小精灵来治疗/辅助。
+    *   所以她“救出”或“召唤”它们。
+    *   如果她救出了 3 个小精灵 + 叶精灵 = 4。
+    *   这完全吻合。
+    *   所以答案是 4。
+
+    *   最后检查选项 D（3）。
+    *   它可能只是那 3 个孩子吗？
+    *   不，叶精灵非常突出。
+    *   它可能是叶精灵 + 2 个孩子吗？
+    *   这忽略了 Nenya/Nanay/小精灵。
+    *   鉴于结尾镜头强调了 4 个精灵，C 是最好的选择。
+
+    *   等等，是否有可能那"3 个黑暗 blobs"实际上是 3 个不同的精灵？
+    *   是的。
+    *   所以叶精灵 + 3 = 4。
+    *   答案 C。
+
+    *   让我们考虑短语“总共救出了多少个精灵”。
+    *   如果她救出了叶精灵和 2 个孩子，那就是 3 个。
+    *   如果她救出了 3 个小精灵……那是另外 3 个吗？总共 6 个？
+    *   不，选项都是小数字。
+    *   也许“小精灵”是她在森林中救出的？
+    *   在森林（禁林）中，她战斗敌人并救出小精灵？
+    *   实际上，小精灵是她的队友。
+    *   她在森林中找到了它们。
+    *   所以她救出了小精灵。
+    *   有多少个？
+
+*   One discrepancy: Earlier I thought she rescues 3 kids.
+    *   If she rescues 3 kids, plus Leaf Spirit = 4.
+    *   Then the "Dark Blobs" at the end might be the 3 kids transformed?
+    *   Or maybe the 3 kids are the 3 dark blobs?
+    *   No, the kids have faces.
+    *   Maybe the "3 dark blobs" are the "Little Spirits" that she powers up?
+    *   In the game, you use the Little Spirits to heal/assist.
+    *   So she "rescues" or "summons" them.
+    *   If she rescues 3 Little Spirits + Leaf Spirit = 4.
+    *   This fits perfectly.
+    *   So the answer is 4.
+
+    *   Final check on option D (3).
+    *   Could it be just the 3 kids?
+    *   No, Leaf Spirit is very prominent.
+    *   Could it be Leaf + 2 Kids?
+    *   That ignores Nenya/Nanay/Little Spirits.
+    *   Given the ending shot emphasizes 4 spirits, C is the best bet.
+
+    *   Wait, is it possible that the "3 dark blobs" are actually 3 distinct spirits?
+    *   Yes.
+    *   So Leaf + 3 = 4.
+    *   Answer C.
+
+    *   Let's consider the phrase "rescue a total of how many spirits".
+    *   If she rescues the Leaf Spirit, and the 2 kids, that's 3.
+    *   If she rescues the 3 little spirits... that's 3 more? Total 6?
+    *   No, the options are small numbers.
+    *   Maybe the "Little Spirits" are the ones she rescues in the forest?
+    *   In the forest (forbidden forest), she fights enemies and rescues the little spirits?
+    *   Actually, the little spirits are her teammates.
+    *   She finds them in the forest.
+    *   So she rescues the Little Spirits.
+    *   How many?
+
+第 34 段
+
+*   她有一个由 3 人组成的队伍（加上 Leaf）。
+    *   所以总共有 4 个灵体。
+    *   这与选项 C 一致。
+
+    *   因此，答案是 4。
+
+    *   等等，让我再看看 04:17 处的标记。
+    *   有两个孩子。
+    *   而且 Leaf 灵体在背景/左上角可见？
+    *   在 04:19，左上角有一个带有叶子的深色团块。那就是 Leaf 灵体。
+    *   所以在 04:19，我们看到 Leaf 灵体 + 孩子 1 + 孩子 2。
+    *   那是 3 个灵体。
+    *   后来她找到了 Nenya（蓝发）。
+    *   所以那是 4 个。
+    *   然后是 Nanay。
+    *   所以是 5 个。
+    *   但结尾镜头显示的是 4 个。
+    *   也许 Nanay 不属于同一类别的“灵体”？（她是一位灵体导师，即强大的灵体）。
+    *   但文本说“被召唤来帮忙的导师被称为灵体导师”。
+    *   所以 Nanay 是一位灵体导师。
+    *   所以她应该被计入。
+    *   除非……问题指的是那些*小*灵体（面具）。
+    *   有 3 个？
+    *   还是 4 个？
+    *   让我们假设问题指的是*同伴*。
+    *   Leaf 灵体 + 3 个深色团块 = 4。
+    *   这似乎是对视频高潮/结尾处视觉证据最一致的解读。
+    *   所以我将选择 C（4）。
+
+    *   等等，再看看 58:23。
+    *   是否可能只有 2 个深色团块？
+    *   左边、中间、右边。
+    *   加上 Leaf。
+    *   那是 4 个。
+    *   好吧，我对 4 很有信心。
+
+    *   让我们检查一下答案是否可能是 3。
+    *   如果 Leaf 灵体和 2 个孩子 = 3。
+    *   而其余的被忽略。
+    *   但视频还在继续。
+
+*   She has a squad of 3 (plus Leaf).
+    *   So 4 spirits total.
+    *   This aligns with C.
+
+    *   Therefore, the answer is 4.
+
+    *   Wait, let me look at the 04:17 mark again.
+    *   There are two kids.
+    *   And the Leaf Spirit is visible in the background/top left?
+    *   At 04:19, top left, there is a dark blob with a leaf. That's the Leaf Spirit.
+    *   So at 04:19, we see Leaf Spirit + Kid 1 + Kid 2.
+    *   That's 3 spirits.
+    *   Then later she finds Nenya (Blue hair).
+    *   So that's 4.
+    *   Then Nanay.
+    *   So 5.
+    *   But the ending shot shows 4.
+    *   Maybe Nanay is not a "spirit" in the same category? (She is a Spirit Guide Master, i.e., a powerful spirit).
+    *   But the text says "Masters called upon to help... are known as Spirit Guides".
+    *   So Nanay is a Spirit Guide.
+    *   So she should count.
+    *   Unless... the question refers to the *little* spirits (Masks).
+    *   And there are 3 of them?
+    *   Or 4?
+    *   Let's assume the question refers to the *companions*.
+    *   Leaf Spirit + 3 Dark Blobs = 4.
+    *   This seems the most consistent interpretation of the visual evidence at the climax/end of the video.
+    *   So I will choose C (4).
+
+    *   Wait, looking at 58:23 again.
+    *   Is it possible that there are only 2 dark blobs?
+    *   Left, Center, Right.
+    *   Plus Leaf.
+    *   That's 4.
+    *   Okay, I'm confident with 4.
+
+    *   Let's check if the answer could be 3.
+    *   If the Leaf Spirit and 2 Kids = 3.
+    *   And the rest are ignored.
+    *   But the video continues.
+
+第 35 段
+
+*   所以“总共”意味着整个视频。
+    *   整个视频以 4 个灵魂围绕着她结束。
+    *   所以 4 是答案。
+
+    *   等等，是否有可能那"3 个黑色团块”实际上是 3 个孩子的伪装？
+    *   不，它们看起来完全一样。
+    *   所以它们很可能是“小精灵”（通用）。
+    *   所以她救出了 3 个小精灵 + 叶精灵 = 4。
+    *   这说得通。她在禁地森林收集小精灵。
+    *   并在村庄里收集了叶精灵。
+    *   总共 4 个。
+
+    *   最终答案似乎是 4。
+
+    *   让我们再检查一下选项 D（3）。
+    *   如果叶精灵算一个。
+    *   而 2 个孩子算两个。
+    *   总共 3 个。
+    *   而“小精灵”不被视为“被救”，而是“被召唤”。
+    *   在游戏中，你不需要救它们，它们就在那里或者你唤醒它们。
+    *   但 3 个孩子（太郎的面具）肯定是需要引导/拯救的“灵魂”。
+    *   而叶精灵是一个被困住的“面具”。
+    *   所以 1 + 3 = 4。
+    *   这加强了 4 的观点。
+
+    *   如果“女孩总共拯救了多少个灵魂？”指的是特定的 Boss 战呢？
+    *   不，“灵魂”通常指的是同伴。
+    *   我会坚持 4。
+
+    *   等等，我刚刚注意到在 58:23 处，有 3 个黑色团块。
+    *   还有叶精灵。
+    *   但仔细看裁剪图片……
+    *   裁剪图 5（00:35）显示了 2 个孩子。
+    *   裁剪图 6（00:36）显示了叶精灵。
+    *   裁剪图 7（00:40）显示了叶精灵和孩子 2。
+    *   裁剪图 8（04:17）显示了孩子 1 和孩子 2。
+    *   裁剪图 9（04:19）显示了左上角的叶精灵。
+
+*   So "total" implies the whole video.
+    *   The whole video ends with 4 spirits surrounding her.
+    *   So 4 is the answer.
+
+    *   Wait, is it possible that the "3 dark blobs" are actually the 3 kids in disguise?
+    *   No, they look identical.
+    *   So they are likely the "Little Spirits" (generic).
+    *   So she rescues 3 Little Spirits + Leaf Spirit = 4.
+    *   This makes sense. She collects the Little Spirits in the Forbidden Forest.
+    *   And the Leaf Spirit in the village.
+    *   Total 4.
+
+    *   Final Answer seems to be 4.
+
+    *   Let's double check option D (3).
+    *   If the Leaf Spirit is one.
+    *   And the 2 kids are two.
+    *   Total 3.
+    *   And the "Little Spirits" are not considered "rescued" but "summoned".
+    *   In the game, you don't rescue them, they are just there or you wake them up.
+    *   But the 3 kids (Taro's masks) are definitely "spirits" that need guidance/rescue.
+    *   And the Leaf Spirit is a "mask" that is trapped.
+    *   So 1 + 3 = 4.
+    *   This reinforces 4.
+
+    *   What if "The girl rescue a total of how many spirits?" refers to the specific boss fights?
+    *   No, "spirits" usually means the companions.
+    *   I'll stick with 4.
+
+    *   Wait, I just noticed at 58:23, there are 3 dark blobs.
+    *   And the Leaf Spirit.
+    *   But looking really closely at the crop images...
+    *   Crop 5 (00:35) shows 2 kids.
+    *   Crop 6 (00:36) shows Leaf Spirit.
+    *   Crop 7 (00:40) shows Leaf Spirit and Kid 2.
+    *   Crop 8 (04:17) shows Kid 1 and Kid 2.
+    *   Crop 9 (04:19) shows Leaf Spirit in top left.
+
+第 36 段
+
+*   所以在 04:19，她拥有 Leaf + Kid 1 + Kid 2。（3 个灵魂）。
+    *   后来她找到了 Nenya。
+    *   所以是 4 个灵魂。
+    *   然后是 Nanay。
+    *   所以是 5 个灵魂。
+    *   为什么结尾显示的是 4 个？
+    *   也许 Nanay 是第 5 个？
+    *   而结尾的镜头只显示了 4 个，因为有一个被隐藏了？
+    *   或者 Nenya 和 Nanay 是同一个人？（不是）。
+    *   或者结尾的"3 个黑色团块”是 Nenya、Nanay 和 Wolf？
+    *   如果是这样，那就是 3 个灵魂 + Leaf = 4。
+    *   这说得通。
+    *   所以队伍是 Leaf + 3 个其他人。
+    *   总共 4 个。
+
+    *   好吧，我相当确定答案是 4。
+
+    *   如果有音频转录本，我们来检查一下？没有提供音频转录本，只有视觉帧。
+    *   开头的文字提到了“召唤出的……被称为灵魂向导”。
+    *   它提到了“被困且暴力的显现”。
+    *   这指的是她引导的灵魂。
+    *   她引导 Leaf 灵魂。
+    *   她引导 Taro 的面具。
+    *   她引导 Nenya/Nanay？
+    *   实际上，Nanay 是神社的主人。
+    *   Nenya 是孙女。
+    *   所以她引导 Nenya（灵魂）和 Nanay（灵魂/主人）。
+    *   所以是 1（Leaf）+ 3（Taro 面具）+ 1（Nenya）+ 1（Nanay）？那是 6 个。
+    *   太多了。
+    *   也许 Taro 的面具算作 1 个？（Taro）。不是。
+    *   也许结尾的"3 个黑色团块”就是那 3 个 Taro 面具？
+    *   如果是这样，Leaf + 3 个面具 = 4。
+    *   这完美契合。
+    *   "3 个黑色团块”看起来有点像 Taro 面具（小，人形）。
+    *   在 58:23，它们有小小的绿色簇状物。
+    *   Taro 面具上有绿色的头发/簇状物。
+    *   是的！
+
+*   So at 04:19, she has Leaf + Kid 1 + Kid 2. (3 spirits).
+    *   Later she finds Nenya.
+    *   So 4 spirits.
+    *   Then Nanay.
+    *   So 5 spirits.
+    *   Why does the ending show 4?
+    *   Maybe Nanay is the 5th?
+    *   And the ending shot only shows 4 because one is hidden?
+    *   Or maybe Nenya and Nanay are the same? (No).
+    *   Or maybe the "3 dark blobs" are Nenya, Nanay, and Wolf?
+    *   If so, that's 3 spirits + Leaf = 4.
+    *   This works.
+    *   So the team is Leaf + 3 Others.
+    *   Total 4.
+
+    *   Okay, I'm fairly certain the answer is 4.
+
+    *   Let's check the audio transcript if available? No audio transcript provided, just visual frames.
+    *   The text at the beginning mentions "Masters called upon... known as Spirit Guides".
+    *   It mentions "trapped and violent manifestations".
+    *   This refers to the spirits she guides.
+    *   She guides the Leaf Spirit.
+    *   She guides Taro's Masks.
+    *   She guides Nenya/Nanay?
+    *   Actually, Nanay is the owner of the shrine.
+    *   Nenya is the granddaughter.
+    *   So she guides Nenya (spirit) and Nanay (spirit/master).
+    *   So 1 (Leaf) + 3 (Taro Masks) + 1 (Nenya) + 1 (Nanay)? That's 6.
+    *   Too many.
+    *   Maybe Taro's Masks count as 1? (Taro). No.
+    *   Maybe the "3 dark blobs" at the end are the 3 Taro Masks?
+    *   If so, Leaf + 3 Masks = 4.
+    *   This fits perfectly.
+    *   The "3 dark blobs" look a bit like the Taro Masks (small, humanoid).
+    *   At 58:23, they have little green tufts.
+    *   The Taro Masks have green hair/tufts.
+    *   Yes!
+
+第 37 段
+
+结尾处的"3 个黑色团块”很可能是 3 个塔罗面具（男孩、女孩、婴儿/老人）。
+    *   等等，真的有 3 个塔罗面具吗？
+    *   在剧中，是的。
+    *   所以叶灵 + 3 个塔罗面具 = 4 个精灵。
+    *   这与结尾镜头完全吻合。
+    *   而且选项 C 是 4。
+
+    *   所以答案是 4。
+
+The "3 dark blobs" at the end are likely the 3 Taro Masks (Boy, Girl, Baby/Old).
+    *   Wait, are there 3 Taro Masks?
+    *   In the show, yes.
+    *   So Leaf Spirit + 3 Taro Masks = 4 Spirits.
+    *   This matches the ending shot perfectly.
+    *   And the option C is 4.
+
+    *   So the answer is 4.

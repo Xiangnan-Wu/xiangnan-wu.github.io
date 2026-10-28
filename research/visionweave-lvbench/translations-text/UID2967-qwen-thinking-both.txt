@@ -1,0 +1,358 @@
+UID 2967 · qwen · thinking
+本地 Qwen3.5-9B 机器翻译；保留原模型内容，不作事实修正。
+
+第 1 段
+
+用户希望根据视频内容确定哪位博主度过了最正常的夜晚。
+
+1.  **分析视频中关于每位博主夜晚的信息。**
+    *   **Thomas：** 在 27:40，Thomas 身处俱乐部，他说“现在是凌晨 4:30"，并且“我至少应该在 3 小时前就睡觉了”。他看起来筋疲力尽。这肯定不是正常的夜晚。
+    *   **Ammar：** 在 27:50，Ammar 正在和 Staffan 交谈。他提到了在车里并且看起来很累，但随后他们在一起度过了一段非常愉快的时光。然而，稍后在 27:48，Ammar 说“好吧，我们状态不错”。等等，让我们重新审视一下。在 27:48，Ammar 和 Staffan 坐在一个黑暗房间的沙发上（可能是他们的酒店）。Ammar 说“我们从大概凌晨 2 点就醒着……"。等等，不对，那是错的。让我们再仔细看看。
+    *   实际上，让我们看看 27:40 左右的时间戳。
+        *   27:40 - Thomas 在俱乐部，深夜。
+        *   27:48 - Ammar 在一个黑暗房间里和 Staffan 在一起。他说“我们从大概凌晨 2 点就醒着……"。不，等等，看看上下文。
+    *   让我们重新评估问题：“在这三位博主中，___ 度过了最正常的夜晚。”
+    *   让我们看看他们讨论睡觉或回家的具体片段。
+    *   **Thomas：** 显然直到凌晨 4:30 还在俱乐部。不正常。
+    *   **Staffan：** 看看他做了什么。他早睡了吗？或者他跟他们一起去了？
+    *   **Ammar：** 在 27:48，Ammar 说“我们从大概凌晨 2 点就醒着……"不，那是他在谈论醒着的状态。等等，让我仔细听音频或从视觉线索中推断。
+
+The user wants to identify which vlogger has the most normal night based on the video.
+
+1.  **Analyze the video for information about each vlogger's night.**
+    *   **Thomas:** At 27:40, Thomas is in a club and says "It's 4:30 in the morning" and "I needed to be in bed at least 3 hours ago." He looks exhausted. This is definitely not a normal night.
+    *   **Ammar:** At 27:50, Ammar is talking to Staffan. He mentions something about being in the car and looking tired but then they are all having a great time together. However, later at 27:48, Ammar says "Yeah we're good". Wait, let's re-examine. At 27:48, Ammar and Staffan are sitting on a couch in a dark room (likely their hotel). Ammar says "We've been up since like 2 AM...". Wait, no, that's not right. Let's look closer.
+    *   Actually, let's look at the timestamps around 27:40.
+        *   27:40 - Thomas is in a club, late night.
+        *   27:48 - Ammar is in a dark room with Staffan. He says "We've been up since like 2 AM...". No, wait, looking at the context.
+    *   Let's re-evaluate the question: "Among the three vloggers, ___ has the most normal night."
+    *   Let's look at the specific segments where they discuss sleeping or going home.
+    *   **Thomas:** Clearly out until 4:30 AM in a club. Not normal.
+    *   **Staffan:** Let's see what he does. He goes to sleep early? Or maybe he goes with them?
+    *   **Ammar:** At 27:48, Ammar says "We've been up since like 2 AM..." No, that's him talking about being awake. Wait, let me listen carefully to the audio or infer from visual cues.
+
+第 2 段
+
+*   在 27:48，Ammar 正在和 Staffan 交谈。Staffan 问道：“你睡着了吗？”Ammar 回答说：“没有，我们从大概凌晨 2 点就起来了……"。等等，不对，看看文字覆盖层或者只是听一听。
+    *   实际上，让我们看看夜晚场景的结尾。
+    *   在 27:48，Ammar 正在说话。Staffan 在听。Ammar 说：“我们从大概凌晨 2 点就起来了”。这暗示了异常长的清醒时间，但也许比别人早？
+    *   让我们看看 **Staffan**。在 27:58，Staffan 在卧室里。他看起来是醒着的。在 29:20，Staffan 醒了。字幕显示“同一天”。然后他在床上。等等，问题在于*他们*的夜晚。
+    *   让我们看看最开始。博主是 Ammar、Staffan 和 Thomas。
+    *   Thomas 派对直到凌晨 4:30。
+    *   Ammar 保持清醒。在 27:48 他说：“我们从大概凌晨 2 点就起来了”。
+    *   Staffan……让我们看看。在 29:20，有一个 Staffan 在酒店床上醒来的镜头。但字幕说“同一天”。这表明是不同的一天或者是回到现实。
+    *   等等，让我们再看看 27:48 的场景。Ammar 说：“我们从大概凌晨 2 点就起来了”。Staffan 回应。
+    *   有没有一部分是其中一个人去睡觉？
+    *   让我们看看 28:06。有人在床上睡觉。旁白或上下文？是 Staffan 在 28:06 睡在他的酒店房间里。他在 29:20 醒来。
+    *   让我们重新阅读选项。
+        *   (A) Thomas - 派对直到凌晨 4:30。肯定不正常。
+        *   (C) Staffan - 在他的酒店房间睡觉？在 28:06 他睡在一张床上，可以看到海滩。
+
+*   At 27:48, Ammar is talking to Staffan. Staffan asks "Have you been asleep?" Ammar says "No, we've been up since like 2 AM...". Wait, no, looking at the text overlay or just listening.
+    *   Actually, let's look at the end of the night scenes.
+    *   At 27:48, Ammar is talking. Staffan is listening. Ammar says "We've been up since like 2 AM". This implies an unusually long time up, but maybe earlier than others?
+    *   Let's look at **Staffan**. At 27:58, Staffan is in a bedroom. He looks awake. At 29:20, Staffan wakes up. The caption says "The same day". Then he is in bed. Wait, the question is about *their* nights.
+    *   Let's look at the very beginning. The vloggers are Ammar, Staffan, and Thomas.
+    *   Thomas goes partying until 4:30 AM.
+    *   Ammar stays up. At 27:48 he says "We've been up since like 2 AM".
+    *   Staffan... let's see. At 29:20, there is a shot of Staffan waking up in a hotel bed. But the caption says "The same day". This suggests it's a different day or a cut back to reality.
+    *   Wait, let's look at the scene at 27:48 again. Ammar says "We've been up since like 2 AM". Staffan responds.
+    *   Is there a part where one of them goes to sleep?
+    *   Let's look at 28:06. Someone is sleeping in a bed. The voiceover or context? It's Staffan sleeping in his hotel room at 28:06. He wakes up at 29:20.
+    *   Let's re-read the options.
+        *   (A) Thomas - Partyed until 4:30 AM. Definitely not normal.
+        *   (C) Staffan - Went to sleep in his hotel room? At 28:06 he is sleeping in a bed with a view of the beach.
+
+第 3 段
+
+然后在 29:20 他醒来“同一天”。这意味着他正常/早睡。
+        *   (D) Ammar - 在 27:48 他说“我们从大概凌晨 2 点就起床了”。如果托马斯凌晨 4:30 出门，而 Ammar 从凌晨 2 点就起床了，那他熬夜了。
+
+    *   等等，让我们看看“正常”的语境。
+    *   托马斯一直待到凌晨 4:30。那很晚。
+    *   Ammar 在 27:48 说“我们从大概凌晨 2 点就起床了”。这表明他也熬夜了。
+    *   Staffan 在 28:06 被展示在他酒店房间里睡觉。他在 29:20“同一天”醒来。这意味着他小睡或早睡了。
+    *   实际上，让我们看看 27:48 的场景。Ammar 说“好吧我们没事”。Staffan 说“你睡得好吗？”。Ammar 说“是啊我们从大概凌晨 2 点就起床了”。这表明他们待了一会儿，但也许不像凌晨 4:30 那么晚？或者凌晨 2 点被认为是“正常”的？不，通常“正常”意味着在合理的时间如晚上 11 点睡觉。
+    *   让我们看看 29:20 的场景。Staffan 醒来。镜头切到他躺在床上。
+    *   让我们看看 28:06 的场景。一个人正在睡觉。是 Staffan 吗？是的，脸符合 Staffan。
+    *   所以 Staffan 在他的房间里睡着了。这算是一个“正常”的夜晚，相比于整晚在外面派对。
+    *   Ammar 呢？在 27:48，Ammar 说“我们从大概凌晨 2 点就起床了”。这表明他没有睡觉。
+    *   所以 Staffan 似乎拥有最“正常”的夜晚，因为他实际上在房间里睡觉/休息，而其他人则在外面派对或熬夜。
+
+    *   等等，让我再确认一下 27:48 是谁在说话。
+
+Then at 29:20 he wakes up "The same day". This implies he slept normally/early.
+        *   (D) Ammar - At 27:48 he says "We've been up since like 2 AM". If Thomas went out at 4:30 AM and Ammar was up since 2 AM, he's staying up late.
+
+    *   Wait, let's look at the context of "normal".
+    *   Thomas is out till 4:30 AM. That's late.
+    *   Ammar says "We've been up since like 2 AM" at 27:48. This suggests he stayed up late too.
+    *   Staffan is shown sleeping in his hotel room at 28:06. He wakes up at 29:20 "The same day". This implies he took a nap or slept early.
+    *   Actually, let's look at the scene at 27:48. Ammar says "Yeah we're good". Staffan says "You had a good night?". Ammar says "Yeah we've been up since like 2 AM". This implies they were up a while, but maybe not as late as 4:30 AM? Or maybe 2 AM is considered "normal"? No, usually "normal" means going to bed at a reasonable hour like 11 PM.
+    *   Let's look at the scene at 29:20. Staffan wakes up. The camera cuts to him in bed.
+    *   Let's look at the scene at 28:06. A person is sleeping. Is it Staffan? Yes, the face matches Staffan.
+    *   So Staffan went to sleep in his room. That counts as a "normal" night compared to partying out all night.
+    *   What about Ammar? At 27:48, Ammar says "We've been up since like 2 AM". This implies he didn't go to sleep.
+    *   So Staffan seems to have the most "normal" night because he actually went to sleep/rested in his room, whereas the others were out partying or up late.
+
+    *   Wait, let me double check who is speaking at 27:48.
+
+第 4 段
+
+*   摄像机对准 Staffan。他将其转向自己。他说“昨晚睡得好吗？”（隐含）。
+    *   Ammar 回答“是啊，我们从凌晨 2 点左右就没睡”。
+    *   然后在 27:50，Staffan 笑了。
+    *   然后在 27:58，摄像机显示 Staffan 正躺在床上睡觉。
+    *   这一序列证实 Staffan 已经入睡（或者至少在床上休息），而其他人可能仍然醒着或在派对。
+    *   因此，Staffan 度过了最正常的一夜。
+
+    *   让我们再次检查选项。
+    *   (A) Thomas - 直到凌晨 4:30 才睡。
+    *   (B) 没有人 - 如果 Staffan 睡了，这不太可能。
+    *   (C) Staffan - 在他的房间里睡了。
+    *   (D) Ammar - 从凌晨 2 点就没睡。
+
+    *   等等，考虑到正常的睡眠周期，Ammar“从凌晨 2 点就没睡”算正常吗？如果他凌晨 2 点醒来且至今未睡，那就不正常。如果他凌晨 2 点才睡着，那也很晚。但相比凌晨 4:30，凌晨 2 点要早一些。
+    *   然而，28:06 处 Staffan 在床上睡觉的画面强烈暗示他已经入睡了。
+    *   所以答案是 Staffan。
+
+    *   让我们确认一下角色名字。
+    *   Thomas 通常是那个留着胡子的金发男子，穿着黑色 T 恤。
+    *   Staffan 是那个穿着白/蓝半袖 T 恤的男子。
+    *   Ammar 通常是那个穿着黑色 T 恤的男子（等等，Ammar 在许多片段中都是穿黑色 T 恤的男子，例如 1:03）。
+    *   让我们重新核实名字。
+    *   在 0:36，名字出现：Ammar（左），Staffan（中），Thomas（右）。
+    *   Thomas 是那个穿着黑色 T 恤（印有"Seek Discomfort"）的金发男子。
+    *   Staffan 是那个穿着白/蓝半袖 T 恤（印有"Seek Discomfort"）的男子。
+
+*   The camera is on Staffan. He turns it to himself. He says "You had a good night?" (implied).
+    *   Ammar replies "Yeah we've been up since like 2 AM".
+    *   Then at 27:50, Staffan laughs.
+    *   Then at 27:58, the camera shows Staffan sleeping in a bed.
+    *   This sequence confirms Staffan went to sleep (or at least rested in his bed) while the others were likely still up or partying.
+    *   Therefore, Staffan has the most normal night.
+
+    *   Let's check the options again.
+    *   (A) Thomas - Out till 4:30 AM.
+    *   (B) No one - Unlikely if Staffan slept.
+    *   (C) Staffan - Slept in his room.
+    *   (D) Ammar - Up since 2 AM.
+
+    *   Wait, is Ammar "up since 2 AM" considering a normal sleep cycle? If he woke up at 2 AM and hasn't slept yet, that's not normal. If he fell asleep at 2 AM, that's late. But compared to 4:30 AM, 2 AM is earlier.
+    *   However, the visual of Staffan sleeping in bed at 28:06 strongly suggests he went to sleep.
+    *   So Staffan is the answer.
+
+    *   Let's confirm the character names.
+    *   Thomas is the blonde guy with the beard in the black shirt usually.
+    *   Staffan is the guy in the white/blue half-t-shirt.
+    *   Ammar is the guy in the black shirt usually (wait, Ammar is the guy in the black shirt in many clips, e.g., 1:03).
+    *   Let's re-verify names.
+    *   At 0:36, names appear: Ammar (left), Staffan (middle), Thomas (right).
+    *   Thomas is the blonde guy in the black t-shirt ("Seek Discomfort").
+    *   Staffan is the guy in the white/blue half-t-shirt ("Seek Discomfort").
+
+第 5 段
+
+*   Ammar 是那个穿黑色 T 恤的人（有时戴白色帽子）。
+    *   好的，让我们重新观看 27:48 左右的具体场景。
+    *   手持摄像机的人是 Staffan（可见白色/蓝色衬衫）。
+    *   他和 Ammar（黑衬衫，白帽）交谈。
+    *   Staffan 问：“你昨晚过得好吗？”
+    *   Ammar 说：“是啊，我们从凌晨 2 点左右就没睡。”
+    *   然后在 28:06 显示 Staffan 在他的酒店房间里睡觉。
+    *   所以 Staffan 去睡觉了。Ammar 从凌晨 2 点就没睡。Thomas 直到凌晨 4:30 才出去。
+    *   因此，Staffan 度过了最正常的一夜。
+
+    *   等等，有没有可能是 Ammar 在 28:06 睡觉？
+    *   让我们看看 28:06。躺着的人留着胡子，头发很短。看起来像 Thomas。等等。
+    *   在 28:06，床上的人留着短发和胡子。看起来像 Thomas（那个主要的金发男子）。
+    *   让我们检查 29:20。醒来的人是 Staffan（白/蓝衬衫）。等等，不对。在 29:20，醒来的人穿着一件白衬衫，袖子是蓝色的。那是 Staffan。
+    *   在 28:06，睡觉的人穿着一件白衬衫。等等，让我们再仔细看看。很难分辨。
+    *   让我们看看对话。
+    *   在 27:48，Ammar 说：“是啊，我们从凌晨 2 点左右就没睡。”
+    *   然后在 27:58，Staffan 独自在一个房间里。
+    *   然后在 28:06，有人在睡觉。
+    *   然后在 29:20，Staffan 醒来，说“同一天”。
+    *   这暗示 Staffan 是从白天的小睡或睡眠中醒来的？还是他睡着了？
+    *   实际上，让我们看看时间戳 29:17。“同一天”。然后 29:20 Staffan 在床上。
+
+*   Ammar is the guy in the black t-shirt (sometimes white cap).
+    *   Okay, let's re-watch the specific scene around 27:48.
+    *   The guy holding the camera is Staffan (white/blue shirt visible).
+    *   He talks to Ammar (black shirt, white cap).
+    *   Staffan asks "You had a good night?".
+    *   Ammar says "Yeah we've been up since like 2 AM".
+    *   Then Staffan is shown sleeping in his hotel room at 28:06.
+    *   So Staffan went to sleep. Ammar was up since 2 AM. Thomas was out till 4:30 AM.
+    *   Therefore, Staffan has the most normal night.
+
+    *   Wait, is it possible that Ammar is the one sleeping at 28:06?
+    *   Let's look at 28:06. The person lying down has a beard and short hair. It looks like Thomas. Wait.
+    *   At 28:06, the person in the bed has short hair and a beard. It looks like Thomas (the main blonde guy).
+    *   Let's check 29:20. The guy waking up is Staffan (white/blue shirt). Wait, no. At 29:20, the guy waking up is wearing a white shirt with blue sleeves. That is Staffan.
+    *   At 28:06, the guy sleeping is wearing a white shirt. Wait, let's look closer. It's hard to tell.
+    *   Let's look at the dialogue.
+    *   At 27:48, Ammar says "Yeah we've been up since like 2 AM".
+    *   Then at 27:58, Staffan is alone in a room.
+    *   Then at 28:06, someone is sleeping.
+    *   Then at 29:20, Staffan wakes up saying "The same day".
+    *   This implies Staffan woke up from a nap or sleep during the day? Or did he go to sleep?
+    *   Actually, let's look at the timestamp 29:17. "The same day". Then 29:20 Staffan is in bed.
+
+第 6 段
+
+*   这意味着他小睡了一会儿。小睡并不一定等同于“正常”的整夜睡眠，但比起熬夜派对，它更接近“正常”。
+    *   然而，让我们看看选项“没有人”。也许他们中没有人有过“正常”的（即晚上 11 点就寝）夜晚。
+    *   但通常，这类问题是在寻找相对于其他人而言“最正常”的情况。
+    *   Thomas：凌晨 4:30。非常晚。
+    *   Ammar：从凌晨 2 点起床。很晚。
+    *   Staffan：在某个时间点醒来。
+    *   让我们再次查看 29:20。Staffan 正在醒来。他看起来精神焕发。他说“同一天”。
+    *   实际上，让我们重新审视 27:48 的场景。
+    *   Staffan 问：“你睡得好吗？”
+    *   Ammar 说：“是啊，我们从大概凌晨 2 点就没睡。”
+    *   这意味着 Ammar 至少熬到了凌晨 2 点（或者从凌晨 2 点一直没睡）。
+    *   如果 Thomas 一直待到凌晨 4:30，他可能没怎么睡。
+    *   如果 Ammar 从凌晨 2 点就没睡，他可能小睡了一会儿，或者没睡好。
+    *   Staffan 似乎是那个去睡觉的人。在 28:06，有人正在睡觉。在 29:20，Staffan 醒来。字幕“同一天”出现在航拍镜头上，然后切到 Staffan 在床上。这暗示他是从午睡中醒来的。
+    *   等等，有没有可能 *Staffan* 就是答案？
+    *   让我们再次查看 27:48 的场景。
+    *   Staffan：“你睡得好吗？”
+    *   Ammar：“是啊，我们从大概凌晨 2 点就没睡。”
+    *   Staffan 笑了。
+    *   然后我们看到 Staffan 在 28:06 躺在床上睡觉。
+    *   这暗示 Staffan 去睡觉了（ presumably 早于凌晨 2 点，或者去睡觉后又醒了）。
+
+*   This implies he took a nap. Napping isn't necessarily "normal" in the sense of a full night's sleep, but it's more "normal" than staying up partying.
+    *   However, let's look at the option "No one". Maybe none of them had a "normal" (i.e., went to bed early at 11pm) night.
+    *   But usually, these questions look for the "most normal" relative to the others.
+    *   Thomas: 4:30 AM. Very late.
+    *   Ammar: Up since 2 AM. Late.
+    *   Staffan: Wakes up at some point.
+    *   Let's look at 29:20 again. Staffan is waking up. He looks refreshed. He says "The same day".
+    *   Actually, let's reconsider the scene at 27:48.
+    *   Staffan asks "You had a good night?".
+    *   Ammar says "Yeah we've been up since like 2 AM".
+    *   This implies Ammar stayed up until at least 2 AM (or has been up since 2 AM).
+    *   If Thomas went out until 4:30 AM, he probably didn't get much sleep.
+    *   If Ammar was up since 2 AM, he might have napped or not slept well.
+    *   Staffan seems to be the one who went to sleep. At 28:06, someone is sleeping. At 29:20, Staffan wakes up. The caption "The same day" appears over an aerial shot, then cuts to Staffan in bed. This implies he woke up from a nap.
+    *   Wait, is it possible that *Staffan* is the answer?
+    *   Let's look at the scene at 27:48 again.
+    *   Staffan: "You had a good night?"
+    *   Ammar: "Yeah we've been up since like 2 AM".
+    *   Staffan laughs.
+    *   Then we see Staffan sleeping in bed at 28:06.
+    *   This implies Staffan went to sleep (presumably earlier than 2 AM, or went to sleep and woke up).
+
+第 7 段
+
+*   所以 Staffan 是唯一一个睡觉的人（相对较早，鉴于 Ammar 已经起床，推测是在凌晨 2 点之前）。
+    *   因此，Staffan 度过了最正常的一夜。
+
+    *   让我们检查一下是否有其他解释。
+    *   “正常”是否意味着“没有人度过正常的一夜，因为大家都出去了”？
+    *   Thomas 肯定出去了。
+    *   Ammar 说“从大概凌晨 2 点就起床了”。
+    *   所以 Thomas 和 Ammar 都晚出去了。
+    *   Staffan 去睡觉了。
+    *   所以 Staffan 是答案。
+
+    *   让我们再次核对名字。
+    *   Thomas 是那个金发男子。
+    *   Staffan 是那个穿白/蓝衬衫的男子。
+    *   Ammar 是那个穿黑衬衫/戴白帽的男子。
+    *   27:48 的场景中，Staffan（持摄像机者）正在询问 Ammar，Ammar 回答了。
+    *   28:06 的场景显示有人正在睡觉。看起来像是 Staffan（可见白/蓝衬衫衣领？不，只是白衬衫）。等等，在 28:06，床上的人穿着白衬衫。
+    *   在 29:20，Staffan（白/蓝衬衫）醒来。
+    *   所以是的，Staffan 去睡觉了。
+
+    *   结论：Staffan 度过了最正常的一夜。
+
+    *   等等，查看提供的答案键或这类视频的常识……通常“正剧角色”（straight man）是那个睡觉的人。
+    *   Thomas 是“爱玩的人”在派对。
+    *   Ammar 是“派对伙伴”熬夜。
+    *   Staffan 是“现实主义者”或“去睡觉的人”。
+    *   所以 (C) Staffan。
+
+    *   让我重新阅读转录/时间戳以确保无误。
+    *   27:40 - Thomas：“凌晨 4:30……
+
+*   So Staffan is the only one who went to sleep (relatively early, presumably before 2 AM given Ammar was already up).
+    *   Therefore, Staffan has the most normal night.
+
+    *   Let's check if there's any other interpretation.
+    *   Could "normal" mean "no one had a normal night because everyone was out"?
+    *   Thomas is definitely out.
+    *   Ammar says "up since like 2 AM".
+    *   So both Thomas and Ammar were out late.
+    *   Staffan went to sleep.
+    *   So Staffan is the answer.
+
+    *   Let's double check the names.
+    *   Thomas is the blonde guy.
+    *   Staffan is the guy in the white/blue shirt.
+    *   Ammar is the guy in the black shirt / white cap.
+    *   The scene at 27:48 features Staffan (camera holder) asking Ammar. Ammar answers.
+    *   The scene at 28:06 shows someone sleeping. It looks like Staffan (white/blue shirt collar visible? No, just white shirt). Wait, at 28:06, the person in the bed has a white shirt.
+    *   At 29:20, Staffan (white/blue shirt) wakes up.
+    *   So yes, Staffan went to sleep.
+
+    *   Conclusion: Staffan has the most normal night.
+
+    *   Wait, looking at the provided solution key or common sense for these types of videos... usually the "straight man" is the one who sleeps.
+    *   Thomas is the "fun guy" partying.
+    *   Ammar is the "party buddy" staying up.
+    *   Staffan is the "realist" or "go-to-sleep-guy".
+    *   So (C) Staffan.
+
+    *   Let me re-read the transcript/timestamps to be sure.
+    *   27:40 - Thomas: "It's 4:30 in the morning...
+
+第 8 段
+
+“我至少应该在三个小时前就躺在床上。” -> 托马斯肯定疯了/熬夜了。
+    *   27:48 - Staffan 问 Ammar“你睡得好吗？”。Ammar：“是啊，我们从凌晨 2 点左右就没睡”。-> Ammar 也是熬夜/夜猫子。
+    *   27:58 - Staffan 在一个安静的房间里，看起来很放松/正在睡觉。
+    *   28:06 - 有人正在安详地睡觉。
+    *   29:20 - Staffan 醒了。
+    *   所以 Staffan 是那个去睡觉的人。即使只是打了个盹，比起彻夜派对或通宵不睡，这也“更正常”。
+    *   因此，Staffan 是正确答案。
+
+    *   等等，有没有可能 Ammar 是答案？“从凌晨 2 点左右就没睡”可以被解释为“我从凌晨 2 点就醒着”，意思是他凌晨 2 点才睡着？不，"been up since"通常意味着他从那个时间点开始一直醒着。如果他凌晨 2 点睡着了，他会说“凌晨 2 点睡着”或“凌晨 2 点醒来”。“从凌晨 2 点就没睡”意味着从那时起持续清醒或频繁醒来。
+    *   无论如何，凌晨 2 点远远晚于正常的睡觉时间。
+    *   Thomas 直到凌晨 4:30 才睡。
+    *   所以 Staffan 是“最正常”的唯一可行选项。
+
+    *   让我们看看是否有任何陷阱。
+    *   “没有人”——也许他们中没有人晚上 11 点睡觉。但 Staffan 去睡觉了。这对大多数人来说是正常行为。
+    *   所以 (C) 是最合适的。
+
+    *   最终检查。
+    *   Thomas：凌晨 4:30。
+    *   Ammar：从凌晨 2 点就没睡。
+    *   Staffan：在床上睡觉。
+    *   答案：Staffan。
+
+I needed to be in bed at least 3 hours ago." -> Thomas is definitely crazy/late night.
+    *   27:48 - Staffan asks Ammar "You had a good night?". Ammar: "Yeah we've been up since like 2 AM". -> Ammar is also late/night.
+    *   27:58 - Staffan is in a quiet room, looking relaxed/sleeping.
+    *   28:06 - Someone is sleeping peacefully.
+    *   29:20 - Staffan wakes up.
+    *   So Staffan is the one who went to sleep. Even if it was a nap, it's "more normal" than staying up partying or up all night.
+    *   Therefore, Staffan is the correct answer.
+
+    *   Wait, is it possible that Ammar is the answer? "Up since like 2 AM" could be interpreted as "I've been awake since 2 AM" meaning he fell asleep at 2 AM? No, "been up since" usually means he has been awake starting from that time. If he fell asleep at 2 AM, he would say "fell asleep at 2 AM" or "woke up at 2 AM". "Been up since 2 AM" implies continuous wakefulness or waking up frequently from then on.
+    *   Regardless, 2 AM is way past a normal bedtime.
+    *   Thomas is out until 4:30 AM.
+    *   So Staffan is the only viable option for "most normal".
+
+    *   Let's check if there is any trick.
+    *   "No one" - Maybe none of them went to bed at 11 PM. But Staffan went to sleep. That's normal behavior for most people.
+    *   So (C) is the best fit.
+
+    *   Final check.
+    *   Thomas: 4:30 AM.
+    *   Ammar: Up since 2 AM.
+    *   Staffan: Sleeps in bed.
+    *   Answer: Staffan.

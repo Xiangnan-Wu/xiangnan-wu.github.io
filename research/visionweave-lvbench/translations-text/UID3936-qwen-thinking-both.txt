@@ -1,0 +1,2270 @@
+UID 3936 · qwen · thinking
+本地 Qwen3.5-9B 机器翻译；保留原模型内容，不作事实修正。
+
+第 1 段
+
+用户希望评估视频中羽毛球比赛第二局林丹的表现。
+
+1.  **识别选手：** 林丹（中国，红色队服）对阵李宗伟（马来西亚，蓝绿色队服）。
+2.  **定位第二局：** 视频展示了多局比赛。我需要找到第二局开始的位置。
+    *   第一局大约在 32:00 结束，李宗伟的得分为 15-21，林丹的得分为 21-11。等等，查看 32:54 处的记分牌，比分是林丹 1-0 领先（第一局 21-15？不，让我们重新检查）。
+    *   实际上，让我们查看记分牌的进展。
+    *   第一局：大约在 08:30 开始。比分从 0-0 变为 6-11（李宗伟领先），然后变为 15-21（林丹领先）。等等，在 19:23，图形显示“男单半决赛 1 2 3”。记分框显示 MAS 6 - CHN 11。之后显示 MAS 15 - CHN 21。所以林丹以 21-15 赢得第一局。等等，让我检查一下第一局的结束。在 32:54，图形显示：
+        *   第一局：MAS 15 - CHN 21。所以林丹赢得了第一局。
+        *   等等，32:54 处的图形显示 MAS 15，CHN 21。这意味着第一局是 21-15。
+    *   第二局大约在 34:30 开始。
+    *   让我们追踪第二局的比分。
+    *   从 0-0 开始。
+    *   记分牌更新：
+        *   1-0（林丹领先）
+        *   1-2（李宗伟重新领先）
+        *   2-2
+        *   2-3（李宗伟领先）
+        *   3-3
+        *   3-4（李宗伟领先）
+        *   4-4
+        *   5-3（林丹领先）-> 等等，查看 61:52，比分是 5-3。
+        *   5-4
+        *   5-5
+        *   6-5（林丹领先）
+        *   6-6
+        *   7-6（林丹领先）
+        *   7-7
+        *   8-7（林丹领先）
+        *   8-8
+
+The user wants to evaluate Lin Dan's performance in the second game of the badminton match shown in the video.
+
+1.  **Identify the players:** Lin Dan (China, red uniform) vs. Lee Chong Wei (Malaysia, blue/green uniform).
+2.  **Locate the second game:** The video shows multiple games. I need to find where the second game starts.
+    *   Game 1 ends around 32:00 with a score of 15-21 for Lee C.W. and 21-11 for Lin D. Wait, looking at the scoreboard at 32:54, the score is 1-0 in favor of Lin D (21-15 in game 1? No, let's re-examine).
+    *   Actually, let's look at the scoreboard progression.
+    *   Game 1: Starts around 08:30. Score goes from 0-0 to 6-11 (Lee leads), then 15-21 (Lin leads). Wait, at 19:23, the graphic says "MEN'S SINGLES SEMI-FINAL 1 2 3". The score box shows MAS 6 - CHN 11. Then later MAS 15 - CHN 21. So Lin won Game 1 21-15. Wait, let me check the end of game 1. At 32:54, the graphic shows:
+        *   Game 1: MAS 15 - CHN 21. So Lin wins Game 1.
+        *   Wait, the graphic at 32:54 shows MAS 15, CHN 21. This means Game 1 was 21-15.
+    *   Game 2 starts around 34:30.
+    *   Let's track the score in Game 2.
+    *   Starts 0-0.
+    *   Scoreboard updates:
+        *   1-0 (Lin leads)
+        *   1-2 (Lee takes back lead)
+        *   2-2
+        *   2-3 (Lee leads)
+        *   3-3
+        *   3-4 (Lee leads)
+        *   4-4
+        *   5-3 (Lin leads) -> Wait, looking at 61:52, score is 5-3.
+        *   5-4
+        *   5-5
+        *   6-5 (Lin leads)
+        *   6-6
+        *   7-6 (Lin leads)
+        *   7-7
+        *   8-7 (Lin leads)
+        *   8-8
+
+第 2 段
+
+*   9-8 (林领先)
+        *   9-9
+        *   10-9 (林领先)
+        *   10-10
+        *   11-10 (林领先)
+        *   11-11
+        *   12-11 (林领先)
+        *   12-12
+        *   13-12 (林领先)
+        *   13-13
+        *   14-13 (林领先)
+        *   14-14
+        *   15-14 (林领先)
+        *   15-15
+        *   16-15 (林领先)
+        *   16-16
+        *   17-16 (林领先)
+        *   17-17
+        *   18-17 (林领先)
+        *   18-18
+        *   19-18 (林领先)
+        *   19-19
+        *   20-19 (林领先)
+        *   20-20
+        *   21-20 (李赢得比赛？) 不，让我们看看结尾。
+    *   等等，让我们看看 93:08 处的最终结果图表。
+        *   第一局：马来西亚 15 - 中国 21。（林获胜）
+        *   第二局：马来西亚 21 - 中国 11。（李获胜）-> 等等，看看比赛期间的记分牌。
+    *   让我们仔细重新观看比分进程。
+    *   在 35:10，比分是 0-1（林领先）。
+    *   在 35:38，比分是 0-2（林领先）。
+    *   在 36:23，比分是 0-3（林领先）。
+    *   在 36:42，比分是 0-4（李赢得比赛？？不，等等）。
+    *   啊，左上角的记分牌显示“MAS 0 1”和“CHN 1 0”。这表明是局/盘数。
+    *   右上角的记分牌显示的是分数。
+    *   让我们追踪分数。
+    *   开始：0-0。
+    *   1-0（林）
+    *   2-0（林）-> 等等，在 35:40，比分是 0-2。所以李有 2 分。
+    *   让我们看看 36:20。比分是 0-3。李有 3 分。
+    *   让我们看看 36:43。比分是 0-4。李有 4 分。
+    *   所以李取得了早期的领先。林丹落后。
+
+*   9-8 (Lin leads)
+        *   9-9
+        *   10-9 (Lin leads)
+        *   10-10
+        *   11-10 (Lin leads)
+        *   11-11
+        *   12-11 (Lin leads)
+        *   12-12
+        *   13-12 (Lin leads)
+        *   13-13
+        *   14-13 (Lin leads)
+        *   14-14
+        *   15-14 (Lin leads)
+        *   15-15
+        *   16-15 (Lin leads)
+        *   16-16
+        *   17-16 (Lin leads)
+        *   17-17
+        *   18-17 (Lin leads)
+        *   18-18
+        *   19-18 (Lin leads)
+        *   19-19
+        *   20-19 (Lin leads)
+        *   20-20
+        *   21-20 (Lee wins game?) No, let's look at the end.
+    *   Wait, let's look at the final result graphic at 93:08.
+        *   GAME 1: MAS 15 - CHN 21. (Lin wins)
+        *   GAME 2: MAS 21 - CHN 11. (Lee wins) -> Wait, looking at the scoreboard during the game.
+    *   Let's re-watch the score progression carefully.
+    *   At 35:10, score is 0-1 (Lin leading).
+    *   At 35:38, score is 0-2 (Lin leading).
+    *   At 36:23, score is 0-3 (Lin leading).
+    *   At 36:42, score is 0-4 (Lee winning game?? No, wait).
+    *   Ah, the scoreboard at the top left shows "MAS 0 1" and "CHN 1 0". This indicates the set/game count.
+    *   Top right scoreboard shows points.
+    *   Let's trace points.
+    *   Start: 0-0.
+    *   1-0 (Lin)
+    *   2-0 (Lin) -> Wait, at 35:40, score is 0-2. So Lee has 2 points.
+    *   Let's look at 36:20. Score is 0-3. Lee has 3 points.
+    *   Let's look at 36:43. Score is 0-4. Lee has 4 points.
+    *   So Lee is taking an early lead. Lin Dan lags behind.
+
+第 3 段
+
+*   在 37:26，比分为 0-5。李以 5-0 领先。
+    *   在 37:56，比分为 0-6。李以 6-0 领先。
+    *   等等，我需要小心确认是谁在发球。
+    *   让我们看看 93:08 处的“比赛结果”图表。
+        *   第 1 行：MAS C.W. LEE ... 1 ... 5 ... 22（等等，图表令人困惑）。
+        *   让我们查看具体的行。
+        *   第 1 行：MAS C.W. LEE。分数：15, 21, 10？不。
+        *   第 2 行：CHN LIN DAN。分数：21, 11, 20？
+    *   让我们看看球场墙上的记分牌。
+    *   在 60:34，记分牌显示：
+        *   MAS: 15（第 1 局比分？），21（第 2 局比分？），10（当前？）。不，这不对。
+        *   让我们看看视频左上角整个视频过程中的记分牌。
+        *   在 32:54，第 1 局结束后：MAS 15, CHN 21。所以第 1 局林丹以 21-15 获胜。
+        *   在 43:07，休息后：MAS 15, CHN 21。等等，这仍然显示第 1 局。
+        *   在 53:15，再次休息后：MAS 15, CHN 21。这很奇怪。为什么它显示相同的比分？啊，也许它只是显示第一局的结果，直到下一局改变。
+    *   让我们看看实际进行的分数。
+    *   在 55:34，记分牌重置为 0-0 以进行新比赛？不，它显示 0-0，但比赛编号可能已更改，或者只是重置。等等，在 55:34，记分牌显示"MAS C.W. LEE"和"CHN LIN D."以及"0-0"。
+    *   让我们从那里观看分数进行。
+
+*   At 37:26, score is 0-5. Lee leads 5-0.
+    *   At 37:56, score is 0-6. Lee leads 6-0.
+    *   Wait, I need to be careful about who is serving.
+    *   Let's look at the "MATCH RESULT" graphic at 93:08.
+        *   Line 1: MAS C.W. LEE ... 1 ... 5 ... 22 (Wait, the graphic is confusing).
+        *   Let's look at the specific rows.
+        *   Row 1: MAS C.W. LEE. Points: 15, 21, 10? No.
+        *   Row 2: CHN LIN DAN. Points: 21, 11, 20?
+    *   Let's look at the scoreboard on the court wall.
+    *   At 60:34, the scoreboard shows:
+        *   MAS: 15 (Game 1 score?), 21 (Game 2 score?), 10 (current?). No, that's not right.
+        *   Let's look at the top left corner scoreboard throughout the video.
+        *   At 32:54, after Game 1: MAS 15, CHN 21. So Game 1 ended 21-15 for Lin Dan.
+        *   At 43:07, after a break: MAS 15, CHN 21. Wait, this is still showing Game 1.
+        *   At 53:15, after another break: MAS 15, CHN 21. This is strange. Why does it show the same score? Ah, maybe it's just displaying the first game result until the next one changes.
+    *   Let's look at the actual points playing.
+    *   At 55:34, the scoreboard resets to 0-0 for a new game? No, it shows 0-0 but the game number might have changed or it's just a reset. Wait, at 55:34, the scoreboard says "MAS C.W. LEE" and "CHN LIN D." and "0-0".
+    *   Let's watch the points play from there.
+
+第 4 段
+
+*   0-0 -> 1-0 -> 1-1 -> 1-2 -> 2-2 -> 2-3 -> 3-3 -> 4-3 -> 4-4 -> 5-3 -> 5-4 -> 5-5 -> 6-5 -> 6-6 -> 7-6 -> 7-7 -> 8-7 -> 8-8 -> 9-8 -> 9-9 -> 10-9 -> 10-10 -> 11-10 -> 11-11 -> 12-11 -> 12-12 -> 13-12 -> 13-13 -> 14-13 -> 14-14 -> 15-14 -> 15-15 -> 16-15 -> 16-16 -> 17-16 -> 17-17 -> 18-17 -> 18-18 -> 19-18 -> 19-19 -> 20-19 -> 20-20 -> 21-20 -> 22-20.
+    *   好的，所以这漫长的连分序列很可能是决胜局或非常接近的一局。
+    *   但是等等，我错过了第二局的开始。
+    *   让我们回到第二局开始的时候。
+    *   在第一局之后（大约在 32:00/33:00 结束），他们休息。
+    *   在 34:30，他们回到球场。
+    *   记分牌显示 0-0。
+    *   0-1（李发球/得分）
+    *   0-2（李）
+    *   0-3（李）
+    *   0-4（李）
+    *   0-5（李）
+    *   0-6（李）
+    *   0-7（李）
+    *   0-8（李）
+    *   0-9（李）
+    *   0-10（李）
+    *   1-10（林赢得分数/局？）不，看 21:50，比分是 1-10。等等，这很奇怪。
+    *   让我们再看左上角的记分牌。
+    *   在 35:10，左上角写着"MAS 0 1"，"CHN 1 0"。这意味着李输掉了第一局（相对于局分是 0-1），林赢了（比分 1-0）。等等，通常那是局分。
+    *   让我们看 35:10 的记分牌。
+        *   MAS C.W. LEE
+        *   CHN LIN D.
+        *   第一行：局分？不，通常只是分数。
+        *   等等，在 35:10，左上角的框里写着"MAS 0 1"，下面写着"CHN 1 0"。这暗示了已进行的局数。第一局：李 0，中国 1。所以林赢了第一局。
+        *   当前分数：0-1（中国领先）。
+    *   让我们从 35:10 开始追踪分数。
+
+*   0-0 -> 1-0 -> 1-1 -> 1-2 -> 2-2 -> 2-3 -> 3-3 -> 4-3 -> 4-4 -> 5-3 -> 5-4 -> 5-5 -> 6-5 -> 6-6 -> 7-6 -> 7-7 -> 8-7 -> 8-8 -> 9-8 -> 9-9 -> 10-9 -> 10-10 -> 11-10 -> 11-11 -> 12-11 -> 12-12 -> 13-12 -> 13-13 -> 14-13 -> 14-14 -> 15-14 -> 15-15 -> 16-15 -> 16-16 -> 17-16 -> 17-17 -> 18-17 -> 18-18 -> 19-18 -> 19-19 -> 20-19 -> 20-20 -> 21-20 -> 22-20.
+    *   Okay, so this long rally sequence is likely the deciding game or a very close one.
+    *   But wait, I missed the beginning of Game 2.
+    *   Let's go back to when Game 2 started.
+    *   After Game 1 (ended around 32:00/33:00), they take a break.
+    *   At 34:30, they are back on court.
+    *   Scoreboard shows 0-0.
+    *   0-1 (Lee serves/win)
+    *   0-2 (Lee)
+    *   0-3 (Lee)
+    *   0-4 (Lee)
+    *   0-5 (Lee)
+    *   0-6 (Lee)
+    *   0-7 (Lee)
+    *   0-8 (Lee)
+    *   0-9 (Lee)
+    *   0-10 (Lee)
+    *   1-10 (Lin wins point/set?) No, looking at 21:50, score is 1-10. Wait, that's weird.
+    *   Let's look at the top left scoreboard again.
+    *   At 35:10, top left says "MAS 0 1", "CHN 1 0". This means Lee lost the first set (score 0-1 relative sets) and Lin won (score 1-0). Wait, usually it's Set Score.
+    *   Let's look at the scoreboard at 35:10.
+        *   MAS C.W. LEE
+        *   CHN LIN D.
+        *   Top row: Game scores? No, usually just points.
+        *   Wait, at 35:10, the top left box says "MAS 0 1" and below it "CHN 1 0". This implies Sets played. Set 1: Lee 0, Chin 1. So Lin won Set 1.
+        *   Current Points: 0-1 (Chin leading).
+    *   Let's trace points from 35:10 onwards.
+
+第 5 段
+
+*   0-1 -> 0-2 -> 0-3 -> 0-4 -> 0-5 -> 0-6 -> 0-7 -> 0-8 -> 0-9 -> 0-10 -> 1-10 -> 1-11 -> 1-12 -> 1-13 -> 1-14 -> 1-15 -> 1-16 -> 1-17 -> 1-18 -> 1-19 -> 1-20 -> 1-21.
+    *   所以李以 21-10 赢得这场比赛？或者也许是 21-11？
+    *   让我们继续看。
+    *   在 43:07，记分牌显示 MAS 15，CHN 21。这一定是之前的比赛总结再次出现？或者也许我误解了。
+    *   让我们看看时间戳 53:15。
+    *   记分牌：MAS 15，CHN 21。
+    *   等等，问题问的是*第二局*。
+    *   让我们重新检查视频的第一部分。
+    *   00:00 - 02:00：介绍。
+    *   02:00 - 08:30：热身/赛前。
+    *   08:30：比赛开始。
+    *   09:08：比分 0-1（林领先）。
+    *   09:13：比分 1-0（李领先）。
+    *   09:18：比分 0-1（李领先 1-0 局？不，是 0-1 分）。
+    *   让我们看看 19:23 的记分牌。
+    *   “男子单打半决赛”。
+    *   框 1（第一局）：MAS 6 - CHN 11。
+    *   框 2（第二局？）：空白。
+    *   框 3（第三局？）：空白。
+    *   等等，图形显示了第 1、2、3 列。
+    *   在第 1 列下：MAS 6，CHN 11。这很可能是第一局*当时*的比分。
+    *   后来，在 32:54，图形显示：
+        *   第 1 列：MAS 15，CHN 21。所以林以 21-15 赢得了第一局。
+    *   现在让我们看看过渡到第二局。
+    *   大约在 34:30，他们开始第二局。
+    *   记分牌重置为 0-0。
+    *   分数：
+        *   0-1（林领先）
+        *   0-2（林领先）-> 等等，在 36:23，比分是 0-3。所以李领先。
+        *   让我们仔细看看左上角的记分牌。
+
+*   0-1 -> 0-2 -> 0-3 -> 0-4 -> 0-5 -> 0-6 -> 0-7 -> 0-8 -> 0-9 -> 0-10 -> 1-10 -> 1-11 -> 1-12 -> 1-13 -> 1-14 -> 1-15 -> 1-16 -> 1-17 -> 1-18 -> 1-19 -> 1-20 -> 1-21.
+    *   So Lee wins this game 21-10? Or maybe 21-11?
+    *   Let's look further.
+    *   At 43:07, scoreboard shows MAS 15, CHN 21. This must be the previous game summary again? Or maybe I am misinterpreting.
+    *   Let's look at the timestamp 53:15.
+    *   Scoreboard: MAS 15, CHN 21.
+    *   Wait, the question asks about the *second game*.
+    *   Let's re-examine the first part of the video.
+    *   00:00 - 02:00: Intro.
+    *   02:00 - 08:30: Warm up / Pre-match.
+    *   08:30: Match start.
+    *   09:08: Score 0-1 (Lin leads).
+    *   09:13: Score 1-0 (Lee leads).
+    *   09:18: Score 0-1 (Lee leads 1-0 sets? No, points 0-1).
+    *   Let's look at the scoreboard at 19:23.
+    *   "MEN'S SINGLES SEMI-FINAL".
+    *   Box 1 (Game 1): MAS 6 - CHN 11.
+    *   Box 2 (Game 2?): Empty.
+    *   Box 3 (Game 3?): Empty.
+    *   Wait, the graphic shows columns 1, 2, 3.
+    *   Under column 1: MAS 6, CHN 11. This is likely the score of the first game *at that moment*.
+    *   Later, at 32:54, the graphic shows:
+        *   Column 1: MAS 15, CHN 21. So Lin won Game 1 21-15.
+    *   Now let's look at the transition to Game 2.
+    *   Around 34:30, they start Game 2.
+    *   Scoreboard resets to 0-0.
+    *   Points:
+        *   0-1 (Lin leads)
+        *   0-2 (Lin leads) -> Wait, at 36:23, score is 0-3. So Lee is ahead.
+        *   Let's look really closely at the scoreboard at the top left.
+
+第 6 段
+
+*   在 35:10：MAS 0 1 / CHN 1 0。这意味着局数。林丹赢了第一局。当前局分 0-1（林丹领先）。
+        *   在 36:23：左上角显示 MAS 0 2 / CHN 1 0。等等，不对。它显示的是 MAS 0 1 / CHN 1 0。只是分数。
+        *   实际上，让我们专门看看分数计数器。
+        *   在 36:23，分数计数器显示 0-3。谁是 0，谁是 3？
+        *   上行是 MAS（蓝/绿）。下行是 CHN（红）。
+        *   所以 MAS 0，CHN 3。林丹以 3-0 领先。
+        *   在 37:26：MAS 0，CHN 5。林丹以 5-0 领先。
+        *   在 37:56：MAS 0，CHN 6。林丹以 6-0 领先。
+        *   在 38:18：MAS 0，CHN 5。等等，分数下降了？不，是李昌镐发球。
+        *   在 38:20：MAS 5，CHN 1。
+        *   好吧，分数来回翻转让人困惑。让我们依靠比赛进程。
+    *   让我们看看总体趋势。
+    *   在第二局早期（大约视频 35 分钟处）：
+        *   林丹先得了几分（3-0，5-0，6-0）。他看起来很有信心。
+        *   然后李昌镐追了上来。
+        *   大约视频 50 分钟处（比赛时钟约 35 分钟）：比分似乎在 10-10 左右或接近。
+    *   让我们看看第二局的*结束*。
+    *   在 53:15，出现了一个图形：“男子单打半决赛”。
+    *   列 1、2、3。
+    *   第 1 列：MAS 15，CHN 21。（这是第一局）。
+    *   第 2 列：MAS 21，CHN 11。（这是第二局）。所以李昌镐以 21-11 赢了第二局。
+    *   第 3 列：MAS 10，CHN 20？不，不是这个。
+    *   等等，让我们再看看 53:15 的图形。
+        *   MAS 行：15 | 21 | 10（在第 3 列标题下？）
+        *   CHN 行：21 | 11 | 2（在第 3 列标题下？）
+
+*   At 35:10: MAS 0 1 / CHN 1 0. This means Sets. Lin won Set 1. Current game score 0-1 (Lin leading).
+        *   At 36:23: Top left says MAS 0 2 / CHN 1 0. Wait, no. It says MAS 0 1 / CHN 1 0. Just points.
+        *   Actually, let's look at the points counter specifically.
+        *   At 36:23, the points counter shows 0-3. Who is 0 and who is 3?
+        *   Top line is MAS (Blue/Green). Bottom line is CHN (Red).
+        *   So MAS 0, CHN 3. Lin is leading 3-0.
+        *   At 37:26: MAS 0, CHN 5. Lin leads 5-0.
+        *   At 37:56: MAS 0, CHN 6. Lin leads 6-0.
+        *   At 38:18: MAS 0, CHN 5. Wait, score went down? No, Lee served.
+        *   At 38:20: MAS 5, CHN 1.
+        *   Okay, the score flipping back and forth is confusing. Let's rely on the flow.
+    *   Let's look at the general trend.
+    *   In the early minutes of Game 2 (approx 35 mins into video):
+        *   Lin Dan scores first few points (3-0, 5-0, 6-0). He looks confident.
+        *   Then Lee catches up.
+        *   Around 50 mins in video (game clock ~35 mins): Score seems to be around 10-10 or close.
+    *   Let's look at the *end* of Game 2.
+    *   At 53:15, a graphic appears: "MEN'S SINGLES SEMI-FINAL".
+    *   Columns 1, 2, 3.
+    *   Column 1: MAS 15, CHN 21. (This is Game 1).
+    *   Column 2: MAS 21, CHN 11. (This is Game 2). So Lee won Game 2 21-11.
+    *   Column 3: MAS 10, CHN 20? No, that's not it.
+    *   Wait, let's look at the graphic at 53:15 again.
+        *   Row MAS: 15 | 21 | 10 (under column 3 header?)
+        *   Row CHN: 21 | 11 | 2 (under column 3 header?)
+
+第 7 段
+
+*   这张图表令人困惑。让我们看看球场末端的记分牌。
+    *   在 93:08，图表显示：
+        *   第一局：MAS 15 - CHN 21。
+        *   第二局：MAS 21 - CHN 11。
+        *   第三局：MAS 10 - CHN 20。
+    *   所以李昌镐赢了第一局？不，21-15 是 CHN（林丹）的胜利。所以林丹赢了第一局。
+    *   李昌镐赢了第二局（21-11）。
+    *   林丹在局数上领先 2-0？还是 1-0？
+    *   如果林丹赢了 G1（21-15），而李昌镐赢了 G2（21-11），比分是 1-1。
+    *   然后他们进行第三局。
+    *   让我们再次检查 93:08 的最终结果。
+        *   MAS 行：15 ... 21 ... 10
+        *   CHN 行：21 ... 11 ... 20
+    *   等等，如果第一个数字是 15 和 21，那就是第一局的比分（21-15，CHN/林丹胜）。
+    *   第二个数字是 21 和 11。那是第二局的比分（21-11，MAS/李昌镐胜）。
+    *   第三个数字是 10 和 20。那是第三局的比分？还是第四局？
+    *   羽毛球是五局三胜制。先赢三局者胜。
+    *   所以如果林丹赢了 G1，李昌镐赢了 G2。比分 1-1。
+    *   然后他们进行 G3。板上的比分是 10-20？那意味着林丹赢了 G3。
+    *   然后他们进行 G4。比分 20-22？那意味着李昌镐赢了 G4。
+    *   最终比分：林丹 21-15, 20-11, 20-10, 22-20？不。
+    *   让我们重新阅读 93:08 的图表。
+        *   “结果：半决赛”
+        *   第一行：MAS C.W. LEE | 1 | 5 | 22（这些看起来像局数？不。）
+        *   第二行：CHN LIN D. | 21 | 11 | 20
+    *   等等，文字是垂直对齐的。
+    *   第一列标题："1"（也许是第一局？）
+    *   第二列标题："2"（第二局？）
+    *   第三列标题："3"（第三局？）
+    *   MAS 行：15 ...
+
+*   This graphic is confusing. Let's look at the scoreboard on court at the end.
+    *   At 93:08, the graphic shows:
+        *   GAME 1: MAS 15 - CHN 21.
+        *   GAME 2: MAS 21 - CHN 11.
+        *   GAME 3: MAS 10 - CHN 20.
+    *   So Lee won Game 1? No, 21-15 is win for CHN (Lin Dan). So Lin Dan won Game 1.
+    *   Lee won Game 2 (21-11).
+    *   Lin Dan is leading 2-0 in games? Or 1-0?
+    *   If Lin won G1 (21-15), and Lee won G2 (21-11), score is 1-1.
+    *   Then they play Game 3.
+    *   Let's check the final result at 93:08 again.
+        *   Row MAS: 15 ... 21 ... 10
+        *   Row CHN: 21 ... 11 ... 20
+    *   Wait, if the first number is 15 and 21, that's Game 1 score (21-15 Win for CHN/Lin).
+    *   Second number is 21 and 11. That's Game 2 score (21-11 Win for MAS/Lee).
+    *   Third number is 10 and 20. That's Game 3 score? Or Game 4?
+    *   Badminton is best of 5 games. First to 3 games.
+    *   So if Lin won G1, Lee won G2. Score 1-1.
+    *   Then they play G3. Score on board is 10-20? That would mean Lin won G3.
+    *   Then they play G4. Score 20-22? That would mean Lee won G4.
+    *   Final score: Lin 21-15, 20-11, 20-10, 22-20? No.
+    *   Let's re-read the graphic at 93:08.
+        *   "RESULT: SEMI-FINAL"
+        *   Row 1: MAS C.W. LEE | 1 | 5 | 22 (These look like game numbers? No.)
+        *   Row 2: CHN LIN D. | 21 | 11 | 20
+    *   Wait, the text is aligned vertically.
+    *   Column 1 Header: "1" (Maybe game number 1?)
+    *   Column 2 Header: "2" (Game number 2?)
+    *   Column 3 Header: "3" (Game number 3?)
+    *   Row MAS: 15 ...
+
+第 8 段
+
+21 ... 10
+    *   行 CHN：21 ... 11 ... 20
+    *   这意味着：
+        *   第 1 局：MAS 15，CHN 21。（林获胜）。
+        *   第 2 局：MAS 21，CHN 11。（李获胜）。
+        *   第 3 局：MAS 10，CHN 20。（林获胜）。
+        *   等等，如果林赢了第 1 局和第 3 局，他目前是 2-1 领先。
+        *   那么必须有一场第 4 局。
+    *   让我们再次查看文本对齐。
+    *   "15 21 10"
+    *   "21 11 20"
+    *   也许列之间用空格分隔。
+    *   第 1 列：15 / 21。（第 1 局：林以 21-15 获胜）。
+    *   第 2 列：21 / 11。（第 2 局：李以 21-11 获胜）。
+    *   第 3 列：10 / 20。（第 3 局：林以 20-10 获胜）。
+    *   等等，有第 4 局吗？
+    *   视频在 93:00 之后继续播放。
+    *   在 93:08，图表显示 CHN 为"21 11 20"，MAS 为"15 21 10"。
+    *   等等，第二行是 CHN。
+    *   所以 CHN 的得分是 21、11、20。
+    *   MAS 的得分是 15、21、10。
+    *   这意味着：
+        *   第 1 局：CHN 21，MAS 15。（林获胜）。
+        *   第 2 局：CHN 11，MAS 21。（李获胜）。
+        *   第 3 局：CHN 20，MAS 10。（林获胜）。
+    *   所以林以 2-1 领先。
+    *   但是等等，观看视频，比赛继续。
+    *   在 89:00，记分牌显示"MAS 1 16 / CHN 1 16"。这暗示“第 1 局”“第 2 局”？不。
+    *   通常是分数。
+    *   让我们查看 89:00 的记分牌。
+        *   左上角："MAS 1 16"。"CHN 1 16"。
+        *   下方："1 16"。"1 16"。
+        *   这种"1 16"的标记通常意味着第 1 局比分是 16？不。
+        *   它通常意味着局分。第 1 局比分：1-16？不。
+        *   让我们假设标准标记法。
+        *   也许是“第 1 局 | 第 2 局”。
+
+21 ... 10
+    *   Row CHN: 21 ... 11 ... 20
+    *   This implies:
+        *   Game 1: MAS 15, CHN 21. (Lin wins).
+        *   Game 2: MAS 21, CHN 11. (Lee wins).
+        *   Game 3: MAS 10, CHN 20. (Lin wins).
+        *   Wait, if Lin won G1 and G3, he is leading 2-1.
+        *   Then there must be a Game 4.
+    *   Let's look at the text alignment again.
+    *   "15 21 10"
+    *   "21 11 20"
+    *   Maybe the columns are separated by spaces.
+    *   Col 1: 15 / 21. (Game 1: Lin wins 21-15).
+    *   Col 2: 21 / 11. (Game 2: Lee wins 21-11).
+    *   Col 3: 10 / 20. (Game 3: Lin wins 20-10).
+    *   Wait, is there a Game 4?
+    *   The video continues past 93:00.
+    *   At 93:08, the graphic shows "21 11 20" for CHN. And "15 21 10" for MAS.
+    *   Wait, the second row is CHN.
+    *   So CHN scored 21, 11, 20.
+    *   MAS scored 15, 21, 10.
+    *   This implies:
+        *   Game 1: CHN 21, MAS 15. (Lin wins).
+        *   Game 2: CHN 11, MAS 21. (Lee wins).
+        *   Game 3: CHN 20, MAS 10. (Lin wins).
+    *   So Lin leads 2-1.
+    *   But wait, looking at the video, the match continues.
+    *   At 89:00, the scoreboard shows "MAS 1 16 / CHN 1 16". This suggests "Set 1" "Set 2"? No.
+    *   Usually, it's Points.
+    *   Let's look at the scoreboard at 89:00.
+        *   Top Left: "MAS 1 16". "CHN 1 16".
+        *   Below that: "1 16". "1 16".
+        *   This notation "1 16" usually means Set 1 score was 16? No.
+        *   It usually means Game Score. Game 1 score: 1-16? No.
+        *   Let's assume standard notation.
+        *   Maybe it's "Set 1 | Set 2".
+
+第 9 段
+
+*   MAS | 1 | 16（获胜比赛？）否。
+    *   让我们再次查看 93:08 处的图表。它清楚地列出了“结果：半决赛”。
+    *   列可能是第 1、2、3 局。
+    *   MAS 行：15 ... 21 ... 10。等等，仔细看 93:13。
+    *   图表的标题是"1"、"2"、"3"。
+    *   在"1"下：MAS 15，CHN 21。
+    *   在"2"下：MAS 21，CHN 11。
+    *   在"3"下：MAS 10，CHN 20。
+    *   所以林领先 2-1（第 1 局和第 3 局）。
+    *   然后他们进行第 4 局。
+    *   让我们检查视频后半部分（大约 90 分钟）时的记分牌。
+    *   在 90:00，记分牌显示"MAS 1 16"，"CHN 1 16"。这令人困惑。
+    *   让我们看看墙上的点数计数器。
+    *   在 90:17，点数计数器显示"14-14"。
+    *   在 90:22，点数计数器显示"14-14"。
+    *   在 90:30，点数计数器显示"15-14"。
+    *   在 90:36，点数计数器显示"15-15"。
+    *   在 91:53，点数计数器显示"16-16"。
+    *   在 92:00，点数计数器显示"16-16"。
+    *   在 92:16，点数计数器显示"16-16"。
+    *   在 92:33，点数计数器显示"16-16"。
+    *   在 92:43，点数计数器显示"16-16"。
+    *   在 92:59，点数计数器显示"16-16"。
+    *   在 93:01，点数计数器显示"17-16"（李发球/得分？）。不，MAS 17，CHN 16。
+    *   在 93:07，点数计数器显示"18-16"（李发球/得分？）。
+    *   在 93:21，点数计数器显示"18-16"。
+    *   等等，让我们再次查看 93:13 处的图表。
+    *   "15 21 10"
+    *   "21 11 20"
+    *   这似乎没有动态更新。它是一个静态总结图表。
+
+*   MAS | 1 | 16 (Winning games?) No.
+    *   Let's look at the graphic at 93:08 again. It clearly lists "RESULT: SEMI-FINAL".
+    *   Columns are likely Games 1, 2, 3.
+    *   Row MAS: 15 ... 21 ... 10. Wait, looking closely at 93:13.
+    *   The graphic has headers "1", "2", "3".
+    *   Under "1": MAS 15, CHN 21.
+    *   Under "2": MAS 21, CHN 11.
+    *   Under "3": MAS 10, CHN 20.
+    *   So Lin leads 2-1 (Games 1 and 3).
+    *   Then they play Game 4.
+    *   Let's check the scoreboard during the later part of the video (around 90 mins).
+    *   At 90:00, scoreboard shows "MAS 1 16", "CHN 1 16". This is confusing.
+    *   Let's look at the points counter on the wall.
+    *   At 90:17, points counter shows "14-14".
+    *   At 90:22, points counter shows "14-14".
+    *   At 90:30, points counter shows "15-14".
+    *   At 90:36, points counter shows "15-15".
+    *   At 91:53, points counter shows "16-16".
+    *   At 92:00, points counter shows "16-16".
+    *   At 92:16, points counter shows "16-16".
+    *   At 92:33, points counter shows "16-16".
+    *   At 92:43, points counter shows "16-16".
+    *   At 92:59, points counter shows "16-16".
+    *   At 93:01, points counter shows "17-16" (Lee serves/win?). No, MAS 17, CHN 16.
+    *   At 93:07, points counter shows "18-16" (Lee serves/win?).
+    *   At 93:21, points counter shows "18-16".
+    *   Wait, let's look at the graphic at 93:13 again.
+    *   "15 21 10"
+    *   "21 11 20"
+    *   This doesn't seem to update dynamically. It's a static summary graphic.
+
+第 10 段
+
+*   让我们看看墙上的比分牌在非常末尾处（93:15+）。
+    *   在 93:15，记分牌显示：
+        *   MAS: 21 11 22（等等，让我们仔细读）。
+        *   CHN: 15 11 20（等等，让我们仔细读）。
+    *   让我们看看末尾附近的裁剪图像。
+    *   裁剪图 64（93:08）：显示“RESULT: SEMI-FINAL”。
+    *   文本：
+        *   MAS C.W. LEE | 1 | 5 | 22（这看起来像是比赛场次？还是分数？）
+        *   CHN LIN D. | 21 | 11 | 20
+    *   等等，标题是 1, 5, 22？不，那些可能是分数。
+    *   实际上，让我们看看网格。
+    *   标题：1 2 3
+    *   MAS 行：15 21 10
+    *   CHN 行：21 11 20
+    *   这意味着第一局：21-15（CHN 胜）。第二局：21-11（MAS 胜）。第三局：20-10（CHN 胜）。
+    *   所以 CHN 以 2-1 领先。
+    *   那么必须有一局第四局。
+    *   让我们看看 93:22 球场上的记分牌。
+    *   它显示：
+        *   MAS: 21 11 22
+        *   CHN: 15 11 20
+    *   等等，数字是 21, 11, 22。以及 15, 11, 20。
+    *   这意味着：
+        *   第一局：21-15（CHN 胜）。
+        *   第二局：11-21（MAS 胜）。（注意：11 < 21）。
+        *   第三局：20-22（MAS 胜）。（注意：22 > 20）。
+    *   这将使最终比分变为 2-2。
+    *   所以比赛进入决胜局（第五局）。
+    *   让我们检查视频内容以确认此序列。
+    *   00:00 - 32:00：第一局。以林丹获胜结束（32:54 的记分牌确认 21-15）。所以第一局：林丹胜。
+    *   34:30 - 53:00：第二局。
+        *   开始 0-0。
+        *   李取得早期领先（0-5, 0-6... 在 37-38 分钟左右可见）。
+
+*   Let's look at the points counter on the wall at the very end (93:15+).
+    *   At 93:15, the scoreboard says:
+        *   MAS: 21 11 22 (Wait, let's read carefully).
+        *   CHN: 15 11 20 (Wait, let's read carefully).
+    *   Let's look at the crop images near the end.
+    *   Crop 64 (93:08): Shows "RESULT: SEMI-FINAL".
+    *   Text:
+        *   MAS C.W. LEE | 1 | 5 | 22 (This looks like game counts? Or scores?)
+        *   CHN LIN D. | 21 | 11 | 20
+    *   Wait, the headers are 1, 5, 22? No, those are probably scores.
+    *   Actually, let's look at the grid.
+    *   Header: 1 2 3
+    *   Row MAS: 15 21 10
+    *   Row CHN: 21 11 20
+    *   This implies Game 1: 21-15 (Win CHN). Game 2: 21-11 (Win MAS). Game 3: 20-10 (Win CHN).
+    *   So CHN leads 2-1.
+    *   Then there must be a Game 4.
+    *   Let's look at the scoreboard on the court at 93:22.
+    *   It shows:
+        *   MAS: 21 11 22
+        *   CHN: 15 11 20
+    *   Wait, the numbers are 21, 11, 22. And 15, 11, 20.
+    *   This implies:
+        *   Game 1: 21-15 (Win CHN).
+        *   Game 2: 11-21 (Win MAS). (Note: 11 < 21).
+        *   Game 3: 20-22 (Win MAS). (Note: 22 > 20).
+    *   This would make the final score 2-2.
+    *   So the game goes to a decider (Game 5).
+    *   Let's check the video content to confirm this sequence.
+    *   00:00 - 32:00: Game 1. Ends with Lin Dan winning (Scoreboard at 32:54 confirms 21-15). So Game 1: Lin wins.
+    *   34:30 - 53:00: Game 2.
+        *   Starts 0-0.
+        *   Lee takes an early lead (0-5, 0-6... visible around 37-38 mins).
+
+第 11 段
+
+*   林试图追分。
+        *   在 43:07，画面显示 MAS 15，CHN 21。等等，这是在更新吗？
+        *   啊，在 43:07，画面是之前静止的？还是第一局的回放？
+        *   实际上，在 43:07，画面显示“男子单打半决赛”。
+        *   方框显示：
+            *   第 1 列：MAS 15，CHN 21。
+            *   第 2 列：MAS 15，CHN 21。（等等，我是不是看错了？）
+            *   让我们仔细看看 43:07。
+            *   它显示"1 2 3"。
+            *   MAS 行：15 ... 15 ... ?
+            *   CHN 行：21 ... 21 ... ?
+            *   看起来它只是在再次显示第一局的结果？或者也许第二局正在进行，而画面尚未更新？
+            *   等等，在 43:07，画面叠加在视频上。它显示与之前相同的比分（15-21）。这表明它可能是一个回放或者卡住了。
+            *   让我们看看比赛过程中墙上的比分计数器。
+            *   在 55:00 左右，比分是 0-0。
+            *   在 60:00 左右，比分是 4-3。
+            *   在 61:00 左右，比分是 5-3。
+            *   在 62:00 左右，比分是 5-4。
+            *   在 63:00 左右，比分是 5-5。
+            *   在 64:00 左右，比分是 5-6。
+            *   在 65:00 左右，比分是 6-7。
+            *   在 66:00 左右，比分是 6-7。
+            *   在 67:00 左右，比分是 7-7。
+            *   在 68:00 左右，比分是 7-7。
+            *   在 69:00 左右，比分是 8-7。
+            *   在 70:00 左右，比分是 9-8。
+            *   在 71:00 左右，比分是 9-9。
+
+*   Lin tries to catch up.
+        *   At 43:07, a graphic shows MAS 15, CHN 21. Wait, is this updating?
+        *   Ah, at 43:07, the graphic is static from earlier? Or is it a replay of Game 1?
+        *   Actually, at 43:07, the graphic shows "MEN'S SINGLES SEMI-FINAL".
+        *   The boxes show:
+            *   Col 1: MAS 15, CHN 21.
+            *   Col 2: MAS 15, CHN 21. (Wait, did I misread?)
+            *   Let's look really closely at 43:07.
+            *   It shows "1 2 3".
+            *   Row MAS: 15 ... 15 ... ?
+            *   Row CHN: 21 ... 21 ... ?
+            *   It looks like it's just showing the first game result again? Or maybe the second game is being played and the graphic hasn't updated?
+            *   Wait, at 43:07, the graphic is overlaid on the video. It shows the same score as before (15-21). This suggests it might be a replay or just stuck.
+            *   Let's look at the points counter on the wall during the action.
+            *   Around 55:00, points are 0-0.
+            *   Around 60:00, points are 4-3.
+            *   Around 61:00, points are 5-3.
+            *   Around 62:00, points are 5-4.
+            *   Around 63:00, points are 5-5.
+            *   Around 64:00, points are 5-6.
+            *   Around 65:00, points are 6-7.
+            *   Around 66:00, points are 6-7.
+            *   Around 67:00, points are 7-7.
+            *   Around 68:00, points are 7-7.
+            *   Around 69:00, points are 8-7.
+            *   Around 70:00, points are 9-8.
+            *   Around 71:00, points are 9-9.
+
+第 12 段
+
+*   大约 72:00 时，比分是 9-10。
+            *   大约 73:00 时，比分是 10-10。
+            *   大约 74:00 时，比分是 10-11。
+            *   大约 75:00 时，比分是 10-11。（比赛结束？）
+            *   75:20 处的画面显示“男子单打半决赛”。
+                *   第 1 列：MAS 15，CHN 21。
+                *   第 2 列：MAS 21，CHN 11。
+                *   第 3 列：MAS 10，CHN 20。（等等，让我们再仔细看看）。
+                *   实际上，在 75:20，画面显示：
+                    *   MAS: 15 ... 21 ... 10
+                    *   CHN: 21 ... 11 ... 20
+                *   这证实了：第 1 局（21-15 CHN 胜），第 2 局（21-11 MAS 胜），第 3 局（20-10 CHN 胜）。
+                *   所以林丹以 2-1 领先。
+            *   那么从 75:00 开始显示的比赛是第 4 局？还是第 3 局？
+            *   等等，如果第 3 局在 74:00 以 20-10（或 20-11）结束，那么当前的比赛画面（75:00+）必须是第 4 局。
+            *   让我们检查一下从 75:00 开始的片段开头的记分牌。
+            *   在 75:00，比分计数器是隐藏的或不在屏幕内？
+            *   在 76:37，记分牌显示：
+                *   MAS: 10（第 1 局分数？？不，是 15），21（第 2 局分数），10（当前分数？）。
+                *   CHN: 21, 11, 11。
+                *   所以当前比分：MAS 10，CHN 11。
+                *   这符合第 4 局。之前的局数：CHN 赢了 G1，G3。MAS 赢了 G2。
+                *   所以 CHN 以 2-1 领先。
+                *   当前局比分：CHN 以 11-10 领先。
+    *   好的，所以我们要评估林丹在*第二局*中的表现。
+
+*   Around 72:00, points are 9-10.
+            *   Around 73:00, points are 10-10.
+            *   Around 74:00, points are 10-11.
+            *   Around 75:00, points are 10-11. (End of game?)
+            *   Graphic at 75:20 shows "MEN'S SINGLES SEMI-FINAL".
+                *   Col 1: MAS 15, CHN 21.
+                *   Col 2: MAS 21, CHN 11.
+                *   Col 3: MAS 10, CHN 20. (Wait, let's look closer).
+                *   Actually, at 75:20, the graphic shows:
+                    *   MAS: 15 ... 21 ... 10
+                    *   CHN: 21 ... 11 ... 20
+                *   This confirms: Game 1 (21-15 Win CHN), Game 2 (21-11 Win MAS), Game 3 (20-10 Win CHN).
+                *   So Lin leads 2-1.
+            *   So the game shown from 75:00 onwards is Game 4? Or Game 3?
+            *   Wait, if Game 3 ended at 74:00 with score 20-10 (or 20-11), then the current gameplay (75:00+) must be Game 4.
+            *   Let's check the scoreboard at the start of the segment starting 75:00.
+            *   At 75:00, the points counter is hidden or off screen?
+            *   At 76:37, the scoreboard shows:
+                *   MAS: 10 (Game 1 score?? No, 15), 21 (Game 2 score), 10 (Current score?).
+                *   CHN: 21, 11, 11.
+                *   So current points: MAS 10, CHN 11.
+                *   This fits with Game 4. Previous sets: CHN won G1, G3. MAS won G2.
+                *   So score is 2-1 to CHN.
+                *   Current game points: 11-10 in favor of CHN.
+    *   Okay, so we are evaluating Lin Dan's performance in the *second game*.
+
+第 13 段
+
+*   第二场比赛大约从 34:30 持续到 74:00（根据时间线判断）。
+    *   让我们看看第二场比赛的状态/优势情况。
+    *   第二场比赛开始（34:30）：比分 0-0。
+    *   第二场比赛早期（35:00 - 40:00）：
+        *   得分：0-1（林），0-2（林），0-3（林），0-4（林），0-5（林），0-6（林）。
+        *   等等，这正确吗？让我们检查一下记分牌。
+        *   在 36:23，左上角记分牌：MAS 0，CHN 3。是的，林以 3-0 领先。
+        *   在 37:26，MAS 0，CHN 5。林以 5-0 领先。
+        *   在 37:56，MAS 0，CHN 6。林以 6-0 领先。
+        *   所以林丹在第二场比赛开始时处于非常落后的局面。
+    *   第二场比赛中期（38:00 - 50:00）：
+        *   李追了上来。
+        *   在 38:20，MAS 5，CHN 1。（李势头强劲）。
+        *   在 39:06，MAS 6，CHN 1。
+        *   在 39:37，MAS 7，CHN 1。
+        *   在 40:36，MAS 8，CHN 7。（平局）。
+        *   在 41:16，MAS 9，CHN 8。（李领先）。
+        *   在 42:14，MAS 10，CHN 9。（李领先）。
+        *   在 42:22，MAS 10，CHN 10。（平局）。
+        *   在 43:37，MAS 11，CHN 10。（李领先）。
+        *   在 44:16，MAS 12，CHN 10。（李领先）。
+        *   在 44:49，MAS 13，CHN 10。（李领先）。
+        *   在 45:03，MAS 14，CHN 10。（李领先）。
+        *   在 45:51，MAS 16，CHN 13。（李大幅领先）。
+        *   在 46:53，MAS 16，CHN 14。（李领先）。
+        *   在 47:04，MAS 16，CHN 14。
+        *   在 47:52，MAS 16，CHN 15。
+        *   在 48:01，MAS 16，CHN 16。
+        *   在 48:21，MAS 16，CHN 16。
+        *   在 48:36，MAS 16，CHN 17。
+        *   在 49:16，MAS 18，CHN 17。（李领先）。
+        *   在 50:18，MAS 18，CHN 17。
+
+*   The second game runs from roughly 34:30 to 74:00 (judging by the timeline).
+    *   Let's look at the status/dominance in Game 2.
+    *   Start of Game 2 (34:30): Score 0-0.
+    *   Early Game 2 (35:00 - 40:00):
+        *   Points: 0-1 (Lin), 0-2 (Lin), 0-3 (Lin), 0-4 (Lin), 0-5 (Lin), 0-6 (Lin).
+        *   Wait, is that correct? Let's check the scoreboard.
+        *   At 36:23, top left scoreboard: MAS 0, CHN 3. Yes, Lin is leading 3-0.
+        *   At 37:26, MAS 0, CHN 5. Lin leading 5-0.
+        *   At 37:56, MAS 0, CHN 6. Lin leading 6-0.
+        *   So Lin Dan is leading badly in the beginning of Game 2.
+    *   Mid Game 2 (38:00 - 50:00):
+        *   Lee catches up.
+        *   At 38:20, MAS 5, CHN 1. (Lee surges).
+        *   At 39:06, MAS 6, CHN 1.
+        *   At 39:37, MAS 7, CHN 1.
+        *   At 40:36, MAS 8, CHN 7. (Tied).
+        *   At 41:16, MAS 9, CHN 8. (Lee leads).
+        *   At 42:14, MAS 10, CHN 9. (Lee leads).
+        *   At 42:22, MAS 10, CHN 10. (Tied).
+        *   At 43:37, MAS 11, CHN 10. (Lee leads).
+        *   At 44:16, MAS 12, CHN 10. (Lee leads).
+        *   At 44:49, MAS 13, CHN 10. (Lee leads).
+        *   At 45:03, MAS 14, CHN 10. (Lee leads).
+        *   At 45:51, MAS 16, CHN 13. (Lee leads significantly).
+        *   At 46:53, MAS 16, CHN 14. (Lee leads).
+        *   At 47:04, MAS 16, CHN 14.
+        *   At 47:52, MAS 16, CHN 15.
+        *   At 48:01, MAS 16, CHN 16.
+        *   At 48:21, MAS 16, CHN 16.
+        *   At 48:36, MAS 16, CHN 17.
+        *   At 49:16, MAS 18, CHN 17. (Lee leads).
+        *   At 50:18, MAS 18, CHN 17.
+
+第 14 段
+
+*   在 50:54，马来西亚 18 分，中国 18 分。
+        *   在 51:14，马来西亚 18 分，中国 19 分。
+        *   在 52:01，马来西亚 18 分，中国 20 分。
+        *   在 52:32，马来西亚 18 分，中国 21 分。（比赛结束？）
+        *   等等，53:15 的图表显示第二局为“马来西亚 21，中国 11"。
+        *   所以我上面的追踪是错的，或者记分牌跳动了。
+        *   让我们再看一遍 53:15 的图表。
+        *   第 2 列：马来西亚 21，中国 11。
+        *   这意味着李宗伟以 21-11 赢得了第二局。
+        *   那么，林丹怎么可能以 6-0 领先，然后李宗伟以 21-11 获胜？
+        *   也许 36:23 的记分牌（马来西亚 0，中国 3）指的是别的东西？比如发球分？不。
+        *   也许我搞错了球员或队服。
+        *   林丹 = 红色。李宗伟 = 蓝色/绿色。
+        *   让我们重新检查 35:00 - 40:00。
+        *   在 35:10，记分牌显示“马来西亚 0 1"，“中国 1 0"。这意味着局数。林丹赢了第一局。当前局分：中国 1-0（领先）。
+        *   在 36:23，记分牌显示“马来西亚 0"，“中国 3"。这意味着中国以 3-0 领先。
+        *   在 37:26，记分牌显示“马来西亚 0"，“中国 5"。中国以 5-0 领先。
+        *   在 37:56，记分牌显示“马来西亚 0"，“中国 6"。中国以 6-0 领先。
+        *   所以林丹确实在第二局早期占据绝对优势。
+        *   但后来李宗伟怎么以 21-11 获胜的？
+        *   也许 53:15 的图表是错的？或者我读错了。
+        *   让我们再看一遍 53:15 的图表。
+        *   “男子单打半决赛”
+        *   第 1 列：马来西亚 15，中国 21。（第一局）。
+        *   第 2 列：马来西亚 15，中国 21。（等等，又是 15-21 吗？）
+        *   让我们放大查看 53:15 的裁剪图 5。
+        *   它显示“马来西亚 15 ... 中国 21"。
+
+*   At 50:54, MAS 18, CHN 18.
+        *   At 51:14, MAS 18, CHN 19.
+        *   At 52:01, MAS 18, CHN 20.
+        *   At 52:32, MAS 18, CHN 21. (End of Game?)
+        *   Wait, the graphic at 53:15 says "MAS 21, CHN 11" for Game 2.
+        *   So my tracking above is wrong or the scoreboard jumps.
+        *   Let's look at the graphic at 53:15 again.
+        *   Col 2: MAS 21, CHN 11.
+        *   This implies Lee won Game 2 21-11.
+        *   So, how could Lin be leading 6-0 and then Lee win 21-11?
+        *   Maybe the scoreboard at 36:23 (MAS 0, CHN 3) refers to something else? Like service points? No.
+        *   Maybe I misidentified the players or uniforms.
+        *   Lin Dan = Red. Lee Chong Wei = Blue/Green.
+        *   Let's re-examine 35:00 - 40:00.
+        *   At 35:10, scoreboard says "MAS 0 1", "CHN 1 0". This means Sets. Lin won Set 1. Current game points: CHN 1-0 (leading).
+        *   At 36:23, scoreboard says "MAS 0", "CHN 3". This means CHN leads 3-0.
+        *   At 37:26, scoreboard says "MAS 0", "CHN 5". CHN leads 5-0.
+        *   At 37:56, scoreboard says "MAS 0", "CHN 6". CHN leads 6-0.
+        *   So Lin is definitely dominating early in Game 2.
+        *   But then how did Lee win 21-11?
+        *   Maybe the graphic at 53:15 is wrong? Or I am misreading it.
+        *   Let's look at the graphic at 53:15 again.
+        *   "MEN'S SINGLES SEMI-FINAL"
+        *   Col 1: MAS 15, CHN 21. (Game 1).
+        *   Col 2: MAS 15, CHN 21. (Wait, is it 15-21 again?)
+        *   Let's zoom in on 53:15 crop 5.
+        *   It shows "MAS 15 ... CHN 21".
+
+第 15 段
+
+在"MAS 15 ... CHN 21"下方。
+        *   这意味着图形没有正确更新，或者我看到了重复项。
+        *   让我们看看视频下半场（70 分钟后）墙上的记分牌。
+        *   在 76:37，记分牌显示：
+            *   左上角：MAS 10, CHN 11。（第 4 局 4 分）。
+            *   其下方：MAS 15, CHN 21（第 1 列）。
+            *   MAS 21, CHN 11（第 2 列）。
+            *   MAS 10, CHN 20（第 3 列）。
+        *   等等，如果第 2 列是 21-11，那么 Lee 赢了第 2 局。
+        *   但这与我观察到 Lin 以 6-0 领先的观察结果相矛盾。
+        *   让我们非常仔细地重新观看从 35:00 到 40:00 的部分。
+        *   在 35:10，积分计数器：MAS 0, CHN 1。（Lin 领先）。
+        *   在 35:40，积分计数器：MAS 0, CHN 2。（Lin 领先）。
+        *   在 36:23，积分计数器：MAS 0, CHN 3。（Lin 领先）。
+        *   在 37:26，积分计数器：MAS 0, CHN 5。（Lin 领先）。
+        *   在 37:56，积分计数器：MAS 0, CHN 6。（Lin 领先）。
+        *   在 38:20，积分计数器：MAS 5, CHN 1。（Lee 猛攻！）。
+        *   在 39:06，积分计数器：MAS 6, CHN 1。
+        *   在 39:37，积分计数器：MAS 7, CHN 1。
+        *   在 40:36，积分计数器：MAS 8, CHN 7。
+        *   在 41:16，积分计数器：MAS 9, CHN 8。
+        *   在 42:14，积分计数器：MAS 10, CHN 9。
+        *   在 42:22，积分计数器：MAS 10, CHN 10。
+        *   在 43:37，积分计数器：MAS 11, CHN 10。
+        *   在 44:16，积分计数器：MAS 12, CHN 10。
+        *   在 44:49，积分计数器：MAS 13, CHN 10。
+        *   在 45:03，积分计数器：MAS 14, CHN 10。
+
+And below "MAS 15 ... CHN 21".
+        *   This implies the graphic didn't update correctly or I'm seeing duplicates.
+        *   Let's look at the scoreboard on the wall during the second half of the video (after 70 mins).
+        *   At 76:37, scoreboard shows:
+            *   Top left: MAS 10, CHN 11. (Game 4 points).
+            *   Below that: MAS 15, CHN 21 (Col 1).
+            *   MAS 21, CHN 11 (Col 2).
+            *   MAS 10, CHN 20 (Col 3).
+        *   Wait, if Col 2 is 21-11, then Lee won Game 2.
+        *   But my observation of Lin leading 6-0 contradicts this.
+        *   Let's re-watch the section from 35:00 to 40:00 very carefully.
+        *   At 35:10, points counter: MAS 0, CHN 1. (Lin leads).
+        *   At 35:40, points counter: MAS 0, CHN 2. (Lin leads).
+        *   At 36:23, points counter: MAS 0, CHN 3. (Lin leads).
+        *   At 37:26, points counter: MAS 0, CHN 5. (Lin leads).
+        *   At 37:56, points counter: MAS 0, CHN 6. (Lin leads).
+        *   At 38:20, points counter: MAS 5, CHN 1. (Lee surges!).
+        *   At 39:06, points counter: MAS 6, CHN 1.
+        *   At 39:37, points counter: MAS 7, CHN 1.
+        *   At 40:36, points counter: MAS 8, CHN 7.
+        *   At 41:16, points counter: MAS 9, CHN 8.
+        *   At 42:14, points counter: MAS 10, CHN 9.
+        *   At 42:22, points counter: MAS 10, CHN 10.
+        *   At 43:37, points counter: MAS 11, CHN 10.
+        *   At 44:16, points counter: MAS 12, CHN 10.
+        *   At 44:49, points counter: MAS 13, CHN 10.
+        *   At 45:03, points counter: MAS 14, CHN 10.
+
+第 16 段
+
+*   在 45:51，比分牌显示：马来西亚 16，中国 13。（等等，比分怎么从 14-10 跳到了 16-13？）
+        *   在 46:53，比分牌显示：马来西亚 16，中国 14。
+        *   在 47:52，比分牌显示：马来西亚 16，中国 15。
+        *   在 48:01，比分牌显示：马来西亚 16，中国 16。
+        *   在 48:21，比分牌显示：马来西亚 16，中国 16。
+        *   在 48:36，比分牌显示：马来西亚 16，中国 17。
+        *   在 49:16，比分牌显示：马来西亚 18，中国 17。
+        *   在 50:18，比分牌显示：马来西亚 18，中国 17。
+        *   在 50:54，比分牌显示：马来西亚 18，中国 18。
+        *   在 51:14，比分牌显示：马来西亚 18，中国 19。
+        *   在 52:01，比分牌显示：马来西亚 18，中国 20。
+        *   在 52:32，比分牌显示：马来西亚 18，中国 21。（比赛结束）。
+        *   所以实际的比赛比分大概是 18-21？还是 19-21？
+        *   但是 53:15 的画面显示“马来西亚 21，中国 11”。这非常令人困惑。
+        *   让我们再次检查 75:20 的画面。
+        *   “男子单打半决赛”
+        *   第 1 列：马来西亚 15，中国 21。
+        *   第 2 列：马来西亚 21，中国 11。
+        *   第 3 列：马来西亚 10，中国 20。
+        *   这意味着第二局比分是 21-11。
+        *   是否可能视频展示了两场比赛，或者我误解了片段？
+        *   让我们检查时间戳。
+        *   00:00 - 32:00：第一局。结束比分为 21-15。
+        *   34:30 - 53:00：这是一个很长的片段。
+        *   如果比赛在 53:00 结束，比分为 21-11，那么我看到的比分追踪（直到 18-21）一定是错的。
+        *   让我们再次查看 45:51 的记分牌。
+        *   它显示马来西亚 16，中国 13。
+        *   然后在 46:05，显示马来西亚 16，中国 13。
+
+*   At 45:51, points counter: MAS 16, CHN 13. (Wait, how did it jump to 16-13 from 14-10?)
+        *   At 46:53, points counter: MAS 16, CHN 14.
+        *   At 47:52, points counter: MAS 16, CHN 15.
+        *   At 48:01, points counter: MAS 16, CHN 16.
+        *   At 48:21, points counter: MAS 16, CHN 16.
+        *   At 48:36, points counter: MAS 16, CHN 17.
+        *   At 49:16, points counter: MAS 18, CHN 17.
+        *   At 50:18, points counter: MAS 18, CHN 17.
+        *   At 50:54, points counter: MAS 18, CHN 18.
+        *   At 51:14, points counter: MAS 18, CHN 19.
+        *   At 52:01, points counter: MAS 18, CHN 20.
+        *   At 52:32, points counter: MAS 18, CHN 21. (End of game).
+        *   So the actual game score was something like 18-21? Or 19-21?
+        *   But the graphic at 53:15 says "MAS 21, CHN 11". This is extremely confusing.
+        *   Let's check the graphic at 75:20 again.
+        *   "MEN'S SINGLES SEMI-FINAL"
+        *   Col 1: MAS 15, CHN 21.
+        *   Col 2: MAS 21, CHN 11.
+        *   Col 3: MAS 10, CHN 20.
+        *   This implies Game 2 was 21-11.
+        *   Is it possible the video shows two different matches or I am misinterpreting the segments?
+        *   Let's check the timestamps.
+        *   00:00 - 32:00: Game 1. Ends 21-15.
+        *   34:30 - 53:00: This is a long segment.
+        *   If the game ends at 53:00 with score 21-11, then the score tracking I saw (up to 18-21) must be wrong.
+        *   Let's look at the scoreboard at 45:51 again.
+        *   It shows MAS 16, CHN 13.
+        *   Then at 46:05, MAS 16, CHN 13.
+
+第 17 段
+
+*   然后在 47:04，MAS 16，CHN 14。
+        *   然后在 48:01，MAS 16，CHN 16。
+        *   这似乎与一场接近的比赛一致。
+        *   那么为什么图表显示 21-11？
+        *   也许 53:15 的图表实际上显示的是第三局？
+        *   第 1 列：第一局（15-21）。
+        *   第 2 列：第二局（21-11）。
+        *   第 3 列：第三局（10-20）。
+        *   如果第 2 列是 21-11，那么李赢得了第二局。
+        *   但我的视觉证据显示比分走高（16+，然后 18+）。21-11 的比分意味着有人落后到 11 分，而另一人达到 21 分。
+        *   在我的视觉追踪中，CHN 从未处于 11 分。CHN 经常至少有 10 分。
+        *   让我们看看 93:36 的“比赛统计”图表。
+        *   "C.W. LEE"：比赛得分 4，局得分 1，发球失误 0，最长拉锯 59 拍，Shutles 48，时长 83 分钟。
+        *   "LIN D."：比赛得分 0，局得分 1，发球失误 0，最长拉锯 59 拍，Shutles 48，时长 83 分钟。
+        *   等等，“最长拉锯 59 拍”是单一事件。
+        *   “时长 83 分钟”。这对于半决赛的一局来说非常长。
+        *   如果时长是 83 分钟，那很可能是一系列局。
+        *   让我们再次查看 93:08 的最终图表。
+        *   它显示“结果：半决赛”。
+        *   数字是 15、21、10 和 21、11、20。
+        *   等等，标题是 1、5、22？不。
+        *   标题可能是"1"、"2"、"3"，但被遮挡或难以看清。
+        *   让我们假设标准的五局三胜制。
+
+*   Then at 47:04, MAS 16, CHN 14.
+        *   Then at 48:01, MAS 16, CHN 16.
+        *   This seems consistent with a close game.
+        *   So why does the graphic say 21-11?
+        *   Maybe the graphic at 53:15 is actually showing Game 3?
+        *   Col 1: Game 1 (15-21).
+        *   Col 2: Game 2 (21-11).
+        *   Col 3: Game 3 (10-20).
+        *   If Col 2 is 21-11, then Lee won Game 2.
+        *   But my visual evidence shows the score going high (16+, then 18+). A score of 21-11 would mean someone was down to 11 points while the other went to 21.
+        *   In my visual tracking, CHN was never at 11 points. CHN was at least 10 points often.
+        *   Let's look at the "Match Statistics" graphic at 93:36.
+        *   "C.W. LEE": Match Points 4, Game Points 1, Service Faults 0, Longest Rally 59 Strokes, Shutles 48, Duration 83 Minutes.
+        *   "LIN D.": Match Points 0, Game Points 1, Service Faults 0, Longest Rally 59 Strokes, Shutles 48, Duration 83 Minutes.
+        *   Wait, "Longest Rally 59 Strokes" is a single event.
+        *   "Duration 83 Minutes". This is very long for a semi-final game.
+        *   If the duration is 83 minutes, it's likely a series of games.
+        *   Let's look at the final graphic at 93:08 again.
+        *   It shows "RESULT: SEMI-FINAL".
+        *   The numbers are 15, 21, 10 and 21, 11, 20.
+        *   Wait, the headers are 1, 5, 22? No.
+        *   The headers are likely "1", "2", "3" but obscured or hard to see.
+        *   Let's assume standard best of 5.
+
+第 18 段
+
+*   如果最终结果显示，它应该显示所有比赛。
+        *   也许列不是 1、2、3。
+        *   也许第一列是第 1 局，第二列是第 2 局，第三列是第 3 局。
+        *   第 1 局：21-15（林获胜）。
+        *   第 2 局：21-11（李获胜）。
+        *   第 3 局：20-10（林获胜）。
+        *   这意味着林以 2-1 领先。
+        *   但视频继续播放。
+        *   让我们看看 93:22 处的记分牌。
+        *   它显示：
+            *   MAS：21 11 22
+            *   CHN：15 11 20
+        *   等等，看看 93:22 处的裁剪图。
+        *   顶行：MAS 21 11 22。
+        *   底行：CHN 15 11 20。
+        *   这意味着：
+            *   第 1 局：21-15（CHN 胜）。
+            *   第 2 局：11-21（MAS 胜）。(注意：11 < 21)。
+            *   第 3 局：20-22（MAS 胜）。(注意：22 > 20)。
+        *   所以最终比分是 2-2。
+        *   他们正在打第 4 局。
+        *   这与长时间（83 分钟）和激烈的多拍相吻合。
+        *   因此，"53:15 处的图形”显示第 2 局为 21-11，一定是我解读错误，还是它显示的是比赛后期第 2 局的结果？
+        *   让我们重新检查 53:15。
+        *   图形显示：
+            *   MAS：15 ... 21 ... 10
+            *   CHN：21 ... 11 ... 20
+        *   这对应于：
+            *   第 1 局：21-15（CHN 胜）。
+            *   第 2 局：21-11（MAS 胜）。
+            *   第 3 局：20-10（CHN 胜）。
+        *   等等，如果第 3 局是 20-10，那么 CHN 以 2-1 领先。
+        *   但 93:22 处的记分牌显示第 3 局为 20-22（MAS 胜）。
+
+*   If the final result is displayed, it should show all games.
+        *   Maybe the columns are not 1, 2, 3.
+        *   Maybe the first column is Game 1, second Game 2, third Game 3.
+        *   Game 1: 21-15 (Lin wins).
+        *   Game 2: 21-11 (Lee wins).
+        *   Game 3: 20-10 (Lin wins).
+        *   This would mean Lin leads 2-1.
+        *   But the video continues.
+        *   Let's look at the scoreboard at 93:22.
+        *   It shows:
+            *   MAS: 21 11 22
+            *   CHN: 15 11 20
+        *   Wait, looking at the crop at 93:22.
+        *   Top line: MAS 21 11 22.
+        *   Bottom line: CHN 15 11 20.
+        *   This implies:
+            *   Game 1: 21-15 (Win CHN).
+            *   Game 2: 11-21 (Win MAS). (Note: 11 < 21).
+            *   Game 3: 20-22 (Win MAS). (Note: 22 > 20).
+        *   So the final score is 2-2.
+        *   And they are playing Game 4.
+        *   This matches the long duration (83 minutes) and the intense rallies.
+        *   So, the "Graphic at 53:15" which showed 21-11 for Game 2 must have been interpreted incorrectly by me, or it was showing Game 2 result *later* in the match?
+        *   Let's re-examine 53:15.
+        *   The graphic shows:
+            *   MAS: 15 ... 21 ... 10
+            *   CHN: 21 ... 11 ... 20
+        *   This corresponds to:
+            *   Game 1: 21-15 (Win CHN).
+            *   Game 2: 21-11 (Win MAS).
+            *   Game 3: 20-10 (Win CHN).
+        *   Wait, if Game 3 is 20-10, then CHN leads 2-1.
+        *   But the scoreboard at 93:22 shows Game 3 as 20-22 (Win MAS).
+
+第 19 段
+
+*   因此，53:15 处的图表与 93:22 处的记分牌之间存在矛盾。
+        *   让我们再次查看 93:22 处的记分牌。
+        *   它显示"MAS 21 11 22"。"CHN 15 11 20"。
+        *   这意味着第一局：21-15。第二局：21-11。第三局：22-20。
+        *   所以李赢得了第二局和第三局。李的比分是 1-2。
+        *   如果正在打第四局，这符合"2-2"的结论。
+        *   所以，第二局是李以 21-11 获胜。
+        *   我对“林以 6-0 领先”的视觉追踪一定是错的。
+        *   让我们重新观看 35:00 - 40:00。
+        *   在 35:10，记分牌：MAS 0 1 / CHN 1 0。（局数：CHN 1-0 领先）。分数：0-1（CHN 领先）。
+        *   在 35:40，记分牌：MAS 0 1 / CHN 1 0。分数：0-2（CHN 领先）。
+        *   在 36:23，记分牌：MAS 0 1 / CHN 1 0。分数：0-3（CHN 领先）。
+        *   在 37:26，记分牌：MAS 0 1 / CHN 1 0。分数：0-5（CHN 领先）。
+        *   在 37:56，记分牌：MAS 0 1 / CHN 1 0。分数：0-6（CHN 领先）。
+        *   所以林确实以 6-0 领先。
+        *   最终比分怎么会是 21-11 呢？
+        *   也许 36:23 等处的记分牌并不是比赛分数。
+        *   那还能是什么？
+        *   也许是“发球轮次”？不。
+        *   也许是“网前轮次”？不。
+        *   也许它只是一个计时器？不。
+        *   也许是*之前*某场比赛的比分？
+        *   在 32:54，图表显示 15-21。
+        *   在 34:30，比赛重新开始。
+        *   如果林以 6-0 领先，除非李上演了巨大的逆转，否则他会有大麻烦。
+        *   李将比分追到了 21-11？
+
+*   So there is a contradiction between the graphic at 53:15 and the scoreboard at 93:22.
+        *   Let's look at the scoreboard at 93:22 again.
+        *   It shows "MAS 21 11 22". "CHN 15 11 20".
+        *   This means Game 1: 21-15. Game 2: 21-11. Game 3: 22-20.
+        *   So Lee won Game 2 and Game 3. Score 1-2 to Lee.
+        *   This fits the "2-2" conclusion if Game 4 is being played.
+        *   So, Game 2 was won by Lee 21-11.
+        *   My visual tracking of "Lin leading 6-0" must be wrong.
+        *   Let's re-watch 35:00 - 40:00.
+        *   At 35:10, scoreboard: MAS 0 1 / CHN 1 0. (Sets: CHN 1-0 Lead). Points: 0-1 (CHN lead).
+        *   At 35:40, scoreboard: MAS 0 1 / CHN 1 0. Points: 0-2 (CHN lead).
+        *   At 36:23, scoreboard: MAS 0 1 / CHN 1 0. Points: 0-3 (CHN lead).
+        *   At 37:26, scoreboard: MAS 0 1 / CHN 1 0. Points: 0-5 (CHN lead).
+        *   At 37:56, scoreboard: MAS 0 1 / CHN 1 0. Points: 0-6 (CHN lead).
+        *   So Lin IS leading 6-0.
+        *   How can the final score be 21-11?
+        *   Maybe the scoreboard at 36:23 etc. is NOT the game points.
+        *   What else could it be?
+        *   Maybe it's "Service Rallies"? No.
+        *   Maybe it's "Net Rallies"? No.
+        *   Maybe it's just a timer? No.
+        *   Maybe it's the score of a *previous* game?
+        *   At 32:54, the graphic shows 15-21.
+        *   At 34:30, the match resumes.
+        *   If Lin led 6-0, he would be in trouble unless Lee made a huge comeback.
+        *   Lee made a comeback to 21-11?
+
+第 20 段
+
+*   如果林在 6 分，而李回到 21 分，那就是 15 分的差距。在羽毛球中不太可能。
+        *   因此我在 37:56 处对"0 6"的解读一定是错误的。
+        *   让我们看看 37:56 处的画面。
+        *   左上角方框："MAS 0"，"CHN 6"。
+        *   等等，"MAS"和"CHN"可能不是队伍吗？
+        *   是的，MAS 是马来西亚，CHN 是中国。
+        *   这些行是否可能已互换？
+        *   顶行：MAS。底行：CHN。
+        *   所以 MAS 0，CHN 6。
+        *   等等，让我们看看颜色编码。
+        *   通常上方为玩家 1，下方为玩家 2。
+        *   但这里显示的是国家代码。
+        *   让我们假设 Top = MAS（蓝色），Bottom = CHN（红色）。
+        *   所以 MAS 0，CHN 6。林领先 6-0。
+        *   但是，请看 43:07 处的记分牌。
+        *   它显示"1 2 3"。
+        *   行 MAS：15 ... 15 ...
+        *   行 CHN: 21 ... 21 ...
+        *   这表明该图表只是重复了第一局的比分。
+        *   让我们看看 75:20 处的记分牌。
+        *   行 MAS：15 ... 21 ... 10
+        *   行 CHN: 21 ... 11 ... 20
+        *   这意味着：
+            *   第 1 场比赛：21-15（战胜中国）。
+            *   第 2 局：21-11（胜 MAS）。
+            *   第 3 场比赛：20-10（战胜中国）。
+        *   如果这是真的，那么李赢了第二局。
+        *   所以林肯定已经下去了。
+        *   因此，我对"MAS 0, CHN 6"的解读一定是错误的。
+        *   可能是"MAS 6, CHN 0"吗？即，李以 6-0 领先？
+        *   让我们再次检查 37:56 处的画面。
+        *   顶部数字："0"。底部数字："6"。
+
+*   If Lin is at 6, and Lee comes back to 21, that's a 15-point gap. Unlikely in badminton.
+        *   So my reading of "0 6" at 37:56 must be wrong.
+        *   Let's look at the crop at 37:56.
+        *   Top left box: "MAS 0", "CHN 6".
+        *   Wait, is it possible that "MAS" and "CHN" are not the teams?
+        *   Yes, MAS is Malaysia, CHN is China.
+        *   Is it possible that the lines are swapped?
+        *   Top line: MAS. Bottom line: CHN.
+        *   So MAS 0, CHN 6.
+        *   Wait, let's look at the color coding.
+        *   Usually top is Player 1, bottom is Player 2.
+        *   But here it shows country codes.
+        *   Let's assume Top = MAS (Blue), Bottom = CHN (Red).
+        *   So MAS 0, CHN 6. Lin leads 6-0.
+        *   BUT, look at the scoreboard at 43:07.
+        *   It shows "1 2 3".
+        *   Row MAS: 15 ... 15 ...
+        *   Row CHN: 21 ... 21 ...
+        *   This suggests the graphic is just repeating the first game score.
+        *   Let's look at the scoreboard at 75:20.
+        *   Row MAS: 15 ... 21 ... 10
+        *   Row CHN: 21 ... 11 ... 20
+        *   This implies:
+            *   Game 1: 21-15 (Win CHN).
+            *   Game 2: 21-11 (Win MAS).
+            *   Game 3: 20-10 (Win CHN).
+        *   If this is true, then Lee won Game 2.
+        *   So Lin MUST have been down.
+        *   So my reading of "MAS 0, CHN 6" must be wrong.
+        *   Could it be "MAS 6, CHN 0"? i.e., Lee leads 6-0?
+        *   Let's check the crop at 37:56 again.
+        *   Top number: "0". Bottom number: "6".
+
+第 21 段
+
+*   等等，仔细看看裁剪图 23（37:56）。
+        *   顶部的框显示"0"。底部的框显示"6"。
+        *   旁边是"MAS"和"CHN"。
+        *   等等，文字是"MAS 0"和"CHN 6"。
+        *   这很令人困惑。
+        *   让我们看看 32:54 处的记分牌。
+        *   "MAS 15"，"CHN 21"。
+        *   这里，15 在 21 上面吗？不，15 在左边，21 在右边？还是 15 在上，21 在下？
+        *   通常格式是 姓名 | 队伍 | 分数。
+        *   我们假设标准格式：左边是 P1，右边是 P2。或者上面是 P1，下面是 P2。
+        *   在墙上的主记分牌上：
+        *   左上区域：两个屏幕。一个用于 MAS，一个用于 CHN。
+        *   屏幕 1（左侧）：MAS。分数：15。
+        *   屏幕 2（右侧）：CHN。分数：21。
+        *   所以第一局以 21-15 结束。
+        *   回到第二局。
+        *   在 36:23，左侧屏幕：MAS。分数：0。右侧屏幕：CHN。分数：3。
+        *   所以 CHN 以 3-0 领先。
+        *   在 37:56，左侧屏幕：MAS。分数：0。右侧屏幕：CHN。分数：6。
+        *   所以 CHN 以 6-0 领先。
+        *   这意味着林打得非常糟糕。
+        *   那么 75:20 处的图形如何显示第二局为 21-11（MAS 胜）呢？
+        *   也许 75:20 处的图形并不是显示第二局。
+        *   也许列代表的是到目前为止已进行的 1、2、3 场比赛？
+        *   如果进行了 3 场比赛，且分数分别为 15-21、21-11、20-10。
+        *   那么 CHN 赢了第 1 场和第 3 场，MAS 赢了第 2 场。
+        *   所以 CHN 以 2-1 领先。
+        *   这符合林在第二局打得非常糟糕的想法吗？不，如果 CHN 在总比分上以 2-1 领先，并且赢了第一局，那么第二局必须是一场失利或平局。
+
+*   Wait, looking really closely at crop 23 (37:56).
+        *   The top box says "0". The bottom box says "6".
+        *   Next to it "MAS" and "CHN".
+        *   Wait, the text is "MAS 0" and "CHN 6".
+        *   This is confusing.
+        *   Let's look at the scoreboard at 32:54.
+        *   "MAS 15", "CHN 21".
+        *   Here, 15 is above 21? No, 15 is left, 21 is right? Or 15 top, 21 bottom?
+        *   Usually it's Name | Team | Score.
+        *   Let's assume standard: Left is P1, Right is P2. Or Top is P1, Bottom is P2.
+        *   In the main scoreboard on the wall:
+        *   Top left area: Two screens. One for MAS, one for CHN.
+        *   Screen 1 (Left): MAS. Score: 15.
+        *   Screen 2 (Right): CHN. Score: 21.
+        *   So Game 1 ended 21-15.
+        *   Back to Game 2.
+        *   At 36:23, Left Screen: MAS. Score: 0. Right Screen: CHN. Score: 3.
+        *   So CHN leads 3-0.
+        *   At 37:56, Left Screen: MAS. Score: 0. Right Screen: CHN. Score: 6.
+        *   So CHN leads 6-0.
+        *   This implies Lin is winning badly.
+        *   Then how does the graphic at 75:20 show Game 2 as 21-11 (Win MAS)?
+        *   Maybe the graphic at 75:20 is NOT showing Game 2.
+        *   Maybe the columns are 1, 2, 3 games played *so far*?
+        *   If 3 games are played, and score is 15-21, 21-11, 20-10.
+        *   Then CHN won 1 and 3. MAS won 2.
+        *   So CHN leads 2-1.
+        *   This fits with the idea that Lin was winning badly in Game 2? No, if CHN led 2-1 overall, and won Game 1, then Game 2 must be a loss or a draw.
+
+第 22 段
+
+*   如果图表显示第二局为 21-11，那对中国队来说显然是输球。
+        *   所以林必输掉了第二局。
+        *   所以我之前视觉观察到的“林以 6-0 领先”必定是错误的。
+        *   让我们重新审视 36:23 时刻的记分牌读数。
+        *   也许上面的数字是马来西亚队，下面是中国队，但数值不同。
+        *   让我们看看 36:23 时刻的裁剪图（裁剪图 2）。
+        *   文字很模糊。
+        *   但让我们看看 38:20 时刻的裁剪图（裁剪图 3）。
+        *   "MAS 5"，"CHN 1"。
+        *   在这里，MAS 显然是 5，CHN 是 1。
+        *   所以李以 5-1 领先。
+        *   这与 36:23 时刻的"MAS 0, CHN 6"读数相矛盾。
+        *   等等，在 36:23 时刻，也许是"MAS 0, CHN 3"？不，也许是"MAS 3, CHN 0"？
+        *   如果李当时以 3-0 领先，那么 5-1 就说得通了（李势如破竹）。
+        *   如果李当时以 0-3 落后，那么李从 0-3 追到 5-1 就是一个巨大的逆转。
+        *   鉴于最终图表显示第二局为 21-11（马来西亚队获胜），李必须是从落后中追上来，或者早早获胜。
+        *   如果李以 21-11 获胜，而 38:20 时刻的图表显示有利于马来西亚队（李）的 5-1，那么李很可能在第二局的大部分时间里都处于领先。
+        *   让我们检查 35:10 时刻的图表。
+        *   "MAS 0 1"，"CHN 1 0"。
+        *   这种表示法很奇怪。"0 1"在"1 0"之上？
+        *   也许这是局分：MAS 0，CHN 1。（所以中国队正在赢局）。
+        *   以及当前局分：CHN 1，MAS 0。（中国队领先）。
+        *   如果中国队以 1-0 领先局分，且比分是 1-0, 2-0, 3-0...
+        *   那么在 38:20 时刻，"MAS 5, CHN 1"，李以 5-1 领先。
+
+*   If the graphic shows 21-11 for Game 2, that's a clear loss for CHN.
+        *   So Lin MUST have lost Game 2.
+        *   So my visual observation of "Lin leads 6-0" MUST be wrong.
+        *   Let's reconsider the scoreboard reading at 36:23.
+        *   Maybe the top number is MAS and bottom is CHN, but the values are different.
+        *   Let's look at the crop at 36:23 (Crop 2).
+        *   The text is blurry.
+        *   But let's look at the crop at 38:20 (Crop 3).
+        *   "MAS 5", "CHN 1".
+        *   Here, MAS is clearly 5. CHN is 1.
+        *   So Lee is leading 5-1.
+        *   This contradicts the "MAS 0, CHN 6" reading at 36:23.
+        *   Wait, at 36:23, maybe it's "MAS 0, CHN 3"? No, maybe "MAS 3, CHN 0"?
+        *   If Lee was leading 3-0, then 5-1 makes sense (Lee surges).
+        *   If Lee was trailing 3-0, then Lee coming back to 5-1 is a huge comeback.
+        *   Given the final graphic shows Game 2 as 21-11 (Mas wins), Lee must have come back from behind OR won early.
+        *   If Lee won 21-11, and the graph at 38:20 shows 5-1 in favor of Mas (Lee), then Lee was likely leading throughout most of Game 2.
+        *   Let's check the graph at 35:10.
+        *   "MAS 0 1", "CHN 1 0".
+        *   This notation is weird. "0 1" over "1 0"?
+        *   Maybe it's Set Score: MAS 0, CHN 1. (So CHN is winning sets).
+        *   And current game score: CHN 1, MAS 0. (CHN leading).
+        *   If CHN leads 1-0 in sets, and points are 1-0, 2-0, 3-0...
+        *   Then at 38:20, "MAS 5, CHN 1". Lee leads 5-1.
+
+第 23 段
+
+*   这意味着李永波（Lee）以 3-0 的比分迅速超越，取得 5-1 的领先。
+        *   这说得通！
+        *   所以，最初，林丹（CHN）取得了一点领先（可能是由于前几分钟更好的站位/发球），或者记分牌曾短暂显示 CHN 3-0，但随后李永波强势反击，以 5-1 领先。
+        *   实际上，在 36:23，记分牌可能是"MAS 3, CHN 0"（李永波领先）。
+        *   让我们假设李永波在第二局的大部分时间里都处于领先。
+        *   如果第二局以 21-11 结束，李永波是领先的。
+        *   所以林丹在第二局中落后。
+    *   现在让我们看看选项。
+    *   (A) 起初，他的状态很差。这种糟糕的状态持续了 10 分钟。在第二局的休息期间，他的表现非常好。
+    *   (B) 林丹有时领先，有时落后。
+    *   (C) 状态不太好。李宗伟（Lee Chong Wei）总是遥遥领先。
+    *   (D) 状态非常好。林丹总是遥遥领先。
+
+    *   基于分析：
+        *   第一局：林丹以 21-15 获胜。（表现良好）。
+        *   第二局：
+            *   开始时林丹有一些领先（可能是基于短暂瞥视的 3-0，但让我们假设是竞争激烈的）。
+            *   李永波表现出色。
+            *   在 38:20，李永波以 5-1 领先。
+            *   最终，李永波赢得了第二局（根据 75:20 处的图形显示为 21-11）。
+            *   所以总的来说，李永波是领先的。
+            *   然而，林丹确实偶尔赢得分数。
+            *   53:15 处的图形显示第二局为 21-11。
+
+*   This implies Lee surged past 3-0 to take a 5-1 lead.
+        *   This makes sense!
+        *   So, initially, Lin (CHN) took a bit of a lead (maybe due to better positioning/serving in the first few mins), or the scoreboard showed CHN 3-0 briefly, but then Lee came back hard to lead 5-1.
+        *   Actually, at 36:23, the scoreboard might be "MAS 3, CHN 0" (Lee leading).
+        *   Let's assume Lee was leading Game 2 for most of it.
+        *   If Game 2 ended 21-11, Lee was ahead.
+        *   So Lin Dan was lagging behind in Game 2.
+    *   Now let's look at the options.
+    *   (A) In the beginning, his status is bad. The bad status lasts for the 10 minutes. At the rest time of the second game, his performance is very good.
+    *   (B) Lin Dan sometimes leads and sometimes lags behind.
+    *   (C) The status is not so good. Lee Chong Wei is always far ahead.
+    *   (D) The status is very good. Lin Dan is always far ahead.
+
+    *   Based on the analysis:
+        *   Game 1: Lin Dan wins 21-15. (Good performance).
+        *   Game 2:
+            *   Starts with some lead for Lin (maybe 3-0 based on brief glance, but let's assume competitive).
+            *   Lee comes out strong.
+            *   At 38:20, Lee leads 5-1.
+            *   Eventually, Lee wins Game 2 (21-11 according to graphic at 75:20).
+            *   So generally, Lee is ahead.
+            *   However, Lin does win points occasionally.
+            *   The graphic at 53:15 shows Game 2 as 21-11.
+
+第 24 段
+
+*   等等，让我们再看看选项 A。“起初，他的状态很差。” -> 林丹是不是从一开始就落后了？
+            *   我之前的解读"CHN 3-0"暗示林丹在领先。
+            *   但我对"MAS 5, CHN 1"（38:20）的解读暗示李宗伟在领先。
+            *   让我们看看视频的流程。
+            *   35:00 - 40:00：林丹发球。得分。看起来很有信心。
+            *   然后李宗伟开始打出得分球。
+            *   李宗伟扳了回来。
+            *   所以也许林丹开始时不错，然后李宗伟掌控了局面。
+            *   但选项 A 说“起初状态很差”。
+            *   让我们看看最初的几个球。
+            *   0-0。
+            *   0-1。
+            *   1-1。
+            *   2-2。
+            *   3-3。
+            *   4-3。
+            *   5-3。（林丹以 5-3 领先）。
+            *   5-4。
+            *   5-5。
+            *   所以林丹在前半段实际上是领先或平局。
+            *   然后李宗伟反超。
+            *   所以“起初状态很差”是不正确的。
+    *   让我们检查选项 B：“林丹有时领先，有时落后”。
+        *   这符合动态变化。他早期以 5-3 领先，然后落后，最后以 21-11 输掉比赛。所以他有时领先，有时落后。
+    *   让我们检查选项 C：“状态不太好。李宗伟总是遥遥领先”。
+        *   “总是遥遥领先”太绝对了。他们互有得失，甚至打到平分。
+    *   让我们检查选项 D：“状态非常好。林丹总是遥遥领先”。
+        *   错误，他输掉了比赛。
+
+*   Wait, let's look at option A again. "In the beginning, his status is bad." -> Does Lin start losing?
+            *   My earlier reading of "CHN 3-0" suggested Lin was winning.
+            *   But my reading of "MAS 5, CHN 1" (38:20) suggests Lee was winning.
+            *   Let's look at the video flow.
+            *   35:00 - 40:00: Lin serves. Scores points. Looks confident.
+            *   Then Lee starts hitting kills.
+            *   Lee comes back.
+            *   So maybe Lin starts well, then Lee takes control.
+            *   But option A says "status is bad" at the beginning.
+            *   Let's check the very first points.
+            *   0-0.
+            *   0-1.
+            *   1-1.
+            *   2-2.
+            *   3-3.
+            *   4-3.
+            *   5-3. (Lin leads 5-3).
+            *   5-4.
+            *   5-5.
+            *   So Lin is actually leading or tied in the first half.
+            *   Then Lee pulls ahead.
+            *   So "status is bad" at the beginning is incorrect.
+    *   Let's check Option B: "Lin Dan sometimes leads and sometimes lags behind".
+        *   This fits the dynamic nature. He leads 5-3 early, then trails, then eventually loses 21-11. So he led at times, lagged at times.
+    *   Let's check Option C: "The status is not so good. Lee Chong Wei is always far ahead".
+        *   "Always far ahead" is too strong. They trade points, go to deuce.
+    *   Let's check Option D: "The status is very good. Lin Dan is always far ahead".
+        *   False, he loses the game.
+
+第 25 段
+
+*   等等，让我们重新评估一下"53:15 处的图表”。
+    *   如果第二局是 21-11，李轻松获胜。
+    *   如果第一局是 21-15，林险胜。
+    *   比赛打满了三局。
+    *   所以比分是 1-1。
+    *   然后进行第三局。
+    *   93:08 处的图表显示：
+        *   第三局：MAS 22，CHN 20。（李赢得第三局）。
+    *   所以李以 2-1 领先。
+    *   然后进行第四局。
+    *   93:08 处的最终结果显示"MAS 21 11 22"（第一行）和"CHN 15 11 20"（第二行）。
+    *   等等，最后一列 MAS 是"22"，CHN 是"20"？
+    *   不，让我们再看看 93:08 处的裁剪图。
+    *   MAS 行：15 ... 21 ... 10 ?? 不对。
+    *   让我们看看 93:13 处的裁剪图。
+    *   “结果：半决赛”
+    *   列：1, 2, 3。
+    *   MAS 行：15 | 21 | 10（等等，那是 10 还是别的什么？）
+    *   CHN 行：21 | 11 | 20
+    *   这意味着第三局以 20-10 结束，林获胜。
+    *   所以林以 2-1 领先（第一局和第三局）。
+    *   这与 93:22 处的记分牌相矛盾，该记分牌显示"MAS 21 11 22"。
+    *   让我们非常仔细地查看 93:22 处的记分牌。
+    *   第一行：MAS 21 11 22。
+    *   第二行：CHN 15 11 20。
+    *   这意味着第三局是 MAS 以 22-20 获胜。
+    *   所以李赢得了第二局和第三局。比分 1-2。
+    *   然后正在进行的比赛是第四局。
+    *   那么"15 21 10"和"21 11 20"是从哪里来的？
+    *   也许 93:08 处的图表不是第三局。
+    *   也许是第四局？
+    *   如果第 1 列 = 第一局（CHN 21-15）。
+    *   第 2 列 = 第二局（MAS 21-11）。
+    *   第 3 列 = 第三局（MAS 20-22）。（等等，是 10 还是 20？不，是 20 对 22）。
+    *   图表在最后一列显示"10"和"20"。
+
+*   Wait, let's re-evaluate the "Graph at 53:15".
+    *   If Game 2 was 21-11, Lee won comfortably.
+    *   If Game 1 was 21-15, Lin won tightly.
+    *   The match went to 3 games.
+    *   So score is 1-1.
+    *   Then Game 3 plays.
+    *   Graphic at 93:08 shows:
+        *   Game 3: MAS 22, CHN 20. (Lee wins Game 3).
+    *   So Lee is winning 2-1.
+    *   Then Game 4 plays.
+    *   Final Result at 93:08 shows "MAS 21 11 22" (Top row) and "CHN 15 11 20" (Bottom row).
+    *   Wait, the last column is "22" for MAS and "20" for CHN?
+    *   No, let's look at the crop at 93:08 again.
+    *   Row MAS: 15 ... 21 ... 10 ?? No.
+    *   Let's look at the crop at 93:13.
+    *   "RESULT: SEMI-FINAL"
+    *   Columns: 1, 2, 3.
+    *   Row MAS: 15 | 21 | 10 (Wait, is that 10 or something else?)
+    *   Row CHN: 21 | 11 | 20
+    *   This implies Game 3 ended 20-10 for Lin.
+    *   So Lin leads 2-1 (Games 1 & 3).
+    *   This contradicts the scoreboard at 93:22 which showed "MAS 21 11 22".
+    *   Let's look at the scoreboard at 93:22 very carefully.
+    *   Top line: MAS 21 11 22.
+    *   Bottom line: CHN 15 11 20.
+    *   This implies Game 3 was 22-20 for MAS.
+    *   So Lee won Game 2 and Game 3. Score 1-2.
+    *   Then Game 4 is being played.
+    *   So where does the "15 21 10" and "21 11 20" come from?
+    *   Maybe the graphic at 93:08 is NOT Game 3.
+    *   Maybe it's Game 4?
+    *   If Col 1 = Game 1 (21-15 CHN).
+    *   Col 2 = Game 2 (21-11 MAS).
+    *   Col 3 = Game 3 (20-22 MAS). (Wait, 10 vs 20? No, 20 vs 22).
+    *   The graphic shows "10" and "20" in the last column.
+
+第 26 段
+
+*   也许是第 4 局？
+    *   如果第 3 列是第 4 局，比分是 20-10？
+    *   但在 93:08，墙上的记分牌显示"20-20"（平分）。
+    *   所以比赛很胶着。
+    *   因此 93:08 处的图形必须显示的是之前比赛的结果。
+    *   如果第 3 列是中国的"20"和马来西亚的"10"。
+    *   而墙上显示的是"20-20"。
+    *   那么该图形已过时或显示的是另一场比赛。
+    *   等等，让我们再看一下 93:08 处的裁剪图。
+    *   数字是"15 21 10"和"21 11 20"。
+    *   也许最后一个数字不是 10。也许是 20？
+    *   而第二行是"21 11 20"。
+    *   如果最后一列是 20-20。
+    *   那么第 3 局是 20-20。
+    *   所以这是决胜局？不，决胜局是在一局之内进行的。
+    *   所以第 3 局很接近。
+    *   如果第 3 局很接近，而墙上显示 20-20，那么第 3 局正在进行中。
+    *   因此 93:08 处的图形很可能是第 1 局和第 2 局的总结，以及可能部分第 3 局？
+    *   或者该图形是：
+        *   第 1 局：15-21。
+        *   第 2 局：11-21。（顺序颠倒？）
+        *   第 3 局：20-20？（当前比分）。
+    *   这变得复杂了。让我们坚持视频内容的可观察事实。
+
+    *   视频内容摘要：
+        *   林丹（红色）对阵李宗伟（蓝色）。
+        *   第 1 局：林丹以 21-15 获胜（在 32:54 显示）。
+        *   第 2 局：大约从 34:30 开始。
+        *   林丹似乎早期取得领先（基于初始分数）。
+        *   然后李宗伟积极反击。
+
+*   Maybe it's Game 4?
+    *   If Col 3 is Game 4, score 20-10?
+    *   But at 93:08, the scoreboard on the wall says "20-20" (deuce).
+    *   So the game is tight.
+    *   So the graphic at 93:08 must be showing results of previous games.
+    *   If Col 3 is "20" for CHN and "10" for MAS.
+    *   And the wall says "20-20".
+    *   Then the graphic is outdated or showing a different game.
+    *   Wait, let's look at the crop at 93:08 again.
+    *   The numbers are "15 21 10" and "21 11 20".
+    *   Maybe the last number is not 10. Maybe it's 20?
+    *   And the second row is "21 11 20".
+    *   If last col is 20-20.
+    *   Then Game 3 was 20-20.
+    *   So it's a tie breaker? No, tie breaker is within a game.
+    *   So Game 3 was close.
+    *   If Game 3 was close, and Wall says 20-20, then Game 3 is ongoing.
+    *   So the graphic at 93:08 is likely a summary of Games 1 and 2, and maybe a partial 3rd?
+    *   Or maybe the graphic is:
+        *   Game 1: 15-21.
+        *   Game 2: 11-21. (Reversed order?)
+        *   Game 3: 20-20? (Current score).
+    *   This is getting complicated. Let's stick to the observable facts of the video content.
+
+    *   Video Content Summary:
+        *   Lin Dan (Red) vs Lee Chong Wei (Blue).
+        *   Game 1: Lin wins 21-15 (shown at 32:54).
+        *   Game 2: Starts around 34:30.
+        *   Lin Dan seems to get a lead early (based on initial points).
+        *   Then Lee Chong Wei fights back aggressively.
+
+第 27 段
+
+*   李宗伟赢得了比赛（证据在于长局统计数据以及比赛打到了第四局的事实）。
+        *   第三局：在视频稍后部分播放（从~75 分钟标记开始？不，视频总长为 93 分钟。所以第三局大约在 75-90 分钟之间）。
+        *   实际上，查看视频长度（93 分钟），以及典型的比赛时长（20-30 分钟），加上休息时间...
+        *   第一局：~30 分钟。
+        *   第二局：~30 分钟。
+        *   休息。
+        *   第三局：~20 分钟。
+        *   休息。
+        *   第四局：~20 分钟。
+        *   总计 ~100 分钟。完全吻合。
+        *   所以从~75 分钟到结尾的片段是第四局。
+        *   等等，如果已经进行了第三局，那它在哪里？
+        *   也许从~53 分钟到~75 分钟的片段是第三局？
+        *   在 53:15，出现了一个显示"GAME 1 2 3"的图形。
+        *   如果这个图形总结了第三局的结束。
+        *   那么第三局的结果很可能在第三列中。
+        *   第三列：MAS 10, CHN 20. (林丹以 20-10 获胜)。
+        *   或者 MAS 22, CHN 20. (李宗伟以 22-20 获胜)。
+        *   鉴于 93:22 处的墙式记分牌显示 20-20，并且比赛以 21-20 或类似比分结束。
+        *   如果图形显示第三局为 20-20，并且是抢五局...
+        *   或者图形可能显示：
+            *   第一局：15-21。
+            *   第二局：21-11。
+            *   第三局：20-22 (李宗伟获胜)。
+        *   如果李宗伟赢得第三局，比分是 1-2。
+        *   然后是第四局。
+        *   在 93:08，墙式记分牌显示 20-20。这是第四局的比分（因为第三局已经决出）。
+        *   所以第四局是决胜局。
+
+*   Lee Chong Wei takes the game (evidenced by the long game statistics and the fact that the match goes to a 4th game).
+        *   Game 3: Played later in the video (from ~75 min mark onwards? No, the video is 93 mins long. So Game 3 is roughly 75-90 mins).
+        *   Actually, looking at the video length (93 mins), and typical game duration (20-30 mins), plus breaks...
+        *   Game 1: ~30 mins.
+        *   Game 2: ~30 mins.
+        *   Break.
+        *   Game 3: ~20 mins.
+        *   Break.
+        *   Game 4: ~20 mins.
+        *   Total ~100 mins. Fits perfectly.
+        *   So the segment from ~75 mins to end is Game 4.
+        *   Wait, if Game 3 was played, where is it?
+        *   Maybe the segment from ~53 mins to ~75 mins is Game 3?
+        *   At 53:15, a graphic appears showing "GAME 1 2 3".
+        *   If this graphic summarizes the end of Game 3.
+        *   Then Game 3 result is likely what's in Col 3.
+        *   Col 3: MAS 10, CHN 20. (Lin wins 20-10).
+        *   Or MAS 22, CHN 20. (Lee wins 22-20).
+        *   Given the wall score at 93:22 shows 20-20, and the game ends 21-20 or something.
+        *   If the graphic shows 20-20 for Game 3, and it's a tie-break...
+        *   Or maybe the graphic shows:
+            *   Game 1: 15-21.
+            *   Game 2: 21-11.
+            *   Game 3: 20-22 (Lee wins).
+        *   If Lee wins Game 3, score is 1-2.
+        *   Then Game 4.
+        *   At 93:08, the wall says 20-20. This is the score of Game 4 (since Game 3 is already decided).
+        *   So Game 4 is the deciding game.
+
+第 28 段
+
+*   李在第四局以 21-20 获胜（基于 90:16 的最终一击，他跪地庆祝）。
+        *   所以李以 3-1 赢得比赛。
+
+    *   好的，专注于第二局的表现。
+    *   第二局：李以 21-11 获胜（根据 53:15/75:20 处的图表）。
+    *   林丹是否在任何时候领先？
+    *   我对 38:20 处记分牌的分析显示"MAS 5, CHN 1"。李领先。
+    *   我对 36:23 的分析显示"CHN 3"（林领先）。
+    *   所以林曾以 3-0 领先，李追至 5-1，李最终以 21-11 获胜。
+    *   所以林丹“有时领先”（比赛早期 3-0）和“有时落后”（比赛中期至后期）。
+    *   这符合选项 B：“林丹有时领先，有时落后”。
+
+    *   让我们再次检查选项 A：“起初，他的状态很差。这种糟糕的状态持续了 10 分钟。在第二局休息时，他的表现非常好”。
+    *   这意味着林曾糟糕地输掉 10 分钟，然后打得非常出色。
+    *   但根据我的分析，林早期似乎还可以（3-0），然后李突然发力。
+    *   或者“糟糕的状态”指的是局分？不，“状态”通常指比分。
+    *   如果林曾以 0-11 落后 10 分钟？
+    *   让我们查看视频 35-45 分钟左右的片段。
+    *   35:00 - 40:00。
+    *   如果李以 10-0 领先，那就符合“糟糕的状态”。
+    *   但记分牌显示的是 0-3、0-5、0-6（林领先）或 3-0、5-1（李领先，取决于解释）。
+    *   让我们看看观众的反应。
+    *   在 32:00，为中国队（林）欢呼。
+    *   在 36:00，为马来西亚队（李）欢呼。
+    *   在 37:00，马来西亚球迷大声欢呼。
+
+*   Lee wins Game 4 21-20 (based on the final shot at 90:16 where he drops to knees celebrating).
+        *   So Lee wins the match 3-1.
+
+    *   Okay, focusing on Game 2 performance.
+    *   Game 2: Lee wins 21-11 (according to the graphic at 53:15/75:20).
+    *   Did Lin Dan lead at any point?
+    *   My analysis of the scoreboard at 38:20 showed "MAS 5, CHN 1". Lee leading.
+    *   My analysis of 36:23 showed "CHN 3" (Lin leading).
+    *   So Lin led 3-0, Lee caught up to 5-1, Lee won 21-11.
+    *   So Lin Dan "sometimes leads" (early game 3-0) and "sometimes lags behind" (mid-to-late game).
+    *   This matches Option B: "Lin Dan sometimes leads and sometimes lags behind".
+
+    *   Let's check Option A again: "In the beginning, his status is bad. The bad status lasts for the 10 minutes. At the rest time of the second game, his performance is very good".
+    *   This implies Lin was losing badly for 10 mins, then played great.
+    *   But in my analysis, Lin seemed okay early (3-0), then Lee surged.
+    *   Or maybe the "bad status" refers to the set score? No, "status" usually means points.
+    *   If Lin was down 0-11 for 10 mins?
+    *   Let's check the video around 35-45 mins.
+    *   35:00 - 40:00.
+    *   If Lee was winning 10-0, that would fit "bad status".
+    *   But the scoreboard showed 0-3, 0-5, 0-6 (Lin leading) or 3-0, 5-1 (Lee leading depending on interpretation).
+    *   Let's look at the crowd reaction.
+    *   At 32:00, cheering for China (Lin).
+    *   At 36:00, cheering for Malaysia (Lee).
+    *   At 37:00, Malaysian fans cheering loudly.
+
+第 29 段
+
+这意味着李表现良好/获胜。
+    *   在 38:00，马来西亚球迷欢呼声更热烈。
+    *   所以李在早中期阶段占据主导地位。
+    *   如果林输得很惨，也许他开局较慢？
+    *   “起初，他的状态很差。” -> 也许他输掉了比赛的前几局？
+    *   “糟糕的状态持续了 10 分钟。” -> 他输了 10 分钟？
+    *   “在休息时间……表现非常好。” -> 这暗示在休息期间有反败为胜？
+    *   通常休息发生在 21-11 或 21-13 时。
+    *   如果李以 21-11 领先，休息就会发生。
+    *   在休息期间，林是否有所提升？
+    *   选项 A 暗示是的。
+    *   但李赢得了第二局。所以林无法提升到“非常好”的程度以至于赢得比赛。除非比赛尚未结束。
+    *   但在 53:15 的图表显示第二局已完成（11-21 或 21-11）。
+    *   所以李赢得了第二局。
+    *   所以选项 A 不太可能，因为林没有提升得足够多以大幅改变结果，或者前提“表现非常好”与输掉比赛不符。
+    *   此外，“第二局的休息时间”通常发生在比赛结束后。
+    *   如果林在休息期间“表现非常好”，也许他为下一局做了准备？
+    *   这听起来像是在描述一位输掉比赛但表现不错的选手。
+    *   但让我们再看看选项 B。“有时领先，有时落后”。
+    *   这符合波动的比分（0-3、5-1 等）。
+    *   它描述了动态性质，而没有像“一直遥遥领先”或“一直很差”那样陷入简单的叙事。
+
+This implies Lee is doing well/winning.
+    *   At 38:00, Malaysian fans cheering more.
+    *   So Lee is dominating the early-mid phase.
+    *   If Lin was losing badly, maybe he started slow?
+    *   "In the beginning, his status is bad." -> Maybe he lost first few games of the game?
+    *   "The bad status lasts for the 10 minutes." -> For 10 minutes he was losing?
+    *   "At the rest time... performance is very good." -> This implies a comeback during the break?
+    *   Usually breaks happen at 21-11 or 21-13.
+    *   If Lee was winning 21-11, the break happens.
+    *   During the break, does Lin improve?
+    *   Option A suggests yes.
+    *   But Lee wins Game 2. So Lin cannot improve to "very good" such that he wins the game. Unless the game didn't end.
+    *   But the graphic at 53:15 shows Game 2 complete (11-21 or 21-11).
+    *   So Lee won Game 2.
+    *   So Option A is unlikely because Lin didn't improve enough to change the outcome drastically, or the premise "performance is very good" doesn't fit with losing the game.
+    *   Also, "rest time of the second game" usually happens *after* the game ends.
+    *   If Lin played "very good" during the rest, maybe he prepared for the next game?
+    *   This sounds like a description of a player who lost the game but bailed out well.
+    *   But let's look at Option B again. "Sometimes leads, sometimes lags".
+    *   This fits the fluctuating score (0-3, 5-1, etc.).
+    *   It describes the dynamic nature without committing to a simple narrative like "always far ahead" or "always bad".
+
+第 30 段
+
+*   此外，观察比赛中的拉锯战，存在长时间的拉锯（统计数据中提到了 59 拍）。这意味着有时打得很好。
+    *   因此，“有时领先，有时落后”是对一场有竞争力的半决赛比赛的合理描述。
+
+    *   让我们检查选项 C：“状态并不好。李宗伟总是远远领先”。
+    *   “总是远远领先”意味着全程占据主导地位。
+    *   但确实存在比分胶着的拉锯战（例如，第四局中的 5-5、10-10、16-16、20-20）。
+    *   在第二局中，如果比分是 21-11，也许他并没有*那么*接近。
+    *   但如果图表显示的是 21-11，而我之前看到了像 16-16 这样的比分……等等。
+    *   如果我在视频中间看到了 16-16，那一定是第三局或第四局。
+    *   第二局结束得相对较快（21-11）。
+    *   因此，我对"16-16"的分析必须属于后面的某局（第三局或第四局）。
+    *   所以在第二局中，林丹可能一直领先。
+    *   但让我们再看看第二局的开始。
+    *   如果林丹以 3-0 领先，那么李宗伟在开始时就不是“总是远远领先”。
+    *   所以选项 C 站不住脚。
+
+    *   让我们再看看选项 A。
+    *   也许“状态不好”是指他输掉了比赛的前几局？
+    *   第一局：林丹以 21-15 获胜。（不算差）。
+    *   所以“在开始时，他的状态不好”对于整场比赛来说是错误的。
+    *   除非它特指第二局？“评估林丹在第二局的表现”。
+    *   “在开始时 [指第二局]，他的状态不好。” -> 他输掉了前几分？
+    *   如果他输掉了前几分，那就符合“状态不好”。
+
+*   Also, looking at the rallies, there are long rallies (59 strokes mentioned in stats). This implies both playing well at times.
+    *   So "sometimes leads, sometimes lags" is a reasonable description of a competitive semi-final game.
+
+    *   Let's check Option C: "The status is not so good. Lee Chong Wei is always far ahead".
+    *   "Always far ahead" implies dominance throughout.
+    *   But there were rallies where score was tight (e.g., 5-5, 10-10, 16-16, 20-20 in game 4).
+    *   In Game 2, if it was 21-11, maybe he wasn't *that* close.
+    *   But if the graphic says 21-11, and I saw scores like 16-16 earlier... wait.
+    *   If I saw 16-16 in the middle of the video, that must be Game 3 or Game 4.
+    *   Game 2 ended relatively quickly (21-11).
+    *   So my analysis of "16-16" must belong to a later game (Game 3 or 4).
+    *   So in Game 2, Lee might have been consistently ahead.
+    *   But let's look at the start of Game 2 again.
+    *   If Lin led 3-0, then Lee wasn't "always far ahead" at the start.
+    *   So Option C is weak.
+
+    *   Let's look at Option A again.
+    *   Maybe "status is bad" means he lost the first few games of the match?
+    *   Game 1: Lin won 21-15. (Not bad).
+    *   So "In the beginning, his status is bad" is false for the match.
+    *   Unless it refers to the second game specifically? "evaluate Lin Dan's performance for the second game".
+    *   "In the beginning [of the second game], his status is bad." -> He lost the first few points?
+    *   If he lost first few points, that fits "status is bad".
+
+第 31 段
+
+*   "持续 10 分钟。" -> 他输了 10 分钟？
+    *   "在休息时……表现非常好。" -> 也许他在下半场反击了？
+    *   但比赛以 11-21 结束。所以他并没有“表现很好”从而获胜。
+    *   这个选项似乎很棘手。
+
+    *   让我们重新考虑记分牌读数。
+    *   也许 37:56 处的"0 6"是"MAS 6, CHN 0"（李以 6-0 领先）。
+    *   如果李以 6-0 领先，那么“起初，他的 [林] 状态很差”就是真的。
+    *   “糟糕的状态持续了 10 分钟。” -> 从 35:00 到 45:00 大约是 10 分钟。
+    *   如果李以 6-0 到 15-0 领先。
+    *   那么“在休息时……表现非常好”。
+    *   休息发生在 21 分时。
+    *   如果李以 21-11 获胜。休息发生在 21 分。
+    *   所以林在前半段打得不好（10 分钟），然后也许努力了？
+    *   但最终结果是输了。
+    *   这感觉是对一方早期占主导地位的比赛的合理描述。
+    *   但选项 B“有时领先有时落后”是一个更安全、更中性的描述。
+
+    *   让我们看看类似任务或常见模式中的提供解决方案。
+    *   通常，这些问题描述比赛的进程。
+    *   如果答案是 B，这意味着来回拉锯。
+    *   如果答案是 C，这意味着一边倒的比赛。
+    *   第一局是 21-15（接近）。
+    *   第二局是 21-11（一边倒）。
+    *   第三局是 22-20（非常接近）。
+    *   第四局是 21-20（非常接近）。
+    *   所以总体而言，比赛非常激烈。
+
+*   "Lasts for 10 minutes." -> For 10 mins he was losing?
+    *   "At the rest time... performance is very good." -> Maybe he fought back in the second half?
+    *   But the game ended 11-21. So he didn't perform "very well" to win.
+    *   This option seems tricky.
+
+    *   Let's reconsider the scoreboard readings.
+    *   Maybe the "0 6" at 37:56 was "MAS 6, CHN 0" (Lee leading 6-0).
+    *   If Lee was leading 6-0, then "In the beginning, his [Lin's] status is bad" is true.
+    *   "Bad status lasts for 10 minutes." -> From 35:00 to 45:00 is roughly 10 mins.
+    *   If Lee was leading 6-0 to 15-0.
+    *   Then "At the rest time... performance is very good".
+    *   Rest time happens at 21 points.
+    *   If Lee won 21-11. Rest time happens at 21.
+    *   So Lin played poorly for the first part (10 mins), then maybe tried harder?
+    *   But the final result is a loss.
+    *   This feels like a plausible description of a game where one player dominates early.
+    *   But Option B "Sometimes leads and sometimes lags" is a safer, more neutral description.
+
+    *   Let's look at the provided solution in similar tasks or common patterns.
+    *   Usually, these questions describe the match flow.
+    *   If the answer is B, it implies a back-and-forth.
+    *   If the answer is C, it implies a one-sided game.
+    *   Game 1 was 21-15 (Close).
+    *   Game 2 was 21-11 (One sided).
+    *   Game 3 was 22-20 (Very Close).
+    *   Game 4 was 21-20 (Very Close).
+    *   So overall, the match was very competitive.
+
+第 32 段
+
+*   但如果是**专门针对第二场比赛**，如果是 21-11，那么竞争性就较弱。
+    *   然而，如果图表显示的是 21-11，也许我误解了列的含义。
+    *   如果第 2 列**不是**第 2 场比赛呢？
+    *   如果图表显示的是：
+        *   第 1 场比赛：15-21。
+        *   第 2 场比赛：11-21。
+        *   第 3 场比赛：20-22。
+    *   这是一种标准格式。
+    *   所以第 2 场比赛是 21-11。
+    *   如果第 2 场比赛是 21-11，而我之前在视频中看到了类似 16-16 的比分……那些必须是第 3/4 场。
+    *   所以在第 2 场比赛中，李很可能在大部分时间里领先。
+    *   但是林是否曾经领先过？
+    *   如果林曾短暂以 3-0 领先，那么 C“始终遥遥领先”（针对李）大体上是正确的，但“始终”这个词很强。
+    *   如果林曾以 0-6、0-10 落后……那么 C 就非常正确。
+    *   让我们再次检查第 2 场比赛的开头。
+    *   35:00 - 40:00。
+    *   如果记分牌显示的是"MAS 0, CHN 3"（林领先），那么 B 更准确。
+    *   如果记分牌显示的是"MAS 3, CHN 0"（李领先），那么 C 更准确。
+    *   查看裁剪图 2（36:23），上面的数字是"0"，下面是"3"。
+    *   上面是 MAS（蓝色），下面是 CHN（红色）。
+    *   所以是 MAS 0, CHN 3。林以 3-0 领先。
+    *   所以林开局不错。
+    *   然后后来，在 38:20（裁剪图 3），显示"MAS 5, CHN 1"。
+    *   等等，比分是如何从 CHN 3 变成 MAS 5 的？
+    *   李必须发球并赢下了几分。
+    *   3-0 -> 4-0 -> 5-0 -> 5-1。
+    *   这证实了林早期领先，然后李追上来并反超。
+    *   所以“有时领先，有时落后”非常契合。
+
+    *   因此，选项 B 是最佳答案。
+
+*   But for *specifically the second game*, if it was 21-11, it's less competitive.
+    *   However, if the graphic says 21-11, maybe I'm misinterpreting the columns.
+    *   What if Col 2 is NOT Game 2?
+    *   What if the graphic shows:
+        *   Game 1: 15-21.
+        *   Game 2: 11-21.
+        *   Game 3: 20-22.
+    *   This is a standard format.
+    *   So Game 2 was 21-11.
+    *   If Game 2 was 21-11, and I saw scores like 16-16 earlier in the video... those must be Game 3/4.
+    *   So in Game 2, Lee was likely ahead for most of it.
+    *   But did Lin lead at all?
+    *   If Lin led 3-0 briefly, then C "Always far ahead" (for Lee) is mostly true but "always" is strong.
+    *   If Lin trailed 0-6, 0-10... then C is very true.
+    *   Let's check the start of Game 2 again.
+    *   35:00 - 40:00.
+    *   If the scoreboard said "MAS 0, CHN 3" (Lin leading), then B is more accurate.
+    *   If the scoreboard said "MAS 3, CHN 0" (Lee leading), then C is more accurate.
+    *   Looking at crop 2 (36:23), the top number is "0". Bottom is "3".
+    *   Top is MAS (Blue). Bottom is CHN (Red).
+    *   So MAS 0, CHN 3. Lin is leading 3-0.
+    *   So Lin starts well.
+    *   Then later, at 38:20 (crop 3), "MAS 5, CHN 1".
+    *   Wait, how did it go from CHN 3 to MAS 5?
+    *   Lee must have served and won several points.
+    *   3-0 -> 4-0 -> 5-0 -> 5-1.
+    *   This confirms Lin led early, then Lee caught up and pulled ahead.
+    *   So "Sometimes leads, sometimes lags behind" fits perfectly.
+
+    *   Therefore, Option B is the best answer.
+
+第 33 段
+
+*   让我们再次检查选项 A。
+    *   “起初，他的状态很差。” -> 错误，他以 3-0 领先。
+    *   “糟糕的状态持续了 10 分钟。” -> 错误。
+    *   “休息时表现非常好。” -> 无关，因为他输了。
+
+    *   让我们再次检查选项 D。
+    *   “状态非常好。林丹一直遥遥领先。” -> 错误，他输掉了比赛。
+
+    *   让我们再次检查选项 C。
+    *   “状态不是太好。李宗伟一直遥遥领先。” -> “一直遥遥领先”与林丹早期的 3-0 领先相矛盾。虽然 3-0 算不上“遥遥领先”，但这确实是一个领先。后来 5-1、6-1……李宗伟反超了。但短语“一直遥遥领先”意味着没有阻力，这对于第二局可能是真的。但林丹的初始领先使其与 B 相比略显不准确。
+    *   此外，B 捕捉到了比赛进程的细微差别。
+
+    *   结论：选项 B 是对第二局动态的最准确描述，其中林丹最初取得小幅领先，但李宗伟将其追平。
+
+    *   等等，让我们再看一遍 53:15 处的图表。
+    *   它显示"1 2 3"。
+    *   行 MAS：15 21 10。
+    *   行 CHN：21 11 20。
+    *   这意味着第三局林丹以 20-10 获胜。
+    *   所以第二局李宗伟以 21-11 获胜。
+    *   所以林丹输掉了第二局。
+    *   所以“一直遥遥领先”（选项 D）肯定被排除。
+    *   “有时领先，有时落后”（选项 B）符合 3-0 开局与 21-11 结局的对比。
+    *   “状态不是太好”（选项 C）符合整体失利，但李宗伟“一直遥遥领先”忽略了最初的 3-0。
+    *   所以 B 是获胜者。
+
+*   Let's double check Option A.
+    *   "In the beginning, his status is bad." -> False, he led 3-0.
+    *   "Bad status lasts for 10 minutes." -> False.
+    *   "Performance is very good at rest time." -> Irrelevant since he lost.
+
+    *   Let's double check Option D.
+    *   "Status is very good. Lin Dan is always far ahead." -> False, he lost the game.
+
+    *   Let's double check Option C.
+    *   "Status is not so good. Lee Chong Wei is always far ahead." -> "Always far ahead" is contradicted by the early 3-0 lead for Lin. Although 3-0 isn't "far ahead", it's a lead. And later 5-1, 6-1... Lee gets ahead. But the phrase "always far ahead" implies no resistance, which might be true for Game 2. But the initial lead for Lin makes it slightly inaccurate compared to B.
+    *   Also, B captures the nuance of the match progress.
+
+    *   Conclusion: Option B is the most accurate description of the second game dynamics where Lin Dan initially takes a small lead but Lee chases him down.
+
+    *   Wait, let's look at the graphic at 53:15 again.
+    *   It shows "1 2 3".
+    *   Row MAS: 15 21 10.
+    *   Row CHN: 21 11 20.
+    *   This implies Game 3 was 20-10 for Lin.
+    *   So Game 2 was 21-11 for Lee.
+    *   So Lin lost Game 2.
+    *   So "Always far ahead" (Option D) is definitely out.
+    *   "Sometimes leads, sometimes lags" (Option B) fits the 3-0 start vs 21-11 end.
+    *   "Status is not so good" (Option C) fits the overall loss, but "always far ahead" for Lee ignores the initial 3-0.
+    *   So B is the winner.
+
+第 34 段
+
+*   让我们检查是否有音频或字幕？未提供音频。仅视觉内容。
+    *   视觉线索：
+        *   林丹开局自信发球。
+        *   李宗伟比赛中段积极拉球。
+        *   观众支持倾向转移。
+        *   记分牌波动。
+    *   这支持选项 B。
+
+    *   最后再检查一遍选项 A。
+    *   “起初，他的处境很糟糕。”
+    *   “起初”是否指比赛的开始？不，文中提到“第二局”。
+    *   它是否指视频的开始？不，视频是精彩集锦。
+    *   所以“起初”= 第二局的开始。
+    *   如果他以 3-0 领先，他的处境是好的。
+    *   所以 A 是错误的。
+
+    *   所以 B 是正确答案。
+
+    *   等等，36:23 处的记分牌是否显示“MAS 3, CHN 0"？
+    *   如果上方=马来西亚，下方=中国。
+    *   如果上方=3，下方=0。
+    *   那么李宗伟以 3-0 领先。
+    *   那么“起初，他的处境很糟糕”（对林丹而言）就是真的。
+    *   “糟糕的处境持续了 10 分钟。” -> 从 0:35 到 4:45。
+    *   在 38:20，比分是 5-1（李宗伟领先）。对林丹来说仍然很糟糕。
+    *   也许在休息时（局末），他的表现有所改善？
+    *   但他输掉了该局。
+    *   如果李宗伟在整个第二局都占据主导，这与选项 A 的契合度比选项 B 更高。
+    *   让我们再次检查比分进程。
+    *   如果李宗伟一直领先，比分如何变成 5-5、10-10、16-16？
+    *   这些高分平分（5-5、10-10、16-16、20-20）必须来自后来的比赛（第三局和第四局）。
+    *   所以在第二局，如果比分是 21-11，那很可能是一边倒的比赛。
+
+*   Let's check the audio or subtitles if available? No audio provided. Just visual.
+    *   Visual cues:
+        *   Lin Dan serving confidently early.
+        *   Lee Chong Wei rallying aggressively mid-game.
+        *   Crowd shifting support.
+        *   Scoreboard fluctuations.
+    *   This supports B.
+
+    *   One final check on Option A.
+    *   "In the beginning, his status is bad."
+    *   Could "beginning" refer to the start of the *match*? No, "for the second game".
+    *   Could it refer to the start of the *video*? No, the video is a highlight reel.
+    *   So "beginning" = start of Game 2.
+    *   If he led 3-0, his status was GOOD.
+    *   So A is incorrect.
+
+    *   So B is the correct answer.
+
+    *   Wait, is it possible that the scoreboard at 36:23 shows "MAS 3, CHN 0"?
+    *   If Top=MAS, Bottom=CHN.
+    *   If Top=3, Bottom=0.
+    *   Then Lee leads 3-0.
+    *   Then "In the beginning, his status is bad" (for Lin) would be TRUE.
+    *   "Bad status lasts for 10 minutes." -> From 0:35 to 4:45.
+    *   At 38:20, score is 5-1 (Lee leads). Still bad for Lin.
+    *   Then maybe at break (end of game), his performance improves?
+    *   But he loses the game.
+    *   This aligns with Option A better than B if Lee dominated the entire second game.
+    *   Let's check the score progression again.
+    *   If Lee led the whole time, how did the score get to 5-5, 10-10, 16-16?
+    *   Those high-deuce scores (5-5, 10-10, 16-16, 20-20) must be from later games (Game 3 and 4).
+    *   So in Game 2, if it was 21-11, it was likely a one-sided affair.
+
+第 35 段
+
+*   如果李在前 10 分钟以 10-0 领先，那就符合选项 A。
+    *   “起初，他的状态很差。”（是的，正在失分）。
+    *   “这种糟糕的状态持续了 10 分钟。”（也许直到比赛第 10 分钟）。
+    *   “在第二局休息期间，他的表现非常好。”
+    *   这是否意味着他在休息后强势反弹？
+    *   但他以 21-11 输掉了比赛。
+    *   除非比赛没有在 21-11 结束？
+    *   不，图表显示的是已完成的比赛。
+    *   所以也许选项 A 是在描述一种假设情况，或者我遗漏了什么。
+    *   或者也许选项 A 是描述输球方奋起直追的那场比赛的预期答案？
+    *   但选项 B“有时领先有时落后”是对竞技比赛非常安全的描述。
+    *   对于第一局（21-15），林确实曾一度领先。
+    *   对于第三局（22-20），林确实曾一度领先。
+    *   对于第四局（21-20），林确实曾一度领先或平局。
+    *   但问题明确指出“针对第二局”。
+    *   如果第二局是一场一边倒的比赛（21-11），那么 B（“有时领先”）在技术上可能是真的，如果他在这里零星得了一些分，但 C（李“始终遥遥领先”）更有可能。
+    *   然而，让我们再看看 A 的措辞。“在第二局休息期间，他的表现非常好”。
+    *   这暗示了对休息期间的具体观察。
+    *   也许他自救了？或者为第三局做好了准备？
+    *   如果他有所提升，也许他进行了反击？
+    *   但他输掉了第二局。
+    *   让我们假设问题指的是第二*组*比赛？不，是“第二局”。
+
+*   If Lee was winning 10-0 for the first 10 minutes, that fits Option A.
+    *   "In the beginning, his status is bad." (Yes, losing points).
+    *   "The bad status lasts for the 10 minutes." (Maybe till the 10 minute mark of the game).
+    *   "At the rest time of the second game, his performance is very good."
+    *   This implies he came back strongly after the break?
+    *   But he lost 21-11.
+    *   Unless the game didn't end at 21-11?
+    *   No, the graphic shows completed games.
+    *   So maybe Option A is describing a hypothetical or I am missing something.
+    *   Or maybe Option A is the intended answer for a game where the loser rallied?
+    *   But Option B "Sometimes leads and sometimes lags" is a very safe description for a competitive match.
+    *   And for Game 1 (21-15), Lin led at times.
+    *   For Game 3 (22-20), Lin led at times.
+    *   For Game 4 (21-20), Lin led/tied at times.
+    *   But the question specifies "for the second game".
+    *   If Game 2 was a blowout (21-11), then B ("sometimes leads") might be technically true if he got a point here and there, but C ("always far ahead" for Lee) is more likely.
+    *   However, let's look at the wording of A again. "At the rest time of the second game, his performance is very good".
+    *   This suggests a specific observation about the break.
+    *   Maybe he saved himself? Or improved for Game 3?
+    *   If he improved, maybe he fought back?
+    *   But he lost Game 2.
+    *   Let's assume the question implies the second *set* of games? No, "second game".
+
+第 36 段
+
+*   让我们假设这个问题是关于总体印象。
+    *   让我们再次查看 53:15 处的记分牌。
+    *   也许列是：第一局、第二局、第三局。
+    *   数值：
+        *   第一局：15-21（林获胜）。
+        *   第二局：21-11（李获胜）。
+        *   第三局：10-20（林获胜）。（等等，10-20 意味着李 10 分，林 20 分）。
+    *   所以林以 2-1 领先。
+    *   然后他们进行第四局。
+    *   如果第四局是决胜局，并且以 21-20 结束。
+    *   那么李赢得了比赛。
+    *   所以李赢得了第二局和第四局。输掉了第一局和第三局。
+    *   这对李来说是一场 3-1 的失利。
+    *   所以对于第二局，李以 21-11 获胜。
+    *   林是否在任何时候领先？
+    *   如果比分到了 10-10、16-16……不，那是第三局/第四局。
+    *   所以在第二局中，比分可能没有达到那么高。
+    *   比分是 0-0 -> 10-0 -> 21-0？不，那是 10 分钟的厄运。
+    *   或者 0-0 -> 3-0 -> 5-1 -> 10-5 -> 21-11。
+    *   如果是这样，“有时领先”（3-0）是真的。
+    *   所以选项 B 是稳健的。
+
+    *   让我们检查是否有任何我遗漏的文本覆盖。
+    *   在 53:15，图形“男子单打半决赛”出现。
+    *   它列出了比分。
+    *   这证实了已进行的局数。
+    *   它还列出了“最长拉锯战 59 拍”。
+    *   以及“球数 48"。
+    *   以及“时长 83 分钟”。
+    *   这证实了这是一段完整的比赛集锦。
+    *   统计数据涵盖了整场比赛。
+    *   因此，问题“评估林丹第二局的表现”需要从显示的录像片段中推断第二局比赛的状态。
+    *   视频展示了激烈拉锯战的混合画面。
+
+*   Let's assume the question is about the general impression.
+    *   Let's look at the scoreboard at 53:15 again.
+    *   Maybe the columns are: Game 1, Game 2, Game 3.
+    *   Values:
+        *   Game 1: 15-21 (Lin wins).
+        *   Game 2: 21-11 (Lee wins).
+        *   Game 3: 10-20 (Lin wins). (Wait, 10-20 means Lee 10, Lin 20).
+    *   So Lin leads 2-1.
+    *   Then they play Game 4.
+    *   If Game 4 is the decider, and it ends 21-20.
+    *   Then Lee wins the match.
+    *   So Lee wins Game 2, Game 4. Loses Game 1, Game 3.
+    *   This is a 3-1 loss for Lee.
+    *   So for Game 2, Lee won 21-11.
+    *   Did Lin lead at any point?
+    *   If the score went to 10-10, 16-16... NO, that's Game 3/4.
+    *   So in Game 2, the score probably didn't go that high.
+    *   It went 0-0 -> 10-0 -> 21-0? No, that's 10 mins of bad luck.
+    *   Or 0-0 -> 3-0 -> 5-1 -> 10-5 -> 21-11.
+    *   If so, "Sometimes leads" (3-0) is true.
+    *   So Option B is robust.
+
+    *   Let's check if there's any text overlay I missed.
+    *   At 53:15, the graphic "MEN'S SINGLES SEMI-FINAL" appears.
+    *   It lists the score.
+    *   This confirms the games played.
+    *   It also lists "LONGEST RALLY 59 STROKES".
+    *   And "SHUTTLES 48".
+    *   And "DURATION 83 MINUTES".
+    *   This confirms it's a full match highlight reel.
+    *   The stats cover the whole match.
+    *   So the question "evaluate Lin Dan's performance for the second game" requires inferring the state of play during Game 2 from the video clips shown.
+    *   The video shows a mix of intense rallies.
+
+第 37 段
+
+*   有些拉球看起来似乎可以在任何地方发生。
+    *   但我推导出的比分进程（林丹先 3-0 领先，随后李宗伟追分）是我脑海中波动最合理的解释。
+    *   等等，如果最长的一分是 59 拍，那很可能是在抢七局或决胜局中。
+    *   所以第二局可能没有那些超长拉球。
+    *   这支持了第二局是一边倒的比赛，且李宗伟领先的观点。
+    *   因此，如果他在几乎整个过程中都领先，那么“状态不太好。李宗伟一直遥遥领先”（选项 C）可能是正确的。
+    *   但“一直遥遥领先”这个词太绝对了。
+    *   而选项 B“有时领先，有时落后”涵盖了羽毛球来回拉锯的特性。
+    *   让我们再看看选项。
+    *   A：开局糟糕 -> 持续 10 分钟表现不佳 -> 休息时好转。
+    *   B：有时领先，有时落后。
+    *   C：状态不太好。李宗伟一直遥遥领先。
+    *   D：状态非常好。林丹一直遥遥领先。
+
+    *   如果我在 B 和 C 之间必须做出选择。
+    *   如果第二局是 21-11，那么 C 的可能性非常大。
+    *   如果第二局是 21-15（像第一局那样），那么 B 的可能性非常大。
+    *   但图表清楚地显示是 11-21（李宗伟获胜）。
+    *   等等，让我们再看看 53:15 处的图表。
+    *   第 2 列：MAS 21，CHN 11。
+    *   所以李宗伟以 21-11 获胜。
+    *   这是一个显著的差距。
+    *   所以李宗伟是领先的。
+    *   他是否“一直遥遥领先”？
+    *   如果林丹曾以 3-0 领先，那么答案是否定的。
+    *   所以 B 比 C 更好。
+    *   此外，选项 A 提到休息时“表现非常好”。
+
+*   Some rallies look like they could be anywhere.
+    *   But the score progression I deduced (3-0 start for Lin, then Lee catching up) is the most plausible explanation for the fluctuations in my head.
+    *   Wait, if the longest rally was 59 strokes, that was likely in the tie-break or the deciding game.
+    *   So Game 2 might not have had the super-long rallies.
+    *   This supports the idea that Game 2 was a one-sided affair where Lee was ahead.
+    *   So "The status is not so good. Lee Chong Wei is always far ahead" (Option C) might be correct if he was ahead almost the entire time.
+    *   But "Always far ahead" is strong.
+    *   And Option B "Sometimes leads and sometimes lags" covers the back-and-forth nature of badminton.
+    *   Let's look at the options again.
+    *   A: Bad start -> Bad for 10 mins -> Good at break.
+    *   B: Sometimes leads, sometimes lags.
+    *   C: Not so good. Lee always far ahead.
+    *   D: Very good. Lin always far ahead.
+
+    *   If I had to choose between B and C.
+    *   If Game 2 was 21-11, C is very likely.
+    *   If Game 2 was 21-15 (like Game 1), then B is very likely.
+    *   But the graphic clearly shows 11-21 (Lee wins).
+    *   Wait, let's look at the graphic at 53:15 again.
+    *   Col 2: MAS 21, CHN 11.
+    *   So Lee won 21-11.
+    *   This is a significant margin.
+    *   So Lee was ahead.
+    *   Was he "always far ahead"?
+    *   If Lin led 3-0, then no.
+    *   So B is better than C.
+    *   Also, Option A mentions "performance is very good" at the rest time.
+
+第 38 段
+
+*   如果林丹在开局领先，也许他打得很好，然后李在追分。
+    *   所以“有时领先，有时落后”非常贴切。
+    *   他领先（3-0），落后（李以 21-11 获胜）。
+    *   所以 B 是最佳答案。
+
+    *   让我们检查一下视频是否确实显示林丹领先。
+    *   在 35:00，林丹发球。他看起来专注。
+    *   在 36:23，记分牌显示 CHN 3。
+    *   是的，林丹领先。
+    *   然后李在追分。
+    *   所以 B 已确认。
+
+    *   最后检查选项 A。
+    *   “起初，他的状态很差。” -> 与 3-0 领先相矛盾。
+    *   所以 A 被排除。
+
+    *   最终答案似乎是 B。
+
+*   If Lin led at the start, maybe he was playing well, then Lee caught up.
+    *   So "Sometimes leads, sometimes lags" fits perfectly.
+    *   He led (3-0), lagged (Lee won 21-11).
+    *   So B is the best answer.
+
+    *   Let's check if the video actually shows Lin Dan leading.
+    *   At 35:00, Lin is serving. He looks focused.
+    *   At 36:23, scoreboard CHN 3.
+    *   Yes, Lin leads.
+    *   Then Lee comes back.
+    *   So B is confirmed.
+
+    *   Final check on Option A.
+    *   "In the beginning, his status is bad." -> Contradicted by 3-0 lead.
+    *   So A is out.
+
+    *   Final Answer seems to be B.
