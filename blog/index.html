@@ -6,7 +6,14 @@
   <title>Blog | Xiangnan Wu</title>
   <meta name="description" content="Blog posts by Xiangnan Wu on multimodal learning, embodied intelligence, robotics, and research notes.">
   <meta name="author" content="Xiangnan Wu">
-  <meta name="theme-color" content="#e8efef">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      document.querySelector('meta[name="color-scheme"]').content =
+        localStorage.getItem('color-scheme') ?? 'light dark';
+    } catch (e) {}
+  </script>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <link rel="preload" href="../fonts/Newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/style.css">

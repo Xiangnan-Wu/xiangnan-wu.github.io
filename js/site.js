@@ -1,86 +1,222 @@
 // ==========================================================================
-// Xiangnan Wu — Panoramic Bento Console & Research Atlas Interactive Script
-// 包含：亮暗主题切换、双核耦合拓扑 (Multimodal ⇄ Embodied) Canvas 引擎、
-// Focus 01/02 联动、论文多维筛选/检索/BibTeX 抽屉/大图 Lightbox、邮箱复制与滚动进度
+// Xiangnan Wu — Minimalist Sci-Fi ("Orbital Horizon") Interactive Engine
+// 遵循 Modern Web Guidance 标准：
+// 1. 双态系统感知主题切换 (<meta name="color-scheme"> + storage 跨标签同步)
+// 2. 单导航树自适应测量 + Popover 折叠菜单 + 向下滚动自动收纳回退
+// 3. 原生 CSS Scrollspy (:target-current + scrollend aria-current 同步 + IO 回退)
+// 4. 合成器滚动进度束 JS 回退 (仅在不支持 animation-timeline: scroll() 时运行)
+// 5. 极简科幻开普勒轨道流形星盘 Canvas (支持暂停控件、无动画偏好与离屏休眠)
+// 6. 原生 <details>/<summary> BibTeX 手风琴 + <dialog closedby="any"> 预览器
+// 7. View Transitions API 论文类型筛选平滑重排
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.documentElement.classList.add('js-ready');
-  initThemeToggle();
-  initMobileNavigation();
-  initScrollProgress();
-  initActiveSectionLinks();
-  initRevealAnimations();
+  initColorSchemeToggle();
+  initResponsiveHeader();
+  initScrollspy();
+  initScrollProgressFallback();
   initEmailCopy();
-
-  // 初始化论文检索与多维筛选控制器，并返回外部联动接口
-  const pubController = initPublicationsEnhancements();
-
-  // 初始化双核耦合拓扑 Canvas 与 Focus 01 / 02 卡片交互
-  initCoupledTopologyCanvas(pubController);
+  initPublicationsModule();
+  initOrbitalManifoldCanvas();
 });
 
-// 1. 亮色 (#e8efef) / 深色 (#0b1112) 主题切换
-function initThemeToggle() {
+// 1. 颜色方案切换：在存储时比较系统偏好，回归一致时移除覆盖键以恢复跟随系统
+function initColorSchemeToggle() {
   const toggleBtn = document.getElementById('theme-toggle');
-  const metaTheme = document.querySelector('meta[name="theme-color"]');
+  const metaScheme = document.querySelector('meta[name="color-scheme"]');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
 
-  function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    if (metaTheme) {
-      metaTheme.setAttribute('content', theme === 'dark' ? '#0b1112' : '#e8efef');
-    }
-    try {
-      localStorage.setItem('xw-theme', theme);
-    } catch (e) {}
+  function getRenderedScheme() {
+    const val = metaScheme?.getAttribute('content') || 'light dark';
+    if (val === 'dark' || val === 'light') return val;
+    return systemDark.matches ? 'dark' : 'light';
   }
+
+  function applyStoredScheme(stored) {
+    if (!metaScheme) return;
+    metaScheme.setAttribute('content', stored === 'light' || stored === 'dark' ? stored : 'light dark');
+  }
+
+  // 跨标签页同步 localStorage 变更
+  window.addEventListener('storage', (event) => {
+    if (event.key === 'color-scheme') {
+      applyStoredScheme(event.newValue);
+    }
+  });
 
   if (!toggleBtn) return;
 
   toggleBtn.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-    const next = current === 'dark' ? 'light' : 'dark';
-    applyTheme(next);
+    const current = getRenderedScheme();
+    const target = current === 'dark' ? 'light' : 'dark';
+    const osScheme = systemDark.matches ? 'dark' : 'light';
+
+    try {
+      if (target !== osScheme) {
+        localStorage.setItem('color-scheme', target);
+        applyStoredScheme(target);
+      } else {
+        localStorage.removeItem('color-scheme');
+        applyStoredScheme(null);
+      }
+    } catch (e) {
+      applyStoredScheme(target);
+    }
   });
 }
 
-// 2. 移动端导航菜单切换
-function initMobileNavigation() {
-  const toggle = document.querySelector('.mobile-menu-toggle');
-  const mobileNav = document.getElementById('mobile-navigation');
-
-  if (!toggle || !mobileNav) return;
-
-  function setMenuOpen(isOpen) {
-    toggle.setAttribute('aria-expanded', String(isOpen));
-    toggle.textContent = isOpen ? 'Close' : 'Menu';
-    mobileNav.hidden = !isOpen;
+// 2. 单导航树自适应测量 (navbar) + 向下滚动收起顶栏回退 (content-first-noise-reduction)
+function initResponsiveHeader() {
+  if (!Object.hasOwn(HTMLElement.prototype, 'popover')) {
+    import('https://unpkg.com/@oddbird/popover-polyfill@latest/dist/popover.min.js').catch(() => {});
   }
 
-  toggle.addEventListener('click', () => {
-    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-    setMenuOpen(!isOpen);
-  });
+  const header = document.getElementById('site-header');
+  const inner = header?.querySelector('.header-inner');
+  const menuBtn = header?.querySelector('.menu-button');
+  const siteMenu = document.getElementById('site-menu');
 
-  mobileNav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => setMenuOpen(false));
-  });
+  if (header && inner && menuBtn && siteMenu) {
+    let lastHeaderWidth = header.clientWidth;
+    let isWideState = true;
 
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > 780) setMenuOpen(false);
-  });
+    function syncHeaderLayout() {
+      const wasOpen = siteMenu.matches(':is(:popover-open, .\\:popover-open)');
+      header.classList.add('is-measuring', 'is-wide');
+      siteMenu.removeAttribute('popover');
+
+      const fitsInline = inner.scrollWidth <= inner.clientWidth;
+      isWideState = fitsInline;
+      header.classList.toggle('is-wide', fitsInline);
+
+      if (!fitsInline) {
+        siteMenu.setAttribute('popover', 'auto');
+        if (wasOpen && typeof siteMenu.showPopover === 'function') {
+          try {
+            siteMenu.showPopover();
+          } catch (e) {}
+        }
+      }
+
+      lastHeaderWidth = header.clientWidth;
+      requestAnimationFrame(() => {
+        header.classList.remove('is-measuring');
+      });
+    }
+
+    if ('ResizeObserver' in window) {
+      const ro = new ResizeObserver(() => {
+        if (isWideState || header.clientWidth > lastHeaderWidth) {
+          syncHeaderLayout();
+        } else {
+          lastHeaderWidth = header.clientWidth;
+        }
+      });
+      ro.observe(header);
+      ro.observe(siteMenu);
+    }
+
+    syncHeaderLayout();
+
+    // 不支持 CSS Anchor Positioning 时按按钮位置回退定位
+    siteMenu.addEventListener('beforetoggle', (event) => {
+      if (event.newState === 'open' && !window.CSS?.supports?.('inset-block-start', 'anchor(--menu-button bottom)')) {
+        const rect = menuBtn.getBoundingClientRect();
+        siteMenu.style.insetBlockStart = `${Math.round(rect.bottom + 8)}px`;
+        siteMenu.style.insetInlineEnd = `${Math.max(12, Math.round(window.innerWidth - rect.right))}px`;
+      }
+    });
+
+    // 点击折叠菜单中的锚点后自动关闭 Popover
+    siteMenu.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (!isWideState && typeof siteMenu.hidePopover === 'function' && siteMenu.matches(':is(:popover-open, .\\:popover-open)')) {
+          siteMenu.hidePopover();
+        }
+      });
+    });
+
+    // 不支持 container-type: scroll-state 的浏览器回退脚本
+    if (!window.CSS?.supports?.('container-type', 'scroll-state')) {
+      let lastY = window.scrollY;
+      window.addEventListener(
+        'scroll',
+        () => {
+          const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+          const y = Math.max(0, Math.min(window.scrollY, maxScroll));
+          if (y === lastY) return;
+          header.classList.toggle('is-hidden', y > lastY && y > header.offsetHeight * 1.5);
+          lastY = y;
+        },
+        { passive: true }
+      );
+    }
+  }
+
+  // 兼容独立博客子页 (blog/) 的传统折叠菜单按钮
+  const legacyToggle = document.querySelector('.navbar .mobile-menu-toggle:not([popovertarget])');
+  const legacyMenu = document.querySelector('.navbar .mobile-nav');
+  if (legacyToggle && legacyMenu) {
+    legacyToggle.addEventListener('click', () => {
+      const open = legacyMenu.hasAttribute('hidden');
+      legacyMenu.toggleAttribute('hidden', !open);
+      legacyToggle.setAttribute('aria-expanded', String(open));
+    });
+  }
 }
 
-// 3. 顶部阅读滚动进度条
-function initScrollProgress() {
-  const bar = document.querySelector('.scroll-progress');
+// 3. 原生 Scrollspy (scroll-target-group) 的 aria-current 同步与 IO 回退
+function initScrollspy() {
+  const navLinks = Array.from(document.querySelectorAll('#site-menu a[href^="#"]'));
+  const sections = Array.from(document.querySelectorAll('main section[id]'));
+  if (navLinks.length === 0 || sections.length === 0) return;
+
+  if (window.CSS?.supports?.('scroll-target-group: auto')) {
+    const syncAriaCurrent = () => {
+      const currentLink = document.querySelector('#site-menu a:target-current');
+      navLinks.forEach((link) => {
+        link.setAttribute('aria-current', link === currentLink ? 'true' : 'false');
+      });
+    };
+    syncAriaCurrent();
+    document.addEventListener('scrollend', syncAriaCurrent, { passive: true });
+    return;
+  }
+
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach((link) => {
+              const isActive = link.getAttribute('href') === `#${id}`;
+              link.classList.toggle('target-current', isActive);
+              link.setAttribute('aria-current', String(isActive));
+            });
+          }
+        });
+      },
+      { rootMargin: '-40% 0px -50% 0px', threshold: 0 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  }
+}
+
+// 4. 顶部激光滚动进度束回退（仅在不支持 CSS Scroll-Driven Animations 时启用）
+function initScrollProgressFallback() {
+  if (window.CSS?.supports?.('animation-timeline', 'scroll()')) {
+    return;
+  }
+
+  const bar = document.getElementById('scroll-progress');
   if (!bar) return;
 
   function update() {
-    const doc = document.documentElement;
-    const scrollable = doc.scrollHeight - doc.clientHeight;
-    const progress = scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0;
-    bar.style.transform = `scaleX(${progress})`;
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0;
+    bar.style.transform = `scaleX(${ratio})`;
   }
 
   window.addEventListener('scroll', update, { passive: true });
@@ -88,92 +224,43 @@ function initScrollProgress() {
   update();
 }
 
-// 4. 导航栏当前章节滚动高亮
-function initActiveSectionLinks() {
-  const navLinks = Array.from(document.querySelectorAll('.navbar-nav .nav-link[href^="#"]'));
-  const sectionIds = Array.from(new Set(navLinks.map((l) => l.getAttribute('href').slice(1))));
-  const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
-
-  if (sections.length === 0) return;
-
-  function updateOnScroll() {
-    const triggerLine = window.scrollY + 140;
-    let currentId = sections[0].id;
-    sections.forEach((sec) => {
-      if (sec.offsetTop <= triggerLine) {
-        currentId = sec.id;
-      }
-    });
-    navLinks.forEach((link) => {
-      link.classList.toggle('active', link.getAttribute('href') === `#${currentId}`);
-    });
-  }
-
-  window.addEventListener('scroll', updateOnScroll, { passive: true });
-  updateOnScroll();
-}
-
-// 5. 区块渐入动画 (IntersectionObserver)
-function initRevealAnimations() {
-  const items = Array.from(document.querySelectorAll('.reveal-item'));
-  if (items.length === 0) return;
-
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
-    items.forEach((el) => el.classList.add('is-visible'));
-    return;
-  }
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.04, rootMargin: '0px 0px -24px 0px' }
-  );
-
-  items.forEach((el) => observer.observe(el));
-}
-
-// 6. 邮箱芯片一键复制反馈
+// 5. 邮箱地址一键复制反馈
 function initEmailCopy() {
   const btn = document.querySelector('.copy-email-btn');
   if (!btn) return;
 
-  const labelEl = btn.querySelector('.copy-email-label');
-  const tagEl = btn.querySelector('.chip-tag');
+  const statusEl = btn.querySelector('.copy-status');
   let timer = null;
 
   btn.addEventListener('click', async () => {
     const email = btn.getAttribute('data-email') || 'xiangnanwu.cs@gmail.com';
     try {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
+      if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(email);
       }
     } catch (e) {}
 
     btn.classList.add('is-copied');
-    if (tagEl) tagEl.textContent = 'COPIED ✓';
+    if (statusEl) statusEl.textContent = 'copied ✓';
 
     clearTimeout(timer);
     timer = setTimeout(() => {
       btn.classList.remove('is-copied');
-      if (tagEl) tagEl.textContent = 'COPY';
-      if (labelEl) labelEl.textContent = email;
+      if (statusEl) statusEl.textContent = 'copy';
     }, 1800);
   });
 }
 
-// 7. 双核耦合拓扑工作台 (01 Multimodal Understanding ⇄ 02 Embodied Intelligence)
-function initCoupledTopologyCanvas(pubController) {
-  const canvas = document.getElementById('topology-canvas');
-  const wrap = document.getElementById('topology-wrap');
-  const readoutEl = document.getElementById('topology-readout');
-  const formulaEl = document.getElementById('stage-formula-code');
-  const focusCards = Array.from(document.querySelectorAll('.focus-card'));
+// 6. 极简科幻开普勒轨道流形星盘 (01 Multimodal Latent Core ⇄ 02 Embodied Rollout Orbits)
+function initOrbitalManifoldCanvas() {
+  const canvas = document.getElementById('orbital-canvas');
+  const wrap = document.getElementById('orbital-wrap');
+  const readoutEl = document.getElementById('orbital-readout');
+  const pauseBtn = document.getElementById('orbital-pause');
+  const pillars = Array.from(document.querySelectorAll('.focus-pillar'));
+  const metaScheme = document.querySelector('meta[name="color-scheme"]');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   if (!canvas || !wrap) return;
   const ctx = canvas.getContext('2d');
@@ -182,14 +269,19 @@ function initCoupledTopologyCanvas(pubController) {
   let width = 0;
   let height = 0;
   let dpr = Math.min(window.devicePixelRatio || 1, 2);
-  let activeFocus = 'dual'; // 'dual' | 'multimodal' | 'embodied'
-  let pointerX = 0;
-  let pointerY = 0;
-  let tick = 0;
+  let focusMode = 'dual'; // 'dual' | 'multimodal' | 'embodied'
+  let targetTiltX = 0;
+  let targetTiltY = 0;
+  let tiltX = 0;
+  let tiltY = 0;
+  let phase = 0.85;
+  let rafId = null;
+  let isOffscreen = false;
+  let userPaused = reducedMotionQuery.matches;
 
-  // 预生成左侧多模态表征空间节点簇 (3D Token Lattice)
-  const mmNodes = Array.from({ length: 14 }, (_, i) => {
-    const phi = Math.acos(1 - (2 * (i + 0.5)) / 14);
+  // 黄金螺旋球面节点：表征多模态共享潜空间几何体
+  const latentNodes = Array.from({ length: 18 }, (_, i) => {
+    const phi = Math.acos(1 - (2 * (i + 0.5)) / 18);
     const theta = Math.PI * (1 + Math.sqrt(5)) * i;
     return {
       x: Math.cos(theta) * Math.sin(phi),
@@ -198,304 +290,407 @@ function initCoupledTopologyCanvas(pubController) {
     };
   });
 
+  function isDarkActive() {
+    const val = metaScheme?.getAttribute('content') || 'light dark';
+    if (val === 'dark') return true;
+    if (val === 'light') return false;
+    return systemDark.matches;
+  }
+
+  function syncPauseUI() {
+    if (!pauseBtn) return;
+    pauseBtn.textContent = userPaused ? 'Play' : 'Pause';
+    pauseBtn.setAttribute('aria-label', userPaused ? 'Play orbital animation' : 'Pause orbital animation');
+  }
+
   function resize() {
     const rect = wrap.getBoundingClientRect();
-    width = Math.max(240, Math.floor(rect.width));
-    height = Math.max(180, Math.floor(rect.height));
+    width = Math.max(220, Math.floor(rect.width));
+    height = Math.max(200, Math.floor(rect.height));
     dpr = Math.min(window.devicePixelRatio || 1, 2);
     canvas.width = width * dpr;
     canvas.height = height * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    renderScene(false);
   }
 
-  resize();
-  window.addEventListener('resize', resize);
-
-  wrap.addEventListener('mousemove', (e) => {
-    const rect = wrap.getBoundingClientRect();
-    pointerX = ((e.clientX - rect.left) / rect.width) * 2 - 1;
-    pointerY = ((e.clientY - rect.top) / rect.height) * 2 - 1;
-  });
-
-  wrap.addEventListener('mouseleave', () => {
-    pointerX = 0;
-    pointerY = 0;
-  });
-
-  function setFocusMode(mode) {
-    activeFocus = mode;
-    focusCards.forEach((card) => {
-      const cardMode = card.getAttribute('data-focus');
-      const isSelected = cardMode === mode;
-      card.classList.toggle('is-active', isSelected);
-      card.setAttribute('aria-pressed', String(isSelected));
-    });
-
-    if (readoutEl) {
-      if (mode === 'multimodal') {
-        readoutEl.textContent = 'FOCUS 01 // MULTIMODAL';
-      } else if (mode === 'embodied') {
-        readoutEl.textContent = 'FOCUS 02 // EMBODIED AI';
-      } else {
-        readoutEl.textContent = 'MODE: DUAL-CORE SYNC';
-      }
-    }
-  }
-
-  focusCards.forEach((card) => {
-    const cardMode = card.getAttribute('data-focus');
-    card.addEventListener('mouseenter', () => setFocusMode(cardMode, false));
-    card.addEventListener('mouseleave', () => setFocusMode('dual', false));
-    card.addEventListener('click', () => {
-      const next = activeFocus === cardMode ? 'dual' : cardMode;
-      setFocusMode(next, true);
-    });
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        const next = activeFocus === cardMode ? 'dual' : cardMode;
-        setFocusMode(next, true);
-      }
-    });
-  });
-
-  function drawFrame() {
-    tick += 0.018;
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-
-    const mmColor = isDark ? '#38bdf8' : '#0284c7';
-    const embColor = isDark ? '#2dd4bf' : '#0f766e';
-    const faintLine = isDark ? 'rgba(226, 238, 238, 0.14)' : 'rgba(12, 22, 24, 0.13)';
-    const nodeFill = isDark ? '#eaf2f2' : '#0f181a';
-
-    ctx.clearRect(0, 0, width, height);
-
-    const leftX = width * 0.25 + pointerX * 8;
-    const rightX = width * 0.75 + pointerX * 8;
-    const centerY = height * 0.44 + pointerY * 6;
-    const radius = Math.min(width * 0.16, height * 0.28, 52);
-
-    const mmAlpha = activeFocus === 'embodied' ? 0.38 : 1;
-    const embAlpha = activeFocus === 'multimodal' ? 0.38 : 1;
-
-    // 1. 绘制中央双向耦合桥 (Bidirectional Coupling Bridge: Multimodal ⇄ Embodied)
+  // 绘制倾斜开普勒椭圆轨道环与拱点刻度
+  function drawOrbitalRing(cx, cy, rx, ry, angleRad, strokeColor, dashed, alpha) {
     ctx.save();
-    for (let b = -1; b <= 1; b++) {
-      const curveOffset = b * 24;
-      ctx.beginPath();
-      ctx.moveTo(leftX + radius * 0.7, centerY + b * 6);
-      ctx.quadraticCurveTo(
-        width * 0.5,
-        centerY + curveOffset + Math.sin(tick + b) * 5,
-        rightX - radius * 0.7,
-        centerY + b * 6
-      );
-      ctx.strokeStyle = b === 0 ? embColor : faintLine;
-      ctx.lineWidth = b === 0 ? 1.5 : 1;
-      ctx.setLineDash(b === 0 ? [] : [3, 3]);
-      ctx.stroke();
-
-      // 沿耦合桥传输的双向脉冲粒子
-      const pT = (tick * 0.55 + (b + 1) * 0.33) % 1;
-      const t = b === -1 ? 1 - pT : pT;
-      const sx = leftX + radius * 0.7;
-      const ex = rightX - radius * 0.7;
-      const cx = width * 0.5;
-      const sy = centerY + b * 6;
-      const cy = centerY + curveOffset + Math.sin(tick + b) * 5;
-      const px = (1 - t) * (1 - t) * sx + 2 * (1 - t) * t * cx + t * t * ex;
-      const py = (1 - t) * (1 - t) * sy + 2 * (1 - t) * t * cy + t * t * sy;
-
-      ctx.beginPath();
-      ctx.arc(px, py, 2.6, 0, Math.PI * 2);
-      ctx.fillStyle = b === -1 ? mmColor : embColor;
-      ctx.fill();
-    }
-    ctx.restore();
-
-    // 2. 绘制左半球：01 Multimodal Understanding (3D Token Attention Sphere)
-    ctx.save();
-    ctx.globalAlpha = mmAlpha;
+    ctx.globalAlpha = alpha;
+    ctx.translate(cx, cy);
+    ctx.rotate(angleRad);
     ctx.beginPath();
-    ctx.arc(leftX, centerY, radius * 1.12, 0, Math.PI * 2);
-    ctx.strokeStyle = faintLine;
-    ctx.setLineDash([2, 3]);
-    ctx.lineWidth = 1;
+    ctx.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2);
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 0.9;
+    ctx.setLineDash(dashed ? [2.5, 4] : []);
     ctx.stroke();
     ctx.setLineDash([]);
 
-    const projectedMM = mmNodes.map((n) => {
-      const rot = tick * 0.7 + pointerX * 0.6;
-      const rx = n.x * Math.cos(rot) - n.z * Math.sin(rot);
-      const rz = n.x * Math.sin(rot) + n.z * Math.cos(rot);
-      const scale = 1 / (2.2 - rz * 0.45);
+    // 四个拱点精密微刻度
+    [0, Math.PI * 0.5, Math.PI, Math.PI * 1.5].forEach((a) => {
+      const x1 = Math.cos(a) * (rx - 3);
+      const y1 = Math.sin(a) * (ry - 3);
+      const x2 = Math.cos(a) * (rx + 3);
+      const y2 = Math.sin(a) * (ry + 3);
+      ctx.beginPath();
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+      ctx.stroke();
+    });
+    ctx.restore();
+  }
+
+  function renderScene(advanceTime = true) {
+    if (advanceTime) {
+      phase += 0.011;
+      tiltX += (targetTiltX - tiltX) * 0.08;
+      tiltY += (targetTiltY - tiltY) * 0.08;
+    }
+
+    const dark = isDarkActive();
+    const cyan = dark ? '#38bdf8' : '#0369a1';
+    const teal = dark ? '#2dd4bf' : '#0f766e';
+    const inkDot = dark ? '#e2ecf7' : '#0f172a';
+    const hairline = dark ? 'rgba(148, 175, 206, 0.22)' : 'rgba(15, 23, 42, 0.16)';
+    const faintRing = dark ? 'rgba(148, 175, 206, 0.12)' : 'rgba(15, 23, 42, 0.09)';
+
+    ctx.clearRect(0, 0, width, height);
+
+    const cx = width * 0.5 + tiltX * 10;
+    const cy = height * 0.47 + tiltY * 8;
+    const unit = Math.min(width, height);
+    const coreR = unit * 0.175;
+    const outerRx = unit * 0.43;
+    const outerRy = unit * 0.17;
+
+    const mmEmphasis = focusMode === 'embodied' ? 0.36 : 1;
+    const embEmphasis = focusMode === 'multimodal' ? 0.36 : 1;
+
+    // 1. 背景极细基准十字线
+    ctx.save();
+    ctx.strokeStyle = faintRing;
+    ctx.lineWidth = 0.75;
+    ctx.beginPath();
+    ctx.moveTo(cx - outerRx * 1.08, cy);
+    ctx.lineTo(cx + outerRx * 1.08, cy);
+    ctx.moveTo(cx, cy - unit * 0.36);
+    ctx.lineTo(cx, cy + unit * 0.36);
+    ctx.stroke();
+    ctx.restore();
+
+    // 2. 外层具身世界模型开普勒轨道环 (02 // Embodied Intelligence)
+    const eclipticTilt = -0.32 + tiltY * 0.08;
+    drawOrbitalRing(cx, cy, outerRx, outerRy, eclipticTilt, hairline, false, embEmphasis);
+    drawOrbitalRing(cx, cy, outerRx * 0.76, outerRy * 1.24, 0.42 - tiltX * 0.08, hairline, true, embEmphasis * 0.75);
+
+    // 沿主轨道运动的策略预测脉冲与目标位姿锚点
+    const orbitAgents = [
+      { speed: 0.75, offset: 0.2, rx: outerRx, ry: outerRy, tilt: eclipticTilt, color: teal, primary: true },
+      { speed: -0.52, offset: 2.4, rx: outerRx * 0.76, ry: outerRy * 1.24, tilt: 0.42 - tiltX * 0.08, color: cyan, primary: false }
+    ];
+
+    orbitAgents.forEach((ag) => {
+      const ang = phase * ag.speed + ag.offset;
+      const lx = Math.cos(ang) * ag.rx;
+      const ly = Math.sin(ang) * ag.ry;
+      const px = cx + lx * Math.cos(ag.tilt) - ly * Math.sin(ag.tilt);
+      const py = cy + lx * Math.sin(ag.tilt) + ly * Math.cos(ag.tilt);
+
+      ctx.save();
+      ctx.globalAlpha = embEmphasis;
+
+      // 从潜空间核心投射到执行器轨迹点的耦合射线
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.lineTo(px, py);
+      ctx.strokeStyle = ag.color;
+      ctx.globalAlpha = embEmphasis * 0.28;
+      ctx.lineWidth = 0.9;
+      ctx.stroke();
+
+      // 轨道脉冲光点与精密方框准星
+      ctx.globalAlpha = embEmphasis;
+      ctx.beginPath();
+      ctx.arc(px, py, ag.primary ? 3 : 2.2, 0, Math.PI * 2);
+      ctx.fillStyle = ag.color;
+      ctx.fill();
+
+      if (ag.primary) {
+        ctx.strokeStyle = ag.color;
+        ctx.lineWidth = 1;
+        ctx.strokeRect(px - 6.5, py - 6.5, 13, 13);
+      }
+      ctx.restore();
+    });
+
+    // 3. 中央多模态测地线潜空间球体 (01 // Multimodal Understanding)
+    ctx.save();
+    ctx.globalAlpha = mmEmphasis;
+    ctx.beginPath();
+    ctx.arc(cx, cy, coreR * 1.18, 0, Math.PI * 2);
+    ctx.strokeStyle = hairline;
+    ctx.lineWidth = 0.85;
+    ctx.stroke();
+
+    const rotY = phase * 0.62 + tiltX * 0.55;
+    const rotX = 0.35 + tiltY * 0.45;
+    const cosY = Math.cos(rotY);
+    const sinY = Math.sin(rotY);
+    const cosX = Math.cos(rotX);
+    const sinX = Math.sin(rotX);
+
+    const projected = latentNodes.map((n) => {
+      const x1 = n.x * cosY - n.z * sinY;
+      const z1 = n.x * sinY + n.z * cosY;
+      const y2 = n.y * cosX - z1 * sinX;
+      const z2 = n.y * sinX + z1 * cosX;
+      const depth = 1 / (2.35 - z2 * 0.48);
       return {
-        x: leftX + rx * radius * 1.55 * scale,
-        y: centerY + n.y * radius * 1.55 * scale,
-        z: rz
+        x: cx + x1 * coreR * 1.9 * depth,
+        y: cy + y2 * coreR * 1.9 * depth,
+        z: z2
       };
     });
 
-    // 绘制多模态节点注意力连线
-    ctx.lineWidth = 0.85;
-    ctx.strokeStyle = mmColor;
-    for (let i = 0; i < projectedMM.length; i++) {
-      for (let j = i + 1; j < projectedMM.length; j++) {
-        const dx = projectedMM[i].x - projectedMM[j].x;
-        const dy = projectedMM[i].y - projectedMM[j].y;
-        const dist = Math.hypot(dx, dy);
-        if (dist < radius * 0.95) {
-          ctx.globalAlpha = mmAlpha * 0.28;
+    ctx.strokeStyle = cyan;
+    ctx.lineWidth = 0.75;
+    for (let i = 0; i < projected.length; i++) {
+      for (let j = i + 1; j < projected.length; j++) {
+        const dist = Math.hypot(projected[i].x - projected[j].x, projected[i].y - projected[j].y);
+        if (dist < coreR * 0.92) {
+          ctx.globalAlpha = mmEmphasis * (projected[i].z + projected[j].z > 0 ? 0.34 : 0.14);
           ctx.beginPath();
-          ctx.moveTo(projectedMM[i].x, projectedMM[i].y);
-          ctx.lineTo(projectedMM[j].x, projectedMM[j].y);
+          ctx.moveTo(projected[i].x, projected[i].y);
+          ctx.lineTo(projected[j].x, projected[j].y);
           ctx.stroke();
         }
       }
     }
 
-    projectedMM.forEach((pt, idx) => {
-      ctx.globalAlpha = mmAlpha * (pt.z > 0 ? 0.95 : 0.45);
+    projected.forEach((pt, idx) => {
+      ctx.globalAlpha = mmEmphasis * (pt.z > 0 ? 0.92 : 0.38);
       ctx.beginPath();
-      ctx.arc(pt.x, pt.y, idx % 4 === 0 ? 3.1 : 2.1, 0, Math.PI * 2);
-      ctx.fillStyle = idx % 4 === 0 ? mmColor : nodeFill;
+      ctx.arc(pt.x, pt.y, idx % 5 === 0 ? 2.5 : 1.65, 0, Math.PI * 2);
+      ctx.fillStyle = idx % 5 === 0 ? cyan : inkDot;
       ctx.fill();
     });
     ctx.restore();
-
-    // 3. 绘制右半球：02 Embodied Intelligence (3D World Lattice & Action Rollouts)
-    ctx.save();
-    ctx.globalAlpha = embAlpha;
-
-    // 底部等轴测世界状态平面网格
-    const gridW = radius * 1.15;
-    const gridH = radius * 0.45;
-    const baseY = centerY + radius * 0.52;
-    ctx.strokeStyle = faintLine;
-    ctx.lineWidth = 0.85;
-
-    for (let g = -3; g <= 3; g++) {
-      const t = g / 3;
-      ctx.beginPath();
-      ctx.moveTo(rightX + t * gridW - gridW * 0.35, baseY - gridH);
-      ctx.lineTo(rightX + t * gridW + gridW * 0.35, baseY + gridH);
-      ctx.stroke();
-
-      ctx.beginPath();
-      ctx.moveTo(rightX - gridW, baseY + t * gridH);
-      ctx.lineTo(rightX + gridW, baseY + t * gridH);
-      ctx.stroke();
-    }
-
-    // 三条动作策略 Rollout 轨迹曲线 + 末端 6-DoF 目标位姿框
-    const rollouts = [
-      { h: -radius * 0.85, endX: rightX + radius * 0.72, endY: centerY - radius * 0.28, optimal: true },
-      { h: -radius * 0.45, endX: rightX + radius * 0.58, endY: centerY - radius * 0.55, optimal: false },
-      { h: -radius * 0.25, endX: rightX + radius * 0.65, endY: centerY + radius * 0.08, optimal: false }
-    ];
-
-    const startX = rightX - radius * 0.75;
-    const startY = baseY + 4;
-
-    rollouts.forEach((r) => {
-      ctx.beginPath();
-      ctx.moveTo(startX, startY);
-      ctx.quadraticCurveTo(
-        rightX - radius * 0.05,
-        centerY + r.h + Math.sin(tick * 1.2) * 4,
-        r.endX,
-        r.endY
-      );
-      if (r.optimal) {
-        ctx.setLineDash([]);
-        ctx.strokeStyle = embColor;
-        ctx.lineWidth = 2;
-        ctx.stroke();
-
-        // 目标 6-DoF 机械臂夹爪位姿框
-        ctx.strokeRect(r.endX - 5.5, r.endY - 5.5, 11, 11);
-        ctx.beginPath();
-        ctx.arc(r.endX, r.endY, 2.4, 0, Math.PI * 2);
-        ctx.fillStyle = embColor;
-        ctx.fill();
-      } else {
-        ctx.setLineDash([2.5, 2.5]);
-        ctx.strokeStyle = faintLine;
-        ctx.lineWidth = 1;
-        ctx.stroke();
-      }
-    });
-
-    ctx.setLineDash([]);
-    ctx.beginPath();
-    ctx.arc(startX, startY, 3.2, 0, Math.PI * 2);
-    ctx.fillStyle = nodeFill;
-    ctx.fill();
-    ctx.restore();
-
-    requestAnimationFrame(drawFrame);
   }
 
-  requestAnimationFrame(drawFrame);
+  function tickLoop() {
+    if (userPaused || isOffscreen || document.hidden) {
+      rafId = null;
+      return;
+    }
+    renderScene(true);
+    rafId = requestAnimationFrame(tickLoop);
+  }
+
+  function startLoop() {
+    if (!userPaused && !isOffscreen && !document.hidden && !rafId) {
+      rafId = requestAnimationFrame(tickLoop);
+    } else {
+      renderScene(false);
+    }
+  }
+
+  function stopLoop() {
+    if (rafId) {
+      cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+  }
+
+  // 鼠标视差微倾角交互
+  wrap.addEventListener('pointermove', (event) => {
+    const rect = wrap.getBoundingClientRect();
+    targetTiltX = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+    targetTiltY = ((event.clientY - rect.top) / rect.height) * 2 - 1;
+    if (userPaused) renderScene(false);
+  });
+
+  wrap.addEventListener('pointerleave', () => {
+    targetTiltX = 0;
+    targetTiltY = 0;
+  });
+
+  // 与 01 / 02 两大研究支柱联动高亮
+  function setFocusMode(mode) {
+    focusMode = mode;
+    pillars.forEach((p) => {
+      p.classList.toggle('is-active', p.getAttribute('data-focus') === mode);
+    });
+    if (readoutEl) {
+      if (mode === 'multimodal') {
+        readoutEl.textContent = '01 // LATENT GEOMETRY';
+      } else if (mode === 'embodied') {
+        readoutEl.textContent = '02 // WORLD & POLICY';
+      } else {
+        readoutEl.textContent = 'MANIFOLD // DUAL-CORE';
+      }
+    }
+    if (userPaused) renderScene(false);
+  }
+
+  pillars.forEach((pillar) => {
+    const mode = pillar.getAttribute('data-focus') || 'dual';
+    pillar.addEventListener('mouseenter', () => setFocusMode(mode));
+    pillar.addEventListener('mouseleave', () => setFocusMode('dual'));
+    pillar.addEventListener('focus', () => setFocusMode(mode));
+    pillar.addEventListener('blur', () => setFocusMode('dual'));
+    pillar.addEventListener('click', () => {
+      setFocusMode(focusMode === mode ? 'dual' : mode);
+    });
+  });
+
+  // WCAG 2.2.2 键盘可达的暂停/播放控件
+  if (pauseBtn) {
+    syncPauseUI();
+    pauseBtn.addEventListener('click', () => {
+      userPaused = !userPaused;
+      syncPauseUI();
+      if (userPaused) {
+        stopLoop();
+      } else {
+        startLoop();
+      }
+    });
+  }
+
+  reducedMotionQuery.addEventListener('change', (e) => {
+    userPaused = e.matches;
+    syncPauseUI();
+    if (userPaused) {
+      stopLoop();
+      renderScene(false);
+    } else {
+      startLoop();
+    }
+  });
+
+  systemDark.addEventListener('change', () => renderScene(false));
+  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    requestAnimationFrame(() => renderScene(false));
+  });
+
+  // 离屏休眠控制：contentvisibilityautostatechange 捕获监听 + IntersectionObserver 回退
+  document.addEventListener(
+    'contentvisibilityautostatechange',
+    (event) => {
+      if (event.target instanceof Element && event.target.contains(wrap)) {
+        isOffscreen = event.skipped;
+        if (isOffscreen) stopLoop();
+        else startLoop();
+      }
+    },
+    { capture: true }
+  );
+
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          isOffscreen = !entry.isIntersecting;
+          if (isOffscreen) stopLoop();
+          else startLoop();
+        });
+      },
+      { rootMargin: '200px' }
+    );
+    io.observe(wrap);
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stopLoop();
+    else startLoop();
+  });
+
+  window.addEventListener('resize', resize);
+  resize();
+  startLoop();
 }
 
-// 8. 论文检索、场地类型筛选、BibTeX 与 Lightbox
-function initPublicationsEnhancements() {
-  const searchInput = document.querySelector('.search-input');
+// 7. Top-Layer 离散 display 过渡特征探测与离场等待 (animate-to-from-top-layer)
+let supportsDisplayTransition;
+function canTransitionDisplay() {
+  if (supportsDisplayTransition !== undefined) return supportsDisplayTransition;
+  if (!window.CSS?.supports?.('transition-behavior', 'allow-discrete') || !document.body) {
+    return false;
+  }
+  const probe = document.createElement('div');
+  probe.style.cssText = 'transition: display 1s allow-discrete !important; display: block;';
+  document.body.appendChild(probe);
+  getComputedStyle(probe).display;
+  probe.style.display = 'none';
+  supportsDisplayTransition = getComputedStyle(probe).display === 'block';
+  probe.remove();
+  return supportsDisplayTransition;
+}
+
+function supportsTopLayerExit() {
+  return window.CSS?.supports?.('overlay', 'auto') && canTransitionDisplay();
+}
+
+async function closeTopLayer(dialogEl) {
+  if (!supportsTopLayerExit()) {
+    dialogEl.setAttribute('data-closing', '');
+    const animations = dialogEl.getAnimations({ subtree: true });
+    if (animations.length > 0) {
+      await Promise.race([
+        Promise.allSettled(animations.map((a) => a.finished)),
+        new Promise((r) => setTimeout(r, 2000))
+      ]);
+    }
+    if (!dialogEl.hasAttribute('data-closing')) return;
+    dialogEl.removeAttribute('data-closing');
+  }
+  dialogEl.close();
+}
+
+// 8. 论文列表增强：原生 <details> BibTeX、原生 <dialog> Lightbox 与 View Transitions 筛选
+function initPublicationsModule() {
+  const searchInput = document.querySelector('#publications .search-input');
   const filterBtns = Array.from(document.querySelectorAll('.filter-btn'));
   const categories = Array.from(document.querySelectorAll('.publication-category'));
   const items = Array.from(document.querySelectorAll('.publication-item'));
   const emptyState = document.getElementById('publication-empty');
 
-  if (items.length === 0) return null;
+  if (items.length === 0) return;
 
-  // 8.1 自动统计并填充类型数量角标
-  const venueCounts = {
-    all: items.length,
-    conference: document.querySelectorAll('.publication-category[data-category="conference"] .publication-item').length,
-    preprint: document.querySelectorAll('.publication-category[data-category="preprint"] .publication-item').length
-  };
-
-  filterBtns.forEach((btn) => {
-    const key = btn.getAttribute('data-filter');
-    if (key && venueCounts[key] !== undefined && !btn.querySelector('.filter-count')) {
-      const badge = document.createElement('span');
-      badge.className = 'filter-count';
-      badge.textContent = `[${venueCounts[key]}]`;
-      btn.appendChild(badge);
-    }
-  });
-
-  // 8.2 自动注入 BibTeX 展开按钮与一键复制抽屉
+  // 8.1 原生 <details>/<summary> BibTeX 折叠抽屉（不设数量统计角标，保持极简）
   items.forEach((item) => {
     const bibtex = item.getAttribute('data-bibtex');
-    const linksRow = item.querySelector('.publication-links');
     const body = item.querySelector('.publication-body');
-    if (!bibtex || !linksRow || !body) return;
+    if (!bibtex || !body) return;
 
-    const bibBtn = document.createElement('button');
-    bibBtn.type = 'button';
-    bibBtn.className = 'pub-link pub-bibtex-btn';
-    bibBtn.textContent = 'BibTeX';
-    linksRow.appendChild(bibBtn);
+    const details = document.createElement('details');
+    details.className = 'bibtex-details';
+
+    const summary = document.createElement('summary');
+    summary.className = 'bibtex-summary';
+    summary.textContent = 'BibTeX';
 
     const drawer = document.createElement('div');
     drawer.className = 'bibtex-drawer';
-    drawer.hidden = true;
     drawer.innerHTML = `
       <div class="bibtex-bar">
-        <span>BIBTEX CITATION RECORD</span>
+        <span>BibTeX</span>
         <button type="button" class="bibtex-copy-btn">Copy</button>
       </div>
       <pre class="bibtex-pre"></pre>
     `;
     drawer.querySelector('.bibtex-pre').textContent = bibtex;
-    body.appendChild(drawer);
+
+    details.appendChild(summary);
+    details.appendChild(drawer);
+    body.appendChild(details);
 
     const copyBtn = drawer.querySelector('.bibtex-copy-btn');
     copyBtn.addEventListener('click', async () => {
       try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
+        if (navigator.clipboard?.writeText) {
           await navigator.clipboard.writeText(bibtex);
         }
       } catch (e) {}
@@ -504,87 +699,85 @@ function initPublicationsEnhancements() {
         copyBtn.textContent = 'Copy';
       }, 1600);
     });
-
-    bibBtn.addEventListener('click', () => {
-      const willOpen = drawer.hidden;
-      drawer.hidden = !willOpen;
-      bibBtn.classList.toggle('is-open', willOpen);
-    });
   });
 
-  // 8.3 论文缩略图高清放大 Lightbox
-  const lightbox = document.createElement('div');
-  lightbox.className = 'pub-lightbox';
-  lightbox.hidden = true;
-  lightbox.innerHTML = `
-    <div class="pub-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Publication figure preview">
-      <div class="pub-lightbox-top">
-        <span class="pub-lightbox-caption">FIGURE PREVIEW</span>
-        <button type="button" class="pub-lightbox-close">ESC / Close ✕</button>
-      </div>
-      <div class="pub-lightbox-stage">
-        <img src="" alt="">
-      </div>
-    </div>
-  `;
-  document.body.appendChild(lightbox);
+  // 8.2 原生 <dialog closedby="any"> 高清大图预览器
+  const lightbox = document.getElementById('pub-lightbox');
+  const lightboxImg = document.getElementById('pub-lightbox-img');
+  const lightboxTitle = document.getElementById('pub-lightbox-title');
+  const lightboxClose = document.getElementById('pub-lightbox-close');
 
-  const lightboxImg = lightbox.querySelector('.pub-lightbox-stage img');
-  const lightboxCap = lightbox.querySelector('.pub-lightbox-caption');
-  const lightboxClose = lightbox.querySelector('.pub-lightbox-close');
+  if (lightbox && lightboxImg && lightboxTitle) {
+    lightbox.addEventListener('cancel', (event) => {
+      event.preventDefault();
+      closeTopLayer(lightbox);
+    });
 
-  function closeLightbox() {
-    lightbox.hidden = true;
+    lightboxClose?.addEventListener('click', (event) => {
+      event.preventDefault();
+      closeTopLayer(lightbox);
+    });
+
+    // MANDATORY: 为尚不支持 closedby="any" 的浏览器（如 Safari）实现背景坐标判定关闭回退
+    if (!('closedBy' in HTMLDialogElement.prototype)) {
+      lightbox.addEventListener('click', (event) => {
+        if (event.target !== lightbox) return;
+        const rect = lightbox.getBoundingClientRect();
+        const isDialogContent =
+          rect.top <= event.clientY &&
+          event.clientY <= rect.top + rect.height &&
+          rect.left <= event.clientX &&
+          event.clientX <= rect.left + rect.width;
+        if (isDialogContent) return;
+        closeTopLayer(lightbox);
+      });
+    }
+
+    items.forEach((item) => {
+      const thumbLink = item.querySelector('.publication-image');
+      const img = thumbLink?.querySelector('img');
+      const titleEl = item.querySelector('.publication-title');
+      if (!thumbLink || !img) return;
+
+      const zoomBtn = document.createElement('button');
+      zoomBtn.type = 'button';
+      zoomBtn.className = 'pub-zoom-badge';
+      zoomBtn.title = 'Inspect figure';
+      zoomBtn.setAttribute('aria-label', 'Inspect figure in high resolution');
+      zoomBtn.textContent = '⤢';
+      thumbLink.appendChild(zoomBtn);
+
+      zoomBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        lightboxImg.src = img.getAttribute('src') || '';
+        lightboxImg.alt = img.getAttribute('alt') || '';
+        lightboxTitle.textContent = titleEl ? titleEl.textContent.trim() : 'Figure Preview';
+        lightbox.showModal();
+      });
+    });
   }
 
-  lightboxClose.addEventListener('click', closeLightbox);
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) closeLightbox();
-  });
+  // 8.3 搜索 + View Transitions 类型筛选
+  let activeFilter = 'all';
 
-  items.forEach((item) => {
-    const thumbLink = item.querySelector('.publication-image');
-    const img = thumbLink ? thumbLink.querySelector('img') : null;
-    const titleEl = item.querySelector('.publication-title');
-    if (!thumbLink || !img) return;
-
-    const zoomBtn = document.createElement('span');
-    zoomBtn.className = 'pub-zoom-badge';
-    zoomBtn.title = 'Inspect figure in high resolution';
-    zoomBtn.textContent = '⤢';
-    thumbLink.appendChild(zoomBtn);
-
-    zoomBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      lightboxImg.src = img.getAttribute('src');
-      lightboxImg.alt = img.getAttribute('alt') || '';
-      lightboxCap.textContent = titleEl ? titleEl.textContent.trim() : 'FIGURE PREVIEW';
-      lightbox.hidden = false;
-    });
-  });
-
-  // 8.4 搜索 + 会议类型过滤
-  let activeVenueFilter = 'all';
-
-  function updateVisibility() {
+  function applyVisibility() {
     const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
-    let visibleCount = 0;
+    let visibleTotal = 0;
 
     categories.forEach((cat) => {
       const catType = cat.getAttribute('data-category');
-      const catMatchesVenue = activeVenueFilter === 'all' || activeVenueFilter === catType;
+      const matchesCat = activeFilter === 'all' || activeFilter === catType;
       const catItems = Array.from(cat.querySelectorAll('.publication-item'));
       let catVisible = 0;
 
       catItems.forEach((item) => {
-        const text = item.textContent.toLowerCase();
-        const matchesQuery = !query || text.includes(query);
-        const show = catMatchesVenue && matchesQuery;
-        item.hidden = !show;
-        if (show) {
+        const matchesQuery = !query || item.textContent.toLowerCase().includes(query);
+        const visible = matchesCat && matchesQuery;
+        item.hidden = !visible;
+        if (visible) {
           catVisible += 1;
-          visibleCount += 1;
+          visibleTotal += 1;
         }
       });
 
@@ -592,50 +785,49 @@ function initPublicationsEnhancements() {
     });
 
     if (emptyState) {
-      emptyState.hidden = visibleCount > 0;
+      emptyState.hidden = visibleTotal > 0;
     }
   }
 
-  if (searchInput) {
-    searchInput.addEventListener('input', updateVisibility);
+  function updateFilterView(withTransition) {
+    if (
+      withTransition &&
+      document.startViewTransition &&
+      window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+    ) {
+      document.startViewTransition(() => applyVisibility());
+    } else {
+      applyVisibility();
+    }
   }
+
+  searchInput?.addEventListener('input', () => updateFilterView(false));
 
   filterBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
-      activeVenueFilter = btn.getAttribute('data-filter') || 'all';
+      const next = btn.getAttribute('data-filter') || 'all';
+      if (next === activeFilter) return;
+      activeFilter = next;
       filterBtns.forEach((b) => {
-        const isCurrent = b === btn;
-        b.classList.toggle('active', isCurrent);
-        b.setAttribute('aria-pressed', String(isCurrent));
+        const active = b === btn;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-pressed', String(active));
       });
-      updateVisibility();
+      updateFilterView(true);
     });
   });
 
-  // 全局快捷键：/ 聚焦搜索框，Escape 关闭弹窗或清空过滤
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      if (!lightbox.hidden) {
-        closeLightbox();
-        return;
-      }
-      if (searchInput && document.activeElement === searchInput && searchInput.value) {
-        searchInput.value = '';
-        updateVisibility();
-        searchInput.blur();
-      }
-    }
-
-    if (
-      e.key === '/' &&
-      searchInput &&
-      document.activeElement !== searchInput &&
-      !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName || '')
-    ) {
-      e.preventDefault();
+  // 按 "/" 快速聚焦搜索框，按 Esc 清空过滤
+  document.addEventListener('keydown', (event) => {
+    if (!searchInput) return;
+    const tag = document.activeElement?.tagName;
+    if (event.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA' && !document.querySelector('dialog[open]')) {
+      event.preventDefault();
       searchInput.focus();
+    } else if (event.key === 'Escape' && document.activeElement === searchInput && searchInput.value) {
+      searchInput.value = '';
+      updateFilterView(false);
+      searchInput.blur();
     }
   });
-
-  return null;
 }
