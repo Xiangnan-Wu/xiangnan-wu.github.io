@@ -226,7 +226,7 @@ function initScrollspyAndChapterPill() {
   const stops = [
     { id: 'about', num: '1.1', title: 'Xiangnan Wu' },
     { id: 'focus', num: '2.1', title: 'Research Focus' },
-    { id: 'pub-conference', num: '3.1', title: 'Conference Papers' },
+    { id: 'pub-conference', num: '3.1', title: 'Conference & Journal' },
     { id: 'pub-preprint', num: '3.2', title: 'Preprints & Reports' },
     { id: 'pub-opensource', num: '3.3', title: 'Open-Source Systems' },
     { id: 'news', num: '4.1', title: 'Recent News' },
